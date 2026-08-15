@@ -1,0 +1,13 @@
+#EXTM3U url-tvg=""
+
+# Replace the sample streams below with your own legal IPTV stream URLs.
+# Common stream formats are .m3u8, .ts, and direct HTTP streams.
+
+#EXTINF:-1 tvg-id="sample-news" tvg-name="Sample News" tvg-logo="" group-title="News",Sample News
+https://example.com/streams/sample-news.m3u8
+
+#EXTINF:-1 tvg-id="sample-movies" tvg-name="Sample Movies" tvg-logo="" group-title="Movies",Sample Movies
+https://example.com/streams/sample-movies.m3u8
+
+#EXTINF:-1 tvg-id="sample-music" tvg-name="Sample Music" tvg-logo="" group-title="Music",Sample Music
+https://example.com/streams/sample-music.m3u8
