@@ -1,49 +1,49 @@
 #EXTM3U url-tvg="https://alexanderbaschuk.github.io/iptv/epg.xml"
 
-#EXTINF:-1 tvg-id="ChannelOne.ru@HD" group-title="ТВ",Первый
+#EXTINF:-1 tvg-id="ChannelOne.ru@HD" tvg-logo="logos/ChannelOne.png" group-title="ТВ",Первый
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 
-#EXTINF:-1 tvg-id="Russia1.ru@HD" group-title="ТВ",Россия-1
+#EXTINF:-1 tvg-id="Russia1.ru@HD" tvg-logo="logos/Russia1.png" group-title="ТВ",Россия-1
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
 
-#EXTINF:-1 tvg-id="TVCentr.ru@SD" group-title="ТВ",ТВ Центр
+#EXTINF:-1 tvg-id="TVCentr.ru@SD" tvg-logo="logos/TVCentr.png" group-title="ТВ",ТВ Центр
 https://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="NTV.ru@HD" group-title="ТВ",НТВ
+#EXTINF:-1 tvg-id="NTV.ru@HD" tvg-logo="logos/NTV.png" group-title="ТВ",НТВ
 https://cdn.ntv.ru/ntv0/playlist.m3u8
 
-#EXTINF:-1 tvg-id="RussiaK.ru@HD" group-title="ТВ",Россия-K
+#EXTINF:-1 tvg-id="RussiaK.ru@HD" tvg-logo="logos/RussiaK.png" group-title="ТВ",Россия-K
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/kultura-hd/index.m3u8
 
-#EXTINF:-1 tvg-id="Smotrim100Klassika.ru@SD" group-title="ТВ",Смотрим - Классика
+#EXTINF:-1 tvg-id="Smotrim100Klassika.ru@SD" tvg-logo="logos/Smotrim100Klassika.png" group-title="ТВ",Смотрим - Классика
 https://stream.smotrim.ru/hls/fasttv03/playlist_3.m3u8
 
-#EXTINF:-1 tvg-id="Smotrim100Detskoe.ru@SD" group-title="ТВ",Смотрим - Детское
+#EXTINF:-1 tvg-id="Smotrim100Detskoe.ru@SD" tvg-logo="logos/Smotrim100Detskoe.png" group-title="ТВ",Смотрим - Детское
 https://stream.smotrim.ru/hls/fasttv05/playlist_3.m3u8
 
-#EXTINF:-1 tvg-id="Friday.ru@SD" group-title="ТВ",Пятница!
+#EXTINF:-1 tvg-id="Friday.ru@SD" tvg-logo="logos/Friday.png" group-title="ТВ",Пятница!
 https://vod.tuva.ru/friday/index.m3u8
 
-#EXTINF:-1 tvg-id="Zvezda.ru@HD" group-title="ТВ",Звезда
+#EXTINF:-1 tvg-id="Zvezda.ru@HD" tvg-logo="logos/Zvezda.png" group-title="ТВ",Звезда
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
 
-#EXTINF:-1 tvg-id="RBKTV.ru@SD" group-title="ТВ",РБК
+#EXTINF:-1 tvg-id="RBKTV.ru@SD" tvg-logo="logos/RBKTV.png" group-title="ТВ",РБК
 http://online-video.rbc.ru/online2/rbctv.m3u8
 
-#EXTINF:-1 tvg-id="Mir.ru@Kazakhstan" group-title="ТВ",Mir Kazakhstan
+#EXTINF:-1 tvg-id="Mir.ru@Kazakhstan" tvg-logo="logos/Mir.png" group-title="ТВ",Mir Kazakhstan
 http://tvcdn01.esilnet.kz/tv/mir/index.m3u8
 
-#EXTINF:-1 tvg-id="RadioRossii.ru@HD" group-title="Радио",Радио России
+#EXTINF:-1 tvg-id="RadioRossii.ru@HD" tvg-logo="logos/RadioRossii.png" group-title="Радио",Радио России
 https://stream.smotrim.ru/hls2/radio_rus/playlist_4.m3u8
 
-#EXTINF:-1 tvg-id="VestiFM.ru@HD" radio="true" group-title="Радио",Радио Вести FM
+#EXTINF:-1 tvg-id="VestiFM.ru@HD" tvg-logo="logos/VestiFM.png" radio="true" group-title="Радио",Радио Вести FM
 https://stream.smotrim.ru/hls2/vesti_fm/playlist_4.m3u8
 
-#EXTINF:-1 tvg-id="MoskvaFM.ru" radio="true" group-title="Радио",Москва FM
+#EXTINF:-1 tvg-id="MoskvaFM.ru" tvg-logo="logos/MoskvaFM.png" radio="true" group-title="Радио",Москва FM
 https://icecast-vgtrk.cdnvideo.ru/moscowfm128
 
-#EXTINF:-1 tvg-id="RadioJazz.ru" radio="true" group-title="Радио",Радио Джаз
+#EXTINF:-1 tvg-id="RadioJazz.ru" tvg-logo="logos/RadioJazz.png" radio="true" group-title="Радио",Радио Джаз
 https://nashe1.hostingradio.ru:80/jazz-128.mp3
 
-#EXTINF:-1 tvg-id="Orfey.ru" radio="true" group-title="Радио",Орфей
+#EXTINF:-1 tvg-id="Orfey.ru" tvg-logo="logos/Orfey.png" radio="true" group-title="Радио",Орфей
 https://orfeyfm.hostingradio.ru:8034/orfeyfm192.mp3
