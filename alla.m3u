@@ -30,7 +30,7 @@ https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
 #EXTINF:-1 tvg-id="RBKTV.ru@SD" tvg-logo="logos/RBKTV.png" group-title="ТВ",РБК
 http://online-video.rbc.ru/online2/rbctv.m3u8
 
-#EXTINF:-1 tvg-id="Mir.ru@Kazakhstan" tvg-logo="logos/Mir.png" group-title="ТВ",Mir Kazakhstan
+#EXTINF:-1 tvg-id="Mir.ru@Kazakhstan" tvg-logo="logos/Mir.png" group-title="ТВ",МИР (Казахстан)
 http://tvcdn01.esilnet.kz/tv/mir/index.m3u8
 
 #EXTINF:-1 tvg-id="RadioRossii.ru@HD" tvg-logo="logos/RadioRossii.png" group-title="Радио",Радио России
@@ -39,11 +39,11 @@ https://stream.smotrim.ru/hls2/radio_rus/playlist_4.m3u8
 #EXTINF:-1 tvg-id="VestiFM.ru@HD" tvg-logo="logos/VestiFM.png" radio="true" group-title="Радио",Радио Вести FM
 https://stream.smotrim.ru/hls2/vesti_fm/playlist_4.m3u8
 
-#EXTINF:-1 tvg-id="MoskvaFM.ru" tvg-logo="logos/MoskvaFM.png" radio="true" group-title="Радио",Москва FM
+#EXTINF:-1 tvg-id="MoskvaFM.ru" tvg-logo="logos/MoskvaFM.png" radio="true" group-title="Радио",Радио Москва FM
 https://icecast-vgtrk.cdnvideo.ru/moscowfm128
 
 #EXTINF:-1 tvg-id="RadioJazz.ru" tvg-logo="logos/RadioJazz.png" radio="true" group-title="Радио",Радио Джаз
 https://nashe1.hostingradio.ru:80/jazz-128.mp3
 
-#EXTINF:-1 tvg-id="Orfey.ru" tvg-logo="logos/Orfey.png" radio="true" group-title="Радио",Орфей
+#EXTINF:-1 tvg-id="Orfey.ru" tvg-logo="logos/Orfey.png" radio="true" group-title="Радио",Радио Орфей
 https://orfeyfm.hostingradio.ru:8034/orfeyfm192.mp3
