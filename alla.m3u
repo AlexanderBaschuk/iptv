@@ -1,6 +1,6 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="Russia1.ru@HD",Первый
+#EXTINF:-1 tvg-id="Russia1.ru@HD" group-title="ТВ",Первый
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 
 #EXTINF:-1 tvg-id="Russia1.ru@HD",Россия-1
@@ -15,17 +15,11 @@ https://cdn.ntv.ru/ntv0/playlist.m3u8
 #EXTINF:-1 tvg-id="RussiaK.ru@HD",Россия-K
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/kultura-hd/index.m3u8
 
-#EXTINF:-1 tvg-id="Russia24.ru@SD",Россия 24
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-sd/index.m3u8
-
-#EXTINF:-1 tvg-id="Moskva24.ru@SD",Москва 24
-https://stream.smotrim.ru/hls2/givc9/playlist_4.m3u8
+#EXTINF:-1 tvg-id="Smotrim100Klassika.ru@SD",Смотрим - Классика
+https://stream.smotrim.ru/hls/fasttv03/playlist_3.m3u8
 
 #EXTINF:-1 tvg-id="Smotrim100Detskoe.ru@SD",Смотрим - Детское
 https://stream.smotrim.ru/hls/fasttv05/playlist_3.m3u8
-
-#EXTINF:-1 tvg-id="Smotrim100Klassika.ru@SD",Смотрим - Классика
-https://stream.smotrim.ru/hls/fasttv03/playlist_3.m3u8
 
 #EXTINF:-1 tvg-id="Friday.ru@SD",Пятница!
 https://vod.tuva.ru/friday/index.m3u8
@@ -44,3 +38,12 @@ https://stream.smotrim.ru/hls2/radio_rus/playlist_4.m3u8
 
 #EXTINF:-1 tvg-id="VestiFM.ru@HD",Радио Вести FM
 https://stream.smotrim.ru/hls2/vesti_fm/playlist_4.m3u8
+
+#EXTINF:-1 radio="true" group-title="Радио",Москва FM
+https://icecast-vgtrk.cdnvideo.ru/moscowfm128
+
+#EXTINF:-1 radio="true" group-title="Радио",Радио Джаз
+https://nashe1.hostingradio.ru:80/jazz-128.mp3
+
+#EXTINF:-1 radio="true" group-title="Радио",Орфей
+https://orfeyfm.hostingradio.ru:8034/orfeyfm128.mp3
