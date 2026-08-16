@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="https://alexanderbaschuk.github.io/iptv/epg.xml"
 
 #EXTINF:-1 tvg-id="ChannelOne.ru@HD" group-title="ТВ",Первый
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd

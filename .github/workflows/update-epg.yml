@@ -1,0 +1,97 @@
+name: Update EPG
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 1 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-epg
+  cancel-in-progress: false
+
+jobs:
+  update-epg:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout playlist repository
+        uses: actions/checkout@v4
+
+      - name: Checkout iptv-org/epg
+        uses: actions/checkout@v4
+        with:
+          repository: iptv-org/epg
+          path: .epg-source
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: .epg-source/package-lock.json
+
+      - name: Install iptv-org/epg dependencies
+        working-directory: .epg-source
+        run: npm ci
+
+      - name: Validate channel configuration
+        working-directory: .epg-source
+        run: npm run channels:validate -- ../epg.channels.xml
+
+      - name: Generate XMLTV
+        working-directory: .epg-source
+        run: npm run grab -- --channels=../epg.channels.xml --output=../epg.xml --days=3 --maxConnections=1
+
+      - name: Validate generated XMLTV
+        run: |
+          test -s epg.xml
+          python3 - <<'PY'
+          import sys
+          import xml.etree.ElementTree as ET
+
+          tree = ET.parse("epg.xml")
+          root = tree.getroot()
+
+          if root.tag != "tv":
+              sys.exit("epg.xml root element is not <tv>")
+
+          programmes = root.findall("programme")
+          if not programmes:
+              sys.exit("epg.xml does not contain <programme>")
+
+          expected_ids = {
+              "ChannelOne.ru@HD",
+              "Russia1.ru@HD",
+              "TVCentr.ru@SD",
+              "NTV.ru@HD",
+              "RussiaK.ru@HD",
+              "Friday.ru@SD",
+              "Zvezda.ru@HD",
+              "RBKTV.ru@SD",
+          }
+          channel_ids = {channel.attrib.get("id") for channel in root.findall("channel")}
+          programme_ids = {programme.attrib.get("channel") for programme in programmes}
+          missing_channels = expected_ids - channel_ids
+          missing_programmes = expected_ids - programme_ids
+
+          if missing_channels:
+              sys.exit(f"epg.xml is missing channels: {', '.join(sorted(missing_channels))}")
+          if missing_programmes:
+              sys.exit(f"epg.xml is missing programmes: {', '.join(sorted(missing_programmes))}")
+          PY
+
+      - name: Commit EPG changes
+        run: |
+          if git diff --quiet -- epg.xml; then
+            echo "epg.xml is unchanged"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add epg.xml
+          git commit -m "Update EPG"
+          git push
