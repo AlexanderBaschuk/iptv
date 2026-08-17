@@ -16,3 +16,7 @@
 ```text
 https://alexanderbaschuk.github.io/iptv/alla.m3u
 ```
+
+## Полезные ссылки
+
+https://github.com/iptv-org
