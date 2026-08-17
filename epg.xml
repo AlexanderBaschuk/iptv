@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?><tv date="20260816">
+<?xml version="1.0" encoding="UTF-8" ?><tv date="20260817">
 <channel id="ChannelOne.ru@HD"><display-name>Первый канал HD</display-name><icon src="https://uut-telecom.ru/wp-content/uploads/2021/12/pervyj-hd.png"/></channel>
 <channel id="Russia1.ru@HD"><display-name>Россия 1 HD</display-name><icon src="https://uut-telecom.ru/wp-content/uploads/2021/12/rossiya-1-hd.png"/></channel>
 <channel id="TVCentr.ru@SD"><display-name>ТВ Центр</display-name><icon src="https://www.moscow-telecom.ru/img/logo_channels/tvc_hd.svg"/></channel>
@@ -7,233 +7,731 @@
 <channel id="Friday.ru@SD"><display-name>Пятница!</display-name><icon src="https://antifriz.tv/storage/images/pack_logos/71e74d77d2a9f55f496870623e5f7203.png"/></channel>
 <channel id="Zvezda.ru@HD"><display-name>Звезда</display-name><icon src="https://i.imgur.com/4PAcpfM.png"/></channel>
 <channel id="RBKTV.ru@SD"><display-name>РБК</display-name><icon src="https://i.imgur.com/CwhmJby.png"/></channel>
-<programme start="20260815234500 +0000" stop="20260816002000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (Баден-Баден)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
-<programme start="20260816002000 +0000" stop="20260816010000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (Анекдоты)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
-<programme start="20260816010000 +0000" stop="20260816014000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (Неформат)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
-<programme start="20260816014000 +0000" stop="20260816022000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (Психика)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
-<programme start="20260816022000 +0000" stop="20260816030000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (&amp;#34;Кот Шредингера&amp;#34; Триггеры)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
-<programme start="20260816030000 +0000" stop="20260816031000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Новости</title><image>https://tv.mail.ru/tvpic/1/22/7895011.jpg</image></programme>
-<programme start="20260816031000 +0000" stop="20260816035500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Играй, гармонь любимая!</title><image>https://tv.mail.ru/tvpic/1/16/865740.jpg</image></programme>
-<programme start="20260816035500 +0000" stop="20260816042500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Часовой</title><image>https://tv.mail.ru/tvpic/2/88/9309409.jpg</image></programme>
-<programme start="20260816042500 +0000" stop="20260816053000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Здоровье</title><image>https://tv.mail.ru/tvpic/2/64/637856.jpg</image></programme>
-<programme start="20260816053000 +0000" stop="20260816061000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Золотая коллекция Союзмультфильма</title><image>https://tv.mail.ru/tvpic/3/16/6252956.jpg</image></programme>
-<programme start="20260816061000 +0000" stop="20260816063000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Непутевые заметки</title><image>https://tv.mail.ru/tvpic/8/56/089088.jpg</image></programme>
-<programme start="20260816063000 +0000" stop="20260816070000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Мечталлион</title><image>https://tv.mail.ru/tvpic/1/76/2443887.jpg</image></programme>
-<programme start="20260816070000 +0000" stop="20260816071500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Новости</title><image>https://tv.mail.ru/tvpic/1/22/7895011.jpg</image></programme>
-<programme start="20260816071500 +0000" stop="20260816081000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Жизнь своих</title><image>https://tv.mail.ru/tvpic/2/43/9796434.jpg</image></programme>
-<programme start="20260816081000 +0000" stop="20260816090000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Повара на колесах</title><image>https://tv.mail.ru/tvpic/3/27/9613370.jpg</image></programme>
-<programme start="20260816090000 +0000" stop="20260816091500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Новости</title><image>https://tv.mail.ru/tvpic/1/22/7895011.jpg</image></programme>
-<programme start="20260816091500 +0000" stop="20260816101000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Микаэл Таривердиев. Игра с судьбой</title><image>https://tv.mail.ru/tvpic/1/91/5142176.jpg</image></programme>
-<programme start="20260816100500 +0000" stop="20260816110000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Вольф Мессинг. &amp;#34;Я знал, что вы придете...&amp;#34;</title><image>https://tv.mail.ru/tvpic/3/68/9330909.jpg</image></programme>
-<programme start="20260816101000 +0000" stop="20260816110000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Видели видео?</title><image>https://tv.mail.ru/tvpic/3/43/4804460.jpg</image></programme>
-<programme start="20260816110000 +0000" stop="20260816125500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Спросите медсестру (5-я серия)</title><image>https://tv.mail.ru/tvpic/1/84/8920497.jpg</image></programme>
-<programme start="20260816125500 +0000" stop="20260816150000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Скрытые мотивы (11-я серия)</title><image>https://tv.mail.ru/tvpic/1/90/566528.jpg</image></programme>
-<programme start="20260816150000 +0000" stop="20260816160000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Вечерние новости</title><image>https://tv.mail.ru/tvpic/3/89/6848567.jpg</image></programme>
-<programme start="20260816160000 +0000" stop="20260816180000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Точь-в-точь!</title><image>https://tv.mail.ru/tvpic/3/14/5540330.jpg</image></programme>
-<programme start="20260816180000 +0000" stop="20260816200000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Время</title><image>https://tv.mail.ru/tvpic/2/26/7382962.jpg</image></programme>
-<programme start="20260816200000 +0000" stop="20260816211000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Большая игра</title><image>https://tv.mail.ru/tvpic/5/44/115544.jpg</image></programme>
-<programme start="20260816211000 +0000" stop="20260816220000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (Жизнь замечательных)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
-<programme start="20260816220000 +0000" stop="20260816224000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (Культура быта)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
-<programme start="20260816224000 +0000" stop="20260816232000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (Легкие деньги)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
-<programme start="20260816232000 +0000" stop="20260816235000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (&amp;#34;Россия и Запад на качелях истории&amp;#34;. Александр Горчаков: дипломатический гений Российской империи)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
 <programme start="20260816235000 +0000" stop="20260817003000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (Психика)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
-<programme start="20260815232000 +0000" stop="20260816001000 +0000" channel="Friday.ru@SD"><title lang="ru">Комиссар Рекс (В поисках убитой)</title><image>https://tv.mail.ru/tvpic/3/28/6417487.jpg</image></programme>
-<programme start="20260816001000 +0000" stop="20260816003000 +0000" channel="Friday.ru@SD"><title lang="ru">Пятница News (140-я серия)</title><image>https://tv.mail.ru/tvpic/4/23/4353784.jpg</image></programme>
-<programme start="20260816003000 +0000" stop="20260816012000 +0000" channel="Friday.ru@SD"><title lang="ru">На ножах (Москва. Астерия)</title><image>https://tv.mail.ru/tvpic/3/45/7419340.jpg</image></programme>
-<programme start="20260816012000 +0000" stop="20260816013000 +0000" channel="Friday.ru@SD"><title lang="ru">Секреты на кухне (Готовит Юлианна Караулова)</title><image>https://tv.mail.ru/tvpic/2/27/8661533.jpg</image></programme>
-<programme start="20260816013000 +0000" stop="20260816020000 +0000" channel="Friday.ru@SD"><title lang="ru">Пятница News (139-я серия)</title><image>https://tv.mail.ru/tvpic/4/23/4353784.jpg</image></programme>
-<programme start="20260816020000 +0000" stop="20260816023000 +0000" channel="Friday.ru@SD"><title lang="ru">Секреты на кухне (Готовит Артур Далалоян)</title><image>https://tv.mail.ru/tvpic/2/27/8661533.jpg</image></programme>
-<programme start="20260816023000 +0000" stop="20260816025000 +0000" channel="Friday.ru@SD"><title lang="ru">Пятница News (141-я серия)</title><image>https://tv.mail.ru/tvpic/4/23/4353784.jpg</image></programme>
-<programme start="20260816025000 +0000" stop="20260816034000 +0000" channel="Friday.ru@SD"><title lang="ru">Запретный Китай (Сиань)</title><image>https://tv.mail.ru/tvpic/1/32/2742561.jpg</image></programme>
-<programme start="20260816034000 +0000" stop="20260816044000 +0000" channel="Friday.ru@SD"><title lang="ru">Запретная Индия (Бангалор)</title><image>https://tv.mail.ru/tvpic/3/76/4603968.jpg</image></programme>
-<programme start="20260816044000 +0000" stop="20260816061000 +0000" channel="Friday.ru@SD"><title lang="ru">Погнали! (В Гану)</title><image>https://tv.mail.ru/tvpic/7/52/054715.jpg</image></programme>
-<programme start="20260816061000 +0000" stop="20260816081000 +0000" channel="Friday.ru@SD"><title lang="ru">Погнали! (В Эфиопию. Суровое племя)</title><image>https://tv.mail.ru/tvpic/7/52/054715.jpg</image></programme>
-<programme start="20260816081000 +0000" stop="20260816093000 +0000" channel="Friday.ru@SD"><title lang="ru">Погнали! (В Эфиопию. Племя хамер)</title><image>https://tv.mail.ru/tvpic/7/52/054715.jpg</image></programme>
-<programme start="20260816093000 +0000" stop="20260816111000 +0000" channel="Friday.ru@SD"><title lang="ru">Космическая экспедиция (4-я серия)</title><image>https://tv.mail.ru/tvpic/3/78/0256203.jpg</image></programme>
-<programme start="20260816111000 +0000" stop="20260816120000 +0000" channel="Friday.ru@SD"><title lang="ru">Погнали! (Во Вьетнам. Злачные кварталы)</title><image>https://tv.mail.ru/tvpic/7/52/054715.jpg</image></programme>
-<programme start="20260816120000 +0000" stop="20260816140000 +0000" channel="Friday.ru@SD"><title lang="ru">Погнали! (В США)</title><image>https://tv.mail.ru/tvpic/7/52/054715.jpg</image></programme>
-<programme start="20260816140000 +0000" stop="20260816152000 +0000" channel="Friday.ru@SD"><title lang="ru">Погнали! (В США. Кухня Лос-Анджелеса)</title><image>https://tv.mail.ru/tvpic/7/52/054715.jpg</image></programme>
-<programme start="20260816152000 +0000" stop="20260816171000 +0000" channel="Friday.ru@SD"><title lang="ru">Погнали! (В Сальвадор. Харизматичный диктатор)</title><image>https://tv.mail.ru/tvpic/7/52/054715.jpg</image></programme>
-<programme start="20260816170500 +0000" stop="20260816190000 +0000" channel="Friday.ru@SD"><title lang="ru">Погнали! (В Южную Корею. Путь нелегала)</title><image>https://tv.mail.ru/tvpic/7/52/054715.jpg</image></programme>
-<programme start="20260816171000 +0000" stop="20260816182000 +0000" channel="Friday.ru@SD"><title lang="ru">Погнали! (В Испанию. Барселона. Столица уличных краж)</title><image>https://tv.mail.ru/tvpic/7/52/054715.jpg</image></programme>
-<programme start="20260816182000 +0000" stop="20260816200000 +0000" channel="Friday.ru@SD"><title lang="ru">Погнали! (В Марокко. Назад в прошлое)</title><image>https://tv.mail.ru/tvpic/7/52/054715.jpg</image></programme>
-<programme start="20260816200000 +0000" stop="20260816201000 +0000" channel="Friday.ru@SD"><title lang="ru">Теперь я босс (Обнинск. Блинные)</title><image>https://tv.mail.ru/tvpic/5/58/146639.jpg</image></programme>
-<programme start="20260816201000 +0000" stop="20260816210000 +0000" channel="Friday.ru@SD"><title lang="ru">Теперь я босс (Обнинск. Блинные)</title><image>https://tv.mail.ru/tvpic/5/58/146639.jpg</image></programme>
-<programme start="20260816210000 +0000" stop="20260816212000 +0000" channel="Friday.ru@SD"><title lang="ru">Хадсон и Рекс (1-я серия)</title><image>https://tv.mail.ru/tvpic/1/66/3421511.jpg</image></programme>
-<programme start="20260816212000 +0000" stop="20260816221000 +0000" channel="Friday.ru@SD"><title lang="ru">Хадсон и Рекс (1-я серия)</title><image>https://tv.mail.ru/tvpic/1/66/3421511.jpg</image></programme>
-<programme start="20260816221000 +0000" stop="20260816230000 +0000" channel="Friday.ru@SD"><title lang="ru">Хадсон и Рекс (2-я серия)</title><image>https://tv.mail.ru/tvpic/1/66/3421511.jpg</image></programme>
-<programme start="20260816230000 +0000" stop="20260816234000 +0000" channel="Friday.ru@SD"><title lang="ru">Хадсон и Рекс (3-я серия)</title><image>https://tv.mail.ru/tvpic/1/66/3421511.jpg</image></programme>
+<programme start="20260817003000 +0000" stop="20260817012000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (&amp;#34;Спроси Суркову&amp;#34;. Как воспитать гения: музыка)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
+<programme start="20260817012000 +0000" stop="20260817020000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (Собрались с мыслями)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
+<programme start="20260817020000 +0000" stop="20260817060000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Телеканал &amp;#34;Доброе утро&amp;#34;</title><image>https://tv.mail.ru/tvpic/3/70/1496226.jpg</image></programme>
+<programme start="20260817060000 +0000" stop="20260817062500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Новости</title><image>https://tv.mail.ru/tvpic/1/22/7895011.jpg</image></programme>
+<programme start="20260817062500 +0000" stop="20260817071500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Модный приговор</title><image>https://tv.mail.ru/tvpic/1/62/5937309.jpg</image></programme>
+<programme start="20260817071500 +0000" stop="20260817080000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Жить здорово!</title><image>https://tv.mail.ru/tvpic/3/54/4797615.jpg</image></programme>
+<programme start="20260817080000 +0000" stop="20260817090000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Время покажет</title><image>https://tv.mail.ru/tvpic/9/81/20005.jpg</image></programme>
+<programme start="20260817090000 +0000" stop="20260817091500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Новости</title><image>https://tv.mail.ru/tvpic/1/22/7895011.jpg</image></programme>
+<programme start="20260817091500 +0000" stop="20260817110000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Время покажет</title><image>https://tv.mail.ru/tvpic/9/81/20005.jpg</image></programme>
+<programme start="20260817110000 +0000" stop="20260817120000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Большая игра</title><image>https://tv.mail.ru/tvpic/5/44/115544.jpg</image></programme>
+<programme start="20260817120000 +0000" stop="20260817121500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Новости</title><image>https://tv.mail.ru/tvpic/1/22/7895011.jpg</image></programme>
+<programme start="20260817121500 +0000" stop="20260817130500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Давай поженимся!</title><image>https://tv.mail.ru/tvpic/1/59/6390501.jpg</image></programme>
+<programme start="20260817130500 +0000" stop="20260817140000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Мужское/Женское</title><image>https://tv.mail.ru/tvpic/4/06/6419083.jpg</image></programme>
+<programme start="20260817140000 +0000" stop="20260817150000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Большая игра</title><image>https://tv.mail.ru/tvpic/5/44/115544.jpg</image></programme>
+<programme start="20260817150000 +0000" stop="20260817153000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Вечерние новости</title><image>https://tv.mail.ru/tvpic/3/89/6848567.jpg</image></programme>
+<programme start="20260817153000 +0000" stop="20260817165000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Время покажет</title><image>https://tv.mail.ru/tvpic/9/81/20005.jpg</image></programme>
+<programme start="20260817165000 +0000" stop="20260817180000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Пусть говорят</title><image>https://tv.mail.ru/tvpic/2/05/0512312.jpg</image></programme>
+<programme start="20260817180000 +0000" stop="20260817190000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Время</title><image>https://tv.mail.ru/tvpic/2/26/7382962.jpg</image></programme>
+<programme start="20260817190000 +0000" stop="20260817200000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Петербургский роман</title><image>https://tv.mail.ru/tvpic/3/16/8978004.jpg</image></programme>
+<programme start="20260817200000 +0000" stop="20260817210500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Большая игра</title><image>https://tv.mail.ru/tvpic/5/44/115544.jpg</image></programme>
+<programme start="20260817210500 +0000" stop="20260817220500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Время героев</title><image>https://tv.mail.ru/tvpic/3/87/0966231.jpg</image></programme>
+<programme start="20260817220500 +0000" stop="20260817224000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (Все хотят летать)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
+<programme start="20260817224000 +0000" stop="20260817232000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (Пусть не говорят, пусть читают)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
+<programme start="20260817232000 +0000" stop="20260818000000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (Космические истории)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
+<programme start="20260818000000 +0000" stop="20260818000500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Новости</title><image>https://tv.mail.ru/tvpic/1/22/7895011.jpg</image></programme>
+<programme start="20260818000500 +0000" stop="20260818005000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (Произвольная программа)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
+<programme start="20260818005000 +0000" stop="20260818012500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (Баден-Баден)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
+<programme start="20260818012500 +0000" stop="20260818020000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (Психика)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
+<programme start="20260818020000 +0000" stop="20260818060000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Телеканал &amp;#34;Доброе утро&amp;#34;</title><image>https://tv.mail.ru/tvpic/3/70/1496226.jpg</image></programme>
+<programme start="20260818060000 +0000" stop="20260818062500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Новости</title><image>https://tv.mail.ru/tvpic/1/22/7895011.jpg</image></programme>
+<programme start="20260818062500 +0000" stop="20260818071500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Модный приговор</title><image>https://tv.mail.ru/tvpic/1/62/5937309.jpg</image></programme>
+<programme start="20260818071500 +0000" stop="20260818080000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Жить здорово!</title><image>https://tv.mail.ru/tvpic/3/54/4797615.jpg</image></programme>
+<programme start="20260818080000 +0000" stop="20260818090000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Время покажет</title><image>https://tv.mail.ru/tvpic/9/81/20005.jpg</image></programme>
+<programme start="20260818090000 +0000" stop="20260818091500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Новости</title><image>https://tv.mail.ru/tvpic/1/22/7895011.jpg</image></programme>
+<programme start="20260818091500 +0000" stop="20260818110000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Время покажет</title><image>https://tv.mail.ru/tvpic/9/81/20005.jpg</image></programme>
+<programme start="20260818110000 +0000" stop="20260818120000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Большая игра</title><image>https://tv.mail.ru/tvpic/5/44/115544.jpg</image></programme>
+<programme start="20260818120000 +0000" stop="20260818121500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Новости</title><image>https://tv.mail.ru/tvpic/1/22/7895011.jpg</image></programme>
+<programme start="20260818121500 +0000" stop="20260818130500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Давай поженимся!</title><image>https://tv.mail.ru/tvpic/1/59/6390501.jpg</image></programme>
+<programme start="20260818130500 +0000" stop="20260818140000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Мужское/Женское</title><image>https://tv.mail.ru/tvpic/4/06/6419083.jpg</image></programme>
+<programme start="20260818140000 +0000" stop="20260818150000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Большая игра</title><image>https://tv.mail.ru/tvpic/5/44/115544.jpg</image></programme>
+<programme start="20260818150000 +0000" stop="20260818153000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Вечерние новости</title><image>https://tv.mail.ru/tvpic/3/89/6848567.jpg</image></programme>
+<programme start="20260818153000 +0000" stop="20260818165000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Время покажет</title><image>https://tv.mail.ru/tvpic/9/81/20005.jpg</image></programme>
+<programme start="20260818165000 +0000" stop="20260818180000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Пусть говорят</title><image>https://tv.mail.ru/tvpic/2/05/0512312.jpg</image></programme>
+<programme start="20260818180000 +0000" stop="20260818190000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Время</title><image>https://tv.mail.ru/tvpic/2/26/7382962.jpg</image></programme>
+<programme start="20260818190000 +0000" stop="20260818200000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Петербургский роман</title><image>https://tv.mail.ru/tvpic/3/16/8978004.jpg</image></programme>
+<programme start="20260818200000 +0000" stop="20260818211000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Большая игра</title><image>https://tv.mail.ru/tvpic/5/44/115544.jpg</image></programme>
+<programme start="20260818211000 +0000" stop="20260818215500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Путч</title></programme>
+<programme start="20260818215500 +0000" stop="20260818223000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (По Первое число)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
+<programme start="20260818223000 +0000" stop="20260818230500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (Легкие деньги)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
+<programme start="20260818230500 +0000" stop="20260818234000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (Не лыком шиты)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
+<programme start="20260818234000 +0000" stop="20260819000000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (Собрались с мыслями)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
+<programme start="20260819000000 +0000" stop="20260819000500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Новости</title><image>https://tv.mail.ru/tvpic/1/22/7895011.jpg</image></programme>
+<programme start="20260819000500 +0000" stop="20260819002000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (Собрались с мыслями)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
+<programme start="20260819002000 +0000" stop="20260819012000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (&amp;#34;Россия и Запад на качелях истории&amp;#34;. Александр Горчаков: дипломатический гений Российской империи)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
+<programme start="20260819012000 +0000" stop="20260819020000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (Обязательно к прочтению)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
+<programme start="20260819020000 +0000" stop="20260819060000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Телеканал &amp;#34;Доброе утро&amp;#34;</title><image>https://tv.mail.ru/tvpic/3/70/1496226.jpg</image></programme>
+<programme start="20260819060000 +0000" stop="20260819062500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Новости</title><image>https://tv.mail.ru/tvpic/1/22/7895011.jpg</image></programme>
+<programme start="20260819062500 +0000" stop="20260819071500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Модный приговор</title><image>https://tv.mail.ru/tvpic/1/62/5937309.jpg</image></programme>
+<programme start="20260819071500 +0000" stop="20260819080000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Жить здорово!</title><image>https://tv.mail.ru/tvpic/3/54/4797615.jpg</image></programme>
+<programme start="20260819080000 +0000" stop="20260819090000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Время покажет</title><image>https://tv.mail.ru/tvpic/9/81/20005.jpg</image></programme>
+<programme start="20260819090000 +0000" stop="20260819091500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Новости</title><image>https://tv.mail.ru/tvpic/1/22/7895011.jpg</image></programme>
+<programme start="20260819091500 +0000" stop="20260819110000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Время покажет</title><image>https://tv.mail.ru/tvpic/9/81/20005.jpg</image></programme>
+<programme start="20260819110000 +0000" stop="20260819120000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Большая игра</title><image>https://tv.mail.ru/tvpic/5/44/115544.jpg</image></programme>
+<programme start="20260819120000 +0000" stop="20260819121500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Новости</title><image>https://tv.mail.ru/tvpic/1/22/7895011.jpg</image></programme>
+<programme start="20260819121500 +0000" stop="20260819130500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Давай поженимся!</title><image>https://tv.mail.ru/tvpic/1/59/6390501.jpg</image></programme>
+<programme start="20260819130500 +0000" stop="20260819140000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Мужское/Женское</title><image>https://tv.mail.ru/tvpic/4/06/6419083.jpg</image></programme>
+<programme start="20260819140000 +0000" stop="20260819150000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Большая игра</title><image>https://tv.mail.ru/tvpic/5/44/115544.jpg</image></programme>
+<programme start="20260819150000 +0000" stop="20260819153000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Вечерние новости</title><image>https://tv.mail.ru/tvpic/3/89/6848567.jpg</image></programme>
+<programme start="20260819153000 +0000" stop="20260819161000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Путч</title></programme>
+<programme start="20260819161000 +0000" stop="20260819165000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Время покажет</title><image>https://tv.mail.ru/tvpic/9/81/20005.jpg</image></programme>
+<programme start="20260819165000 +0000" stop="20260819180000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Пусть говорят</title><image>https://tv.mail.ru/tvpic/2/05/0512312.jpg</image></programme>
+<programme start="20260819180000 +0000" stop="20260819190000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Время</title><image>https://tv.mail.ru/tvpic/2/26/7382962.jpg</image></programme>
+<programme start="20260819190000 +0000" stop="20260819200000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Петербургский роман</title><image>https://tv.mail.ru/tvpic/3/16/8978004.jpg</image></programme>
+<programme start="20260819200000 +0000" stop="20260819211000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Большая игра</title><image>https://tv.mail.ru/tvpic/5/44/115544.jpg</image></programme>
+<programme start="20260819211000 +0000" stop="20260819215000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Путч (20 августа)</title></programme>
+<programme start="20260819215000 +0000" stop="20260819223000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (Свидетели Эйзенштейна)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
+<programme start="20260819223000 +0000" stop="20260819230500 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (&amp;#34;Кот Шредингера&amp;#34; Триггеры)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
+<programme start="20260819230500 +0000" stop="20260819234000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (Жизнь замечательных)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
+<programme start="20260819234000 +0000" stop="20260820000000 +0000" channel="ChannelOne.ru@HD"><title lang="ru">Подкаст.Лаб (Летописи конца времен)</title><image>https://tv.mail.ru/tvpic/4/25/4453446.jpg</image></programme>
 <programme start="20260816234000 +0000" stop="20260817002000 +0000" channel="Friday.ru@SD"><title lang="ru">Хадсон и Рекс (4-я серия)</title><image>https://tv.mail.ru/tvpic/1/66/3421511.jpg</image></programme>
-<programme start="20260815213000 +0000" stop="20260816005000 +0000" channel="NTV.ru@HD"><title lang="ru">Маска</title><image>https://tv.mail.ru/tvpic/1/93/2678066.jpg</image></programme>
-<programme start="20260816005000 +0000" stop="20260816011500 +0000" channel="NTV.ru@HD"><title lang="ru">Агентство скрытых камер</title><image>https://tv.mail.ru/tvpic/9/88/30513.jpg</image></programme>
-<programme start="20260816011500 +0000" stop="20260816021000 +0000" channel="NTV.ru@HD"><title lang="ru">Пляж. Жаркий сезон (13-я серия)</title><image>https://tv.mail.ru/tvpic/1/58/2543794.jpg</image></programme>
-<programme start="20260816021000 +0000" stop="20260816030500 +0000" channel="NTV.ru@HD"><title lang="ru">Пляж. Жаркий сезон (14-я серия)</title><image>https://tv.mail.ru/tvpic/1/58/2543794.jpg</image></programme>
-<programme start="20260816030500 +0000" stop="20260816040000 +0000" channel="NTV.ru@HD"><title lang="ru">Пляж. Жаркий сезон (15-я серия)</title><image>https://tv.mail.ru/tvpic/1/58/2543794.jpg</image></programme>
-<programme start="20260816040000 +0000" stop="20260816050000 +0000" channel="NTV.ru@HD"><title lang="ru">Пляж. Жаркий сезон (16-я серия)</title><image>https://tv.mail.ru/tvpic/1/58/2543794.jpg</image></programme>
-<programme start="20260816050000 +0000" stop="20260816052000 +0000" channel="NTV.ru@HD"><title lang="ru">Сегодня</title><image>https://tv.mail.ru/tvpic/1/44/517678.jpg</image></programme>
-<programme start="20260816052000 +0000" stop="20260816070000 +0000" channel="NTV.ru@HD"><title lang="ru">У нас выигрывают!</title><image>https://tv.mail.ru/tvpic/3/62/5445709.jpg</image></programme>
-<programme start="20260816070000 +0000" stop="20260816072000 +0000" channel="NTV.ru@HD"><title lang="ru">Сегодня</title><image>https://tv.mail.ru/tvpic/1/44/517678.jpg</image></programme>
-<programme start="20260816072000 +0000" stop="20260816080000 +0000" channel="NTV.ru@HD"><title lang="ru">Цифровые расследования</title><image>https://tv.mail.ru/tvpic/3/03/6990298.jpg</image></programme>
-<programme start="20260816080000 +0000" stop="20260816090000 +0000" channel="NTV.ru@HD"><title lang="ru">Чудо техники</title><image>https://tv.mail.ru/tvpic/4/21/8278732.jpg</image></programme>
-<programme start="20260816090000 +0000" stop="20260816100000 +0000" channel="NTV.ru@HD"><title lang="ru">Дачный ответ</title><image>https://tv.mail.ru/tvpic/9/36/057527.jpg</image></programme>
-<programme start="20260816100000 +0000" stop="20260816110000 +0000" channel="NTV.ru@HD"><title lang="ru">НашПотребНадзор</title><image>https://tv.mail.ru/tvpic/1/78/0614929.jpg</image></programme>
-<programme start="20260816110000 +0000" stop="20260816120000 +0000" channel="NTV.ru@HD"><title lang="ru">Однажды... (10 лет в эфире!)</title><image>https://tv.mail.ru/tvpic/4/25/6801876.jpg</image></programme>
-<programme start="20260816120000 +0000" stop="20260816130000 +0000" channel="NTV.ru@HD"><title lang="ru">Своя игра</title><image>https://tv.mail.ru/tvpic/1/30/2898734.jpg</image></programme>
-<programme start="20260816130000 +0000" stop="20260816132000 +0000" channel="NTV.ru@HD"><title lang="ru">Сегодня</title><image>https://tv.mail.ru/tvpic/1/44/517678.jpg</image></programme>
-<programme start="20260816132000 +0000" stop="20260816150000 +0000" channel="NTV.ru@HD"><title lang="ru">Следствие вели...</title><image>https://tv.mail.ru/tvpic/2/95/3558247.jpg</image></programme>
-<programme start="20260816150000 +0000" stop="20260816151500 +0000" channel="NTV.ru@HD"><title lang="ru">Дельфин (Погоня за прошлым. Часть 1-я)</title><image>https://tv.mail.ru/tvpic/1/27/1073271.jpg</image></programme>
-<programme start="20260816151500 +0000" stop="20260816153000 +0000" channel="NTV.ru@HD"><title lang="ru">Дельфин (Погоня за прошлым. Часть 2-я)</title><image>https://tv.mail.ru/tvpic/1/27/1073271.jpg</image></programme>
-<programme start="20260816153000 +0000" stop="20260816154500 +0000" channel="NTV.ru@HD"><title lang="ru">Дельфин (Крик дельфина Часть 1-я)</title><image>https://tv.mail.ru/tvpic/1/27/1073271.jpg</image></programme>
-<programme start="20260816154500 +0000" stop="20260816160000 +0000" channel="NTV.ru@HD"><title lang="ru">Дельфин (Крик дельфина Часть 2-я)</title><image>https://tv.mail.ru/tvpic/1/27/1073271.jpg</image></programme>
-<programme start="20260816160000 +0000" stop="20260816164000 +0000" channel="NTV.ru@HD"><title lang="ru">Сегодня</title><image>https://tv.mail.ru/tvpic/1/44/517678.jpg</image></programme>
-<programme start="20260816164000 +0000" stop="20260816172500 +0000" channel="NTV.ru@HD"><title lang="ru">Дельфин (Погоня за прошлым. Часть 1-я)</title><image>https://tv.mail.ru/tvpic/1/27/1073271.jpg</image></programme>
-<programme start="20260816172500 +0000" stop="20260816181000 +0000" channel="NTV.ru@HD"><title lang="ru">Дельфин (Погоня за прошлым. Часть 2-я)</title><image>https://tv.mail.ru/tvpic/1/27/1073271.jpg</image></programme>
-<programme start="20260816181000 +0000" stop="20260816185500 +0000" channel="NTV.ru@HD"><title lang="ru">Дельфин (Крик дельфина Часть 1-я)</title><image>https://tv.mail.ru/tvpic/1/27/1073271.jpg</image></programme>
-<programme start="20260816185500 +0000" stop="20260816194000 +0000" channel="NTV.ru@HD"><title lang="ru">Дельфин (Крик дельфина Часть 2-я)</title><image>https://tv.mail.ru/tvpic/1/27/1073271.jpg</image></programme>
-<programme start="20260816194000 +0000" stop="20260816213000 +0000" channel="NTV.ru@HD"><title lang="ru">Большой сольный концерт Артура Пирожкова</title><image>https://tv.mail.ru/tvpic/4/12/4101206.jpg</image></programme>
-<programme start="20260816213000 +0000" stop="20260817004500 +0000" channel="NTV.ru@HD"><title lang="ru">Маска</title><image>https://tv.mail.ru/tvpic/1/93/2678066.jpg</image></programme>
-<programme start="20260815235500 +0000" stop="20260816011000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
-<programme start="20260816011000 +0000" stop="20260816011500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
-<programme start="20260816014000 +0000" stop="20260816014500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
-<programme start="20260816014500 +0000" stop="20260816030000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
-<programme start="20260816030000 +0000" stop="20260816030500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
-<programme start="20260816030500 +0000" stop="20260816035500 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Рынки (Итоги)</title></programme>
-<programme start="20260816035500 +0000" stop="20260816040500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Суть дела</title></programme>
-<programme start="20260816040500 +0000" stop="20260816041000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
-<programme start="20260816041000 +0000" stop="20260816050000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
-<programme start="20260816050000 +0000" stop="20260816050500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
-<programme start="20260816050500 +0000" stop="20260816053500 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
-<programme start="20260816053500 +0000" stop="20260816054000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
-<programme start="20260816054000 +0000" stop="20260816054500 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Спорт</title></programme>
-<programme start="20260816054500 +0000" stop="20260816055500 +0000" channel="RBKTV.ru@SD"><title lang="ru">База знаний</title><image>https://tv.mail.ru/tvpic/2/57/203283.jpg</image></programme>
-<programme start="20260816055500 +0000" stop="20260816064000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Технологии и Тренды</title></programme>
-<programme start="20260816064000 +0000" stop="20260816064500 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Спорт</title></programme>
-<programme start="20260816064500 +0000" stop="20260816065000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Суть дела</title></programme>
-<programme start="20260816065000 +0000" stop="20260816070000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
-<programme start="20260816070000 +0000" stop="20260816071500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
-<programme start="20260816071500 +0000" stop="20260816072000 +0000" channel="RBKTV.ru@SD"><title lang="ru">База знаний</title><image>https://tv.mail.ru/tvpic/2/57/203283.jpg</image></programme>
-<programme start="20260816072000 +0000" stop="20260816085000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
-<programme start="20260816085000 +0000" stop="20260816085500 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Спорт</title></programme>
-<programme start="20260816085500 +0000" stop="20260816090000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
-<programme start="20260816090000 +0000" stop="20260816090500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
-<programme start="20260816090500 +0000" stop="20260816093000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Частная собственность</title><image>https://tv.mail.ru/tvpic/1/68/0859213.jpg</image></programme>
-<programme start="20260816093000 +0000" stop="20260816102500 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Рынки (Итоги)</title></programme>
-<programme start="20260816104500 +0000" stop="20260816105000 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Спорт</title></programme>
-<programme start="20260816105000 +0000" stop="20260816110000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
-<programme start="20260816110000 +0000" stop="20260816110500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
-<programme start="20260816110500 +0000" stop="20260816115000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Таманцев. Итоги</title></programme>
-<programme start="20260816115000 +0000" stop="20260816120000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
-<programme start="20260816120000 +0000" stop="20260816120500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
-<programme start="20260816120500 +0000" stop="20260816133500 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
-<programme start="20260816133500 +0000" stop="20260816140000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Инсайт</title><image>https://tv.mail.ru/tvpic/3/30/0319774.jpg</image></programme>
-<programme start="20260816140000 +0000" stop="20260816140500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
-<programme start="20260816140500 +0000" stop="20260816153500 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
-<programme start="20260816153500 +0000" stop="20260816160000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Инсайт</title><image>https://tv.mail.ru/tvpic/3/30/0319774.jpg</image></programme>
-<programme start="20260816160000 +0000" stop="20260816160500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
-<programme start="20260816160500 +0000" stop="20260816173500 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
-<programme start="20260816173500 +0000" stop="20260816190000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
-<programme start="20260816190000 +0000" stop="20260816191000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
-<programme start="20260816191000 +0000" stop="20260816191500 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Спорт</title></programme>
-<programme start="20260816191500 +0000" stop="20260816193000 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Рынки (Разбор)</title></programme>
-<programme start="20260816193000 +0000" stop="20260816194000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Суть дела</title></programme>
-<programme start="20260816194000 +0000" stop="20260816194500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
-<programme start="20260816194500 +0000" stop="20260816204000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
-<programme start="20260816204000 +0000" stop="20260816213000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
-<programme start="20260816213000 +0000" stop="20260816213500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
-<programme start="20260816213500 +0000" stop="20260816223000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
-<programme start="20260816223000 +0000" stop="20260816223500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
-<programme start="20260816223500 +0000" stop="20260816230000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Облигации. Главное</title></programme>
-<programme start="20260816230000 +0000" stop="20260816230500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
-<programme start="20260816230500 +0000" stop="20260817000000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
-<programme start="20260815214000 +0000" stop="20260816010500 +0000" channel="Russia1.ru@HD"><title lang="ru">Призрачное счастье</title><image>https://tv.mail.ru/tvpic/2/44/7160540.jpg</image></programme>
-<programme start="20260816010500 +0000" stop="20260816025500 +0000" channel="Russia1.ru@HD"><title lang="ru">Дела семейные</title><image>https://tv.mail.ru/tvpic/1/93/6249980.jpg</image></programme>
-<programme start="20260816025500 +0000" stop="20260816050000 +0000" channel="Russia1.ru@HD"><title lang="ru">Карусель</title><image>https://tv.mail.ru/tvpic/2/73/5589418.jpg</image></programme>
-<programme start="20260816050000 +0000" stop="20260816053500 +0000" channel="Russia1.ru@HD"><title lang="ru">Местное время. Воскресенье</title><image>https://tv.mail.ru/tvpic/1/13/8503346.jpg</image></programme>
-<programme start="20260816053500 +0000" stop="20260816062500 +0000" channel="Russia1.ru@HD"><title lang="ru">&amp;#34;Когда все дома&amp;#34; с Тимуром Кизяковым</title><image>https://tv.mail.ru/tvpic/1/73/908015.jpg</image></programme>
-<programme start="20260816062500 +0000" stop="20260816071000 +0000" channel="Russia1.ru@HD"><title lang="ru">Утренняя почта с Николаем Басковым</title><image>https://tv.mail.ru/tvpic/2/64/5245874.jpg</image></programme>
-<programme start="20260816071000 +0000" stop="20260816080000 +0000" channel="Russia1.ru@HD"><title lang="ru">Сто к одному</title><image>https://tv.mail.ru/tvpic/2/99/3775392.jpg</image></programme>
-<programme start="20260816080000 +0000" stop="20260816083000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести</title><image>https://tv.mail.ru/tvpic/3/46/1077673.jpg</image></programme>
-<programme start="20260816083000 +0000" stop="20260816091000 +0000" channel="Russia1.ru@HD"><title lang="ru">В кругу друзей</title><image>https://tv.mail.ru/tvpic/2/05/8886909.jpg</image></programme>
-<programme start="20260816091000 +0000" stop="20260816110000 +0000" channel="Russia1.ru@HD"><title lang="ru">Большая любовь</title><image>https://tv.mail.ru/tvpic/1/22/9719238.jpg</image></programme>
-<programme start="20260816110000 +0000" stop="20260816113000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести</title><image>https://tv.mail.ru/tvpic/3/46/1077673.jpg</image></programme>
-<programme start="20260816113000 +0000" stop="20260816120000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести. Местное время</title><image>https://tv.mail.ru/tvpic/2/22/2992602.jpg</image></programme>
-<programme start="20260816120000 +0000" stop="20260816140000 +0000" channel="Russia1.ru@HD"><title lang="ru">Парад юмора</title><image>https://tv.mail.ru/tvpic/2/70/3585066.jpg</image></programme>
-<programme start="20260816140000 +0000" stop="20260816145000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести</title><image>https://tv.mail.ru/tvpic/3/46/1077673.jpg</image></programme>
-<programme start="20260816145000 +0000" stop="20260816170000 +0000" channel="Russia1.ru@HD"><title lang="ru">Песни от всей души</title><image>https://tv.mail.ru/tvpic/3/48/3118453.jpg</image></programme>
-<programme start="20260816170000 +0000" stop="20260816193000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести в 20:00</title><image>https://tv.mail.ru/tvpic/9/59/500050.jpg</image></programme>
-<programme start="20260816193000 +0000" stop="20260816202000 +0000" channel="Russia1.ru@HD"><title lang="ru">Приграничье</title><image>https://tv.mail.ru/tvpic/2/97/6649302.jpg</image></programme>
-<programme start="20260816202000 +0000" stop="20260816230000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вечер с Владимиром Соловьевым</title><image>https://tv.mail.ru/tvpic/3/14/1536558.jpg</image></programme>
+<programme start="20260817002000 +0000" stop="20260817004000 +0000" channel="Friday.ru@SD"><title lang="ru">Пятница News (141-я серия)</title><image>https://tv.mail.ru/tvpic/4/23/4353784.jpg</image></programme>
+<programme start="20260817004000 +0000" stop="20260817013000 +0000" channel="Friday.ru@SD"><title lang="ru">На ножах (Москва. Химки. Репин)</title><image>https://tv.mail.ru/tvpic/3/45/7419340.jpg</image></programme>
+<programme start="20260817013000 +0000" stop="20260817020000 +0000" channel="Friday.ru@SD"><title lang="ru">Пятница News (140-я серия)</title><image>https://tv.mail.ru/tvpic/4/23/4353784.jpg</image></programme>
+<programme start="20260817020000 +0000" stop="20260817023000 +0000" channel="Friday.ru@SD"><title lang="ru">Секреты на кухне (Готовит Женя Искандарова)</title><image>https://tv.mail.ru/tvpic/2/27/8661533.jpg</image></programme>
+<programme start="20260817023000 +0000" stop="20260817030000 +0000" channel="Friday.ru@SD"><title lang="ru">Пятница News (140-я серия)</title><image>https://tv.mail.ru/tvpic/4/23/4353784.jpg</image></programme>
+<programme start="20260817030000 +0000" stop="20260817035000 +0000" channel="Friday.ru@SD"><title lang="ru">Запретный Китай (Хайнань)</title><image>https://tv.mail.ru/tvpic/1/32/2742561.jpg</image></programme>
+<programme start="20260817035000 +0000" stop="20260817054500 +0000" channel="Friday.ru@SD"><title lang="ru">Запpетнaя Индия (Варанаси)</title><image>https://tv.mail.ru/tvpic/3/76/4603968.jpg</image></programme>
+<programme start="20260817050000 +0000" stop="20260817063000 +0000" channel="Friday.ru@SD"><title lang="ru">Четыре дачи (Краснодарский край)</title><image>https://tv.mail.ru/tvpic/4/18/6461847.jpg</image></programme>
+<programme start="20260817054500 +0000" stop="20260817062000 +0000" channel="Friday.ru@SD"><title lang="ru">Четыре дачи (Саратовская область)</title><image>https://tv.mail.ru/tvpic/4/18/6461847.jpg</image></programme>
+<programme start="20260817062000 +0000" stop="20260817080000 +0000" channel="Friday.ru@SD"><title lang="ru">Четыре дачи (Московская область)</title><image>https://tv.mail.ru/tvpic/4/18/6461847.jpg</image></programme>
+<programme start="20260817080000 +0000" stop="20260817101000 +0000" channel="Friday.ru@SD"><title lang="ru">Битва шефов (19-я серия)</title><image>https://tv.mail.ru/tvpic/7/46/774348.jpg</image></programme>
+<programme start="20260817101000 +0000" stop="20260817121000 +0000" channel="Friday.ru@SD"><title lang="ru">Битва шефов (9-я серия)</title><image>https://tv.mail.ru/tvpic/7/46/774348.jpg</image></programme>
+<programme start="20260817121000 +0000" stop="20260817140000 +0000" channel="Friday.ru@SD"><title lang="ru">Битва шефов (8-я серия)</title><image>https://tv.mail.ru/tvpic/7/46/774348.jpg</image></programme>
+<programme start="20260817140000 +0000" stop="20260817160000 +0000" channel="Friday.ru@SD"><title lang="ru">Битва шефов (2-я серия)</title><image>https://tv.mail.ru/tvpic/7/46/774348.jpg</image></programme>
+<programme start="20260817160000 +0000" stop="20260817181000 +0000" channel="Friday.ru@SD"><title lang="ru">Битва шефов. Звезды (1-я серия)</title><image>https://tv.mail.ru/tvpic/7/83/601626.jpg</image></programme>
+<programme start="20260817181000 +0000" stop="20260817201000 +0000" channel="Friday.ru@SD"><title lang="ru">Битва шефов. Звезды (7-я серия)</title><image>https://tv.mail.ru/tvpic/7/83/601626.jpg</image></programme>
+<programme start="20260817201000 +0000" stop="20260817220000 +0000" channel="Friday.ru@SD"><title lang="ru">Выживалити. Наследники (2-я серия)</title><image>https://tv.mail.ru/tvpic/2/29/2353138.jpg</image></programme>
+<programme start="20260817220000 +0000" stop="20260817222000 +0000" channel="Friday.ru@SD"><title lang="ru">Пятница News (142-я серия)</title><image>https://tv.mail.ru/tvpic/4/23/4353784.jpg</image></programme>
+<programme start="20260817222000 +0000" stop="20260817231000 +0000" channel="Friday.ru@SD"><title lang="ru">Комиссар Рекс (От чего умер Ромео?)</title><image>https://tv.mail.ru/tvpic/3/28/6417487.jpg</image></programme>
+<programme start="20260817231000 +0000" stop="20260817235000 +0000" channel="Friday.ru@SD"><title lang="ru">Комиссар Рекс (Убийство в ресторане)</title><image>https://tv.mail.ru/tvpic/3/28/6417487.jpg</image></programme>
+<programme start="20260817235000 +0000" stop="20260818013000 +0000" channel="Friday.ru@SD"><title lang="ru">Битва шефов (16-я серия)</title><image>https://tv.mail.ru/tvpic/7/46/774348.jpg</image></programme>
+<programme start="20260818013000 +0000" stop="20260818020000 +0000" channel="Friday.ru@SD"><title lang="ru">Пятница News (140-я серия)</title><image>https://tv.mail.ru/tvpic/4/23/4353784.jpg</image></programme>
+<programme start="20260818020000 +0000" stop="20260818024000 +0000" channel="Friday.ru@SD"><title lang="ru">Секреты на кухне (Готовит Наталья Бочкарева)</title><image>https://tv.mail.ru/tvpic/2/27/8661533.jpg</image></programme>
+<programme start="20260818024000 +0000" stop="20260818030000 +0000" channel="Friday.ru@SD"><title lang="ru">Пятница News (141-я серия)</title><image>https://tv.mail.ru/tvpic/4/23/4353784.jpg</image></programme>
+<programme start="20260818030000 +0000" stop="20260818035000 +0000" channel="Friday.ru@SD"><title lang="ru">Запретный Китай (Чунцин)</title><image>https://tv.mail.ru/tvpic/1/32/2742561.jpg</image></programme>
+<programme start="20260818035000 +0000" stop="20260818050000 +0000" channel="Friday.ru@SD"><title lang="ru">Запpетнaя Индия (Дели)</title><image>https://tv.mail.ru/tvpic/3/76/4603968.jpg</image></programme>
+<programme start="20260818050000 +0000" stop="20260818063000 +0000" channel="Friday.ru@SD"><title lang="ru">Четыре дачи (Краснодарский край)</title><image>https://tv.mail.ru/tvpic/4/18/6461847.jpg</image></programme>
+<programme start="20260818063000 +0000" stop="20260818081000 +0000" channel="Friday.ru@SD"><title lang="ru">Четыре дачи (Ленинградская область 2)</title><image>https://tv.mail.ru/tvpic/4/18/6461847.jpg</image></programme>
+<programme start="20260818081000 +0000" stop="20260818091000 +0000" channel="Friday.ru@SD"><title lang="ru">Чeрный список. Нa кухне (Сочи. Plants &amp;amp; Friends)</title><image>https://tv.mail.ru/tvpic/6/67/268361.jpg</image></programme>
+<programme start="20260818091000 +0000" stop="20260818101000 +0000" channel="Friday.ru@SD"><title lang="ru">Чeрный список. Нa кухне (Сочи. Denart)</title><image>https://tv.mail.ru/tvpic/6/67/268361.jpg</image></programme>
+<programme start="20260818101000 +0000" stop="20260818110000 +0000" channel="Friday.ru@SD"><title lang="ru">Чeрный список. Нa кухне (Санкт-Петербург. БарЩи)</title><image>https://tv.mail.ru/tvpic/6/67/268361.jpg</image></programme>
+<programme start="20260818110000 +0000" stop="20260818120000 +0000" channel="Friday.ru@SD"><title lang="ru">Чeрный список. Нa кухне (Санкт-Петербург. Кузу)</title><image>https://tv.mail.ru/tvpic/6/67/268361.jpg</image></programme>
+<programme start="20260818120000 +0000" stop="20260818130000 +0000" channel="Friday.ru@SD"><title lang="ru">Чeрный список. Нa кухне (Сочи. Secret)</title><image>https://tv.mail.ru/tvpic/6/67/268361.jpg</image></programme>
+<programme start="20260818130000 +0000" stop="20260818140000 +0000" channel="Friday.ru@SD"><title lang="ru">Чeрный список. Нa кухне (Краснодар. Центральная раковая)</title><image>https://tv.mail.ru/tvpic/6/67/268361.jpg</image></programme>
+<programme start="20260818140000 +0000" stop="20260818150000 +0000" channel="Friday.ru@SD"><title lang="ru">Чeрный список. Нa кухне (Санкт-Петербург. Ланселот)</title><image>https://tv.mail.ru/tvpic/6/67/268361.jpg</image></programme>
+<programme start="20260818150000 +0000" stop="20260818160000 +0000" channel="Friday.ru@SD"><title lang="ru">Чeрный список. Нa кухне (Хабаровск. Мистер Ли)</title><image>https://tv.mail.ru/tvpic/6/67/268361.jpg</image></programme>
+<programme start="20260818160000 +0000" stop="20260818172000 +0000" channel="Friday.ru@SD"><title lang="ru">Новый Ревизорро (Передержки)</title><image>https://tv.mail.ru/tvpic/2/24/5854414.jpg</image></programme>
+<programme start="20260818172000 +0000" stop="20260818194000 +0000" channel="Friday.ru@SD"><title lang="ru">Битва шефов. Звезды (1-я серия)</title><image>https://tv.mail.ru/tvpic/7/83/601626.jpg</image></programme>
+<programme start="20260818194000 +0000" stop="20260818203000 +0000" channel="Friday.ru@SD"><title lang="ru">Чeрный список. Нa кухне (Краснодар. Казачий хутор)</title><image>https://tv.mail.ru/tvpic/6/67/268361.jpg</image></programme>
+<programme start="20260818203000 +0000" stop="20260818222000 +0000" channel="Friday.ru@SD"><title lang="ru">Выживалити. Наследники (2-я серия)</title><image>https://tv.mail.ru/tvpic/2/29/2353138.jpg</image></programme>
+<programme start="20260818222000 +0000" stop="20260818225000 +0000" channel="Friday.ru@SD"><title lang="ru">Пятница News (143-я серия)</title><image>https://tv.mail.ru/tvpic/4/23/4353784.jpg</image></programme>
+<programme start="20260818225000 +0000" stop="20260818233000 +0000" channel="Friday.ru@SD"><title lang="ru">Комиссар Рекс (Кроваво-красные розы)</title><image>https://tv.mail.ru/tvpic/3/28/6417487.jpg</image></programme>
+<programme start="20260818233000 +0000" stop="20260819012000 +0000" channel="Friday.ru@SD"><title lang="ru">Битва шефов (17-я серия)</title><image>https://tv.mail.ru/tvpic/7/46/774348.jpg</image></programme>
+<programme start="20260819012000 +0000" stop="20260819013000 +0000" channel="Friday.ru@SD"><title lang="ru">Секреты на кухне (Супер фуд)</title><image>https://tv.mail.ru/tvpic/2/27/8661533.jpg</image></programme>
+<programme start="20260819013000 +0000" stop="20260819020000 +0000" channel="Friday.ru@SD"><title lang="ru">Пятница News (141-я серия)</title><image>https://tv.mail.ru/tvpic/4/23/4353784.jpg</image></programme>
+<programme start="20260819020000 +0000" stop="20260819025000 +0000" channel="Friday.ru@SD"><title lang="ru">Секреты на кухне (Быстрый перекус)</title><image>https://tv.mail.ru/tvpic/2/27/8661533.jpg</image></programme>
+<programme start="20260819025000 +0000" stop="20260819032000 +0000" channel="Friday.ru@SD"><title lang="ru">Пятница News (142-я серия)</title><image>https://tv.mail.ru/tvpic/4/23/4353784.jpg</image></programme>
+<programme start="20260819032000 +0000" stop="20260819040000 +0000" channel="Friday.ru@SD"><title lang="ru">Запретный Китай (Ченду)</title><image>https://tv.mail.ru/tvpic/1/32/2742561.jpg</image></programme>
+<programme start="20260819040000 +0000" stop="20260819051000 +0000" channel="Friday.ru@SD"><title lang="ru">Запpетнaя Индия (Агра и Джайпур)</title><image>https://tv.mail.ru/tvpic/3/76/4603968.jpg</image></programme>
+<programme start="20260819051000 +0000" stop="20260819064000 +0000" channel="Friday.ru@SD"><title lang="ru">Четыре дачи (Краснодарский край)</title><image>https://tv.mail.ru/tvpic/4/18/6461847.jpg</image></programme>
+<programme start="20260819064000 +0000" stop="20260819082000 +0000" channel="Friday.ru@SD"><title lang="ru">Четыре дачи (Ленинградская область)</title><image>https://tv.mail.ru/tvpic/4/18/6461847.jpg</image></programme>
+<programme start="20260819082000 +0000" stop="20260819095000 +0000" channel="Friday.ru@SD"><title lang="ru">Молодые ножи (Повара Питера и Москвы)</title><image>https://tv.mail.ru/tvpic/2/34/060820.jpg</image></programme>
+<programme start="20260819095000 +0000" stop="20260819110000 +0000" channel="Friday.ru@SD"><title lang="ru">Молодые ножи (Классические соусы со всего мира)</title><image>https://tv.mail.ru/tvpic/2/34/060820.jpg</image></programme>
+<programme start="20260819110000 +0000" stop="20260819123000 +0000" channel="Friday.ru@SD"><title lang="ru">Молодые ножи (Посуда народов мира)</title><image>https://tv.mail.ru/tvpic/2/34/060820.jpg</image></programme>
+<programme start="20260819123000 +0000" stop="20260819133000 +0000" channel="Friday.ru@SD"><title lang="ru">На ножах (Санкт-Петербург. Плюшкин дом)</title><image>https://tv.mail.ru/tvpic/3/45/7419340.jpg</image></programme>
+<programme start="20260819133000 +0000" stop="20260819144000 +0000" channel="Friday.ru@SD"><title lang="ru">На ножах (Лыткарино. Medea)</title><image>https://tv.mail.ru/tvpic/3/45/7419340.jpg</image></programme>
+<programme start="20260819144000 +0000" stop="20260819160000 +0000" channel="Friday.ru@SD"><title lang="ru">На ножах (Орел. Jazzva)</title><image>https://tv.mail.ru/tvpic/3/45/7419340.jpg</image></programme>
+<programme start="20260819160000 +0000" stop="20260819171000 +0000" channel="Friday.ru@SD"><title lang="ru">Чeрный список. Нa кухне (22-я серия)</title><image>https://tv.mail.ru/tvpic/6/67/268361.jpg</image></programme>
+<programme start="20260819171000 +0000" stop="20260819181000 +0000" channel="Friday.ru@SD"><title lang="ru">Чeрный список. Нa кухне (Сочи. Экодом)</title><image>https://tv.mail.ru/tvpic/6/67/268361.jpg</image></programme>
+<programme start="20260819181000 +0000" stop="20260819191000 +0000" channel="Friday.ru@SD"><title lang="ru">Чeрный список. Нa кухне (Хабаровск. Мистер Ли)</title><image>https://tv.mail.ru/tvpic/6/67/268361.jpg</image></programme>
+<programme start="20260819191000 +0000" stop="20260819201000 +0000" channel="Friday.ru@SD"><title lang="ru">Черный список. Прораб (5-я серия)</title><image>https://tv.mail.ru/tvpic/2/93/537888.jpg</image></programme>
+<programme start="20260819201000 +0000" stop="20260819212000 +0000" channel="Friday.ru@SD"><title lang="ru">Черный список. Прораб (3-я серия)</title><image>https://tv.mail.ru/tvpic/2/93/537888.jpg</image></programme>
+<programme start="20260819212000 +0000" stop="20260819221000 +0000" channel="Friday.ru@SD"><title lang="ru">Чeрный список. Нa кухне (Москва. Heavy Haze)</title><image>https://tv.mail.ru/tvpic/6/67/268361.jpg</image></programme>
+<programme start="20260819221000 +0000" stop="20260819224000 +0000" channel="Friday.ru@SD"><title lang="ru">Пятница News (144-я серия)</title><image>https://tv.mail.ru/tvpic/4/23/4353784.jpg</image></programme>
+<programme start="20260819224000 +0000" stop="20260819232000 +0000" channel="Friday.ru@SD"><title lang="ru">Комиссар Рекс (Заживо погребенная)</title><image>https://tv.mail.ru/tvpic/3/28/6417487.jpg</image></programme>
+<programme start="20260819232000 +0000" stop="20260820011000 +0000" channel="Friday.ru@SD"><title lang="ru">Битва шефов (18-я серия)</title><image>https://tv.mail.ru/tvpic/7/46/774348.jpg</image></programme>
+<programme start="20260817030000 +0000" stop="20260817050000 +0000" channel="NTV.ru@HD"><title lang="ru">Утро. Самое лучшее</title><image>https://tv.mail.ru/tvpic/2/19/2745439.jpg</image></programme>
+<programme start="20260817050000 +0000" stop="20260817052500 +0000" channel="NTV.ru@HD"><title lang="ru">Сегодня</title><image>https://tv.mail.ru/tvpic/1/44/517678.jpg</image></programme>
+<programme start="20260817052500 +0000" stop="20260817054050 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Лучшая подруга: Часть 1-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260817054050 +0000" stop="20260817055640 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Лучшая подруга: Часть 2-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260817055640 +0000" stop="20260817061230 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Рукописи не горят: Часть 1-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260817061230 +0000" stop="20260817062820 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Рукописи не горят: Часть 2-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260817062820 +0000" stop="20260817064410 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Алиби: Часть 1-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260817064410 +0000" stop="20260817070000 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Алиби: Часть 2-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260817070000 +0000" stop="20260817073500 +0000" channel="NTV.ru@HD"><title lang="ru">Сегодня</title><image>https://tv.mail.ru/tvpic/1/44/517678.jpg</image></programme>
+<programme start="20260817073500 +0000" stop="20260817075910 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Лучшая подруга: Часть 1-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260817075910 +0000" stop="20260817082320 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Лучшая подруга: Часть 2-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260817082320 +0000" stop="20260817084730 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Рукописи не горят: Часть 1-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260817084730 +0000" stop="20260817091140 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Рукописи не горят: Часть 2-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260817091140 +0000" stop="20260817093550 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Алиби: Часть 1-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260817093550 +0000" stop="20260817100000 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Алиби: Часть 2-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260817100000 +0000" stop="20260817102500 +0000" channel="NTV.ru@HD"><title lang="ru">Сегодня</title><image>https://tv.mail.ru/tvpic/1/44/517678.jpg</image></programme>
+<programme start="20260817102500 +0000" stop="20260817110000 +0000" channel="NTV.ru@HD"><title lang="ru">ЧП</title><image>https://tv.mail.ru/tvpic/1/08/978303.jpg</image></programme>
+<programme start="20260817110000 +0000" stop="20260817130000 +0000" channel="NTV.ru@HD"><title lang="ru">Место встречи</title><image>https://tv.mail.ru/tvpic/3/18/3281164.jpg</image></programme>
+<programme start="20260817130000 +0000" stop="20260817134500 +0000" channel="NTV.ru@HD"><title lang="ru">Сегодня</title><image>https://tv.mail.ru/tvpic/1/44/517678.jpg</image></programme>
+<programme start="20260817134500 +0000" stop="20260817160000 +0000" channel="NTV.ru@HD"><title lang="ru">ДНК</title><image>https://tv.mail.ru/tvpic/3/44/9790788.jpg</image></programme>
+<programme start="20260817160000 +0000" stop="20260817170000 +0000" channel="NTV.ru@HD"><title lang="ru">Сегодня</title><image>https://tv.mail.ru/tvpic/1/44/517678.jpg</image></programme>
+<programme start="20260817170000 +0000" stop="20260817180000 +0000" channel="NTV.ru@HD"><title lang="ru">Невский. Охота на архитектора (Одиночка)</title><image>https://tv.mail.ru/tvpic/2/95/393397.jpg</image></programme>
+<programme start="20260817180000 +0000" stop="20260817190000 +0000" channel="NTV.ru@HD"><title lang="ru">Невский. Охота на архитектора (Привет с того света)</title><image>https://tv.mail.ru/tvpic/2/95/393397.jpg</image></programme>
+<programme start="20260817190000 +0000" stop="20260817200000 +0000" channel="NTV.ru@HD"><title lang="ru">Невский. Охота на архитектора (Законы улиц)</title><image>https://tv.mail.ru/tvpic/2/95/393397.jpg</image></programme>
+<programme start="20260817200000 +0000" stop="20260817211500 +0000" channel="NTV.ru@HD"><title lang="ru">Невский. Охота на архитектора (Мертвец)</title><image>https://tv.mail.ru/tvpic/2/95/393397.jpg</image></programme>
+<programme start="20260817211500 +0000" stop="20260817213000 +0000" channel="NTV.ru@HD"><title lang="ru">Сегодня</title><image>https://tv.mail.ru/tvpic/1/44/517678.jpg</image></programme>
+<programme start="20260817213000 +0000" stop="20260818002000 +0000" channel="NTV.ru@HD"><title lang="ru">Маска</title><image>https://tv.mail.ru/tvpic/1/93/2678066.jpg</image></programme>
+<programme start="20260818002000 +0000" stop="20260818004500 +0000" channel="NTV.ru@HD"><title lang="ru">Первая передача</title><image>https://tv.mail.ru/tvpic/2/46/705471.jpg</image></programme>
+<programme start="20260818004500 +0000" stop="20260818011500 +0000" channel="NTV.ru@HD"><title lang="ru">Агентство скрытых камер (Бедный художник)</title><image>https://tv.mail.ru/tvpic/9/88/30513.jpg</image></programme>
+<programme start="20260818011500 +0000" stop="20260818014115 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Выборы: Часть 1-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260818014115 +0000" stop="20260818020730 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Выборы: Часть 2-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260818020730 +0000" stop="20260818023345 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Афганский след: Часть 1-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260818023345 +0000" stop="20260818030000 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Афганский след: Часть 2-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260818030000 +0000" stop="20260818050000 +0000" channel="NTV.ru@HD"><title lang="ru">Утро. Самое лучшее</title><image>https://tv.mail.ru/tvpic/2/19/2745439.jpg</image></programme>
+<programme start="20260818050000 +0000" stop="20260818052500 +0000" channel="NTV.ru@HD"><title lang="ru">Сегодня</title><image>https://tv.mail.ru/tvpic/1/44/517678.jpg</image></programme>
+<programme start="20260818052500 +0000" stop="20260818054845 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Выборы: Часть 1-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260818054845 +0000" stop="20260818061230 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Выборы: Часть 2-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260818061230 +0000" stop="20260818063615 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Афганский след: Часть 1-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260818063615 +0000" stop="20260818070000 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Афганский след: Часть 2-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260818070000 +0000" stop="20260818073500 +0000" channel="NTV.ru@HD"><title lang="ru">Сегодня</title><image>https://tv.mail.ru/tvpic/1/44/517678.jpg</image></programme>
+<programme start="20260818073500 +0000" stop="20260818081115 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Выборы: Часть 1-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260818081115 +0000" stop="20260818084730 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Выборы: Часть 2-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260818084730 +0000" stop="20260818092345 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Афганский след: Часть 1-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260818092345 +0000" stop="20260818100000 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Афганский след: Часть 2-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260818100000 +0000" stop="20260818102500 +0000" channel="NTV.ru@HD"><title lang="ru">Сегодня</title><image>https://tv.mail.ru/tvpic/1/44/517678.jpg</image></programme>
+<programme start="20260818102500 +0000" stop="20260818110000 +0000" channel="NTV.ru@HD"><title lang="ru">ЧП</title><image>https://tv.mail.ru/tvpic/1/08/978303.jpg</image></programme>
+<programme start="20260818110000 +0000" stop="20260818130000 +0000" channel="NTV.ru@HD"><title lang="ru">Место встречи</title><image>https://tv.mail.ru/tvpic/3/18/3281164.jpg</image></programme>
+<programme start="20260818130000 +0000" stop="20260818134500 +0000" channel="NTV.ru@HD"><title lang="ru">Сегодня</title><image>https://tv.mail.ru/tvpic/1/44/517678.jpg</image></programme>
+<programme start="20260818134500 +0000" stop="20260818160000 +0000" channel="NTV.ru@HD"><title lang="ru">ДНК</title><image>https://tv.mail.ru/tvpic/3/44/9790788.jpg</image></programme>
+<programme start="20260818160000 +0000" stop="20260818170000 +0000" channel="NTV.ru@HD"><title lang="ru">Сегодня</title><image>https://tv.mail.ru/tvpic/1/44/517678.jpg</image></programme>
+<programme start="20260818170000 +0000" stop="20260818180000 +0000" channel="NTV.ru@HD"><title lang="ru">Невский. Охота на архитектора (Защитный рефлекс)</title><image>https://tv.mail.ru/tvpic/2/95/393397.jpg</image></programme>
+<programme start="20260818180000 +0000" stop="20260818190000 +0000" channel="NTV.ru@HD"><title lang="ru">Невский. Охота на архитектора (Смертный приговор)</title><image>https://tv.mail.ru/tvpic/2/95/393397.jpg</image></programme>
+<programme start="20260818190000 +0000" stop="20260818200000 +0000" channel="NTV.ru@HD"><title lang="ru">Невский. Охота на архитектора (Тишина)</title><image>https://tv.mail.ru/tvpic/2/95/393397.jpg</image></programme>
+<programme start="20260818200000 +0000" stop="20260818211500 +0000" channel="NTV.ru@HD"><title lang="ru">Невский. Охота на архитектора (Сезон охоты)</title><image>https://tv.mail.ru/tvpic/2/95/393397.jpg</image></programme>
+<programme start="20260818211500 +0000" stop="20260818213000 +0000" channel="NTV.ru@HD"><title lang="ru">Сегодня</title><image>https://tv.mail.ru/tvpic/1/44/517678.jpg</image></programme>
+<programme start="20260818213000 +0000" stop="20260819004500 +0000" channel="NTV.ru@HD"><title lang="ru">Маска</title><image>https://tv.mail.ru/tvpic/1/93/2678066.jpg</image></programme>
+<programme start="20260819004500 +0000" stop="20260819011500 +0000" channel="NTV.ru@HD"><title lang="ru">Агентство скрытых камер (Пожар)</title><image>https://tv.mail.ru/tvpic/9/88/30513.jpg</image></programme>
+<programme start="20260819011500 +0000" stop="20260819014115 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Дед: Часть 1-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260819014115 +0000" stop="20260819020730 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Дед: Часть 2-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260819020730 +0000" stop="20260819023345 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Деревенский блюз: Часть 1-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260819023345 +0000" stop="20260819030000 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Деревенский блюз: Часть 2-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260819030000 +0000" stop="20260819050000 +0000" channel="NTV.ru@HD"><title lang="ru">Утро. Самое лучшее</title><image>https://tv.mail.ru/tvpic/2/19/2745439.jpg</image></programme>
+<programme start="20260819050000 +0000" stop="20260819052500 +0000" channel="NTV.ru@HD"><title lang="ru">Сегодня</title><image>https://tv.mail.ru/tvpic/1/44/517678.jpg</image></programme>
+<programme start="20260819052500 +0000" stop="20260819054845 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Дед: Часть 1-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260819054845 +0000" stop="20260819061230 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Дед: Часть 2-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260819061230 +0000" stop="20260819063615 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Деревенский блюз: Часть 1-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260819063615 +0000" stop="20260819070000 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Деревенский блюз: Часть 2-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260819070000 +0000" stop="20260819073500 +0000" channel="NTV.ru@HD"><title lang="ru">Сегодня</title><image>https://tv.mail.ru/tvpic/1/44/517678.jpg</image></programme>
+<programme start="20260819073500 +0000" stop="20260819081115 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Дед: Часть 1-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260819081115 +0000" stop="20260819084730 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Дед: Часть 2-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260819084730 +0000" stop="20260819092345 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Деревенский блюз: Часть 1-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260819092345 +0000" stop="20260819100000 +0000" channel="NTV.ru@HD"><title lang="ru">Лесник. Своя земля (Деревенский блюз: Часть 2-я)</title><image>https://tv.mail.ru/tvpic/2/66/6817660.jpg</image></programme>
+<programme start="20260819100000 +0000" stop="20260819102500 +0000" channel="NTV.ru@HD"><title lang="ru">Сегодня</title><image>https://tv.mail.ru/tvpic/1/44/517678.jpg</image></programme>
+<programme start="20260819102500 +0000" stop="20260819110000 +0000" channel="NTV.ru@HD"><title lang="ru">ЧП</title><image>https://tv.mail.ru/tvpic/1/08/978303.jpg</image></programme>
+<programme start="20260819110000 +0000" stop="20260819130000 +0000" channel="NTV.ru@HD"><title lang="ru">Место встречи</title><image>https://tv.mail.ru/tvpic/3/18/3281164.jpg</image></programme>
+<programme start="20260819130000 +0000" stop="20260819134500 +0000" channel="NTV.ru@HD"><title lang="ru">Сегодня</title><image>https://tv.mail.ru/tvpic/1/44/517678.jpg</image></programme>
+<programme start="20260819134500 +0000" stop="20260819160000 +0000" channel="NTV.ru@HD"><title lang="ru">ДНК</title><image>https://tv.mail.ru/tvpic/3/44/9790788.jpg</image></programme>
+<programme start="20260819160000 +0000" stop="20260819170000 +0000" channel="NTV.ru@HD"><title lang="ru">Сегодня</title><image>https://tv.mail.ru/tvpic/1/44/517678.jpg</image></programme>
+<programme start="20260819170000 +0000" stop="20260819180000 +0000" channel="NTV.ru@HD"><title lang="ru">Невский. Охота на архитектора (Мир, в котором мы живем)</title><image>https://tv.mail.ru/tvpic/2/95/393397.jpg</image></programme>
+<programme start="20260819180000 +0000" stop="20260819190000 +0000" channel="NTV.ru@HD"><title lang="ru">Невский. Охота на архитектора (Я могу тебе верить)</title><image>https://tv.mail.ru/tvpic/2/95/393397.jpg</image></programme>
+<programme start="20260819190000 +0000" stop="20260819200000 +0000" channel="NTV.ru@HD"><title lang="ru">Невский. Охота на архитектора (Личная просьба)</title><image>https://tv.mail.ru/tvpic/2/95/393397.jpg</image></programme>
+<programme start="20260819200000 +0000" stop="20260819211500 +0000" channel="NTV.ru@HD"><title lang="ru">Невский. Охота на архитектора (Вакцинация)</title><image>https://tv.mail.ru/tvpic/2/95/393397.jpg</image></programme>
+<programme start="20260819211500 +0000" stop="20260819213000 +0000" channel="NTV.ru@HD"><title lang="ru">Сегодня</title><image>https://tv.mail.ru/tvpic/1/44/517678.jpg</image></programme>
+<programme start="20260819213000 +0000" stop="20260820003500 +0000" channel="NTV.ru@HD"><title lang="ru">Маска</title><image>https://tv.mail.ru/tvpic/1/93/2678066.jpg</image></programme>
+<programme start="20260816234500 +0000" stop="20260817010500 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
+<programme start="20260817010500 +0000" stop="20260817011000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260817013500 +0000" stop="20260817014000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260817014000 +0000" stop="20260817030000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
+<programme start="20260817030000 +0000" stop="20260817030500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260817030500 +0000" stop="20260817032000 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Рынки (Разбор)</title></programme>
+<programme start="20260817032000 +0000" stop="20260817033000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Суть дела</title></programme>
+<programme start="20260817033000 +0000" stop="20260817040000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Инсайт</title><image>https://tv.mail.ru/tvpic/3/30/0319774.jpg</image></programme>
+<programme start="20260817040000 +0000" stop="20260817041000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260817041000 +0000" stop="20260817051000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Суть дела</title></programme>
+<programme start="20260817051000 +0000" stop="20260817052000 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Спорт</title></programme>
+<programme start="20260817052000 +0000" stop="20260817053000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260817053000 +0000" stop="20260817055000 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Рынки (Утро)</title></programme>
+<programme start="20260817055000 +0000" stop="20260817060000 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Спорт</title></programme>
+<programme start="20260817060000 +0000" stop="20260817062000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260817062000 +0000" stop="20260817064000 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Спорт</title></programme>
+<programme start="20260817064000 +0000" stop="20260817070000 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Рынки (Утро)</title></programme>
+<programme start="20260817070000 +0000" stop="20260817071000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260817071000 +0000" stop="20260817080000 +0000" channel="RBKTV.ru@SD"><title lang="ru">День. Главные темы</title></programme>
+<programme start="20260817080000 +0000" stop="20260817081000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260817081000 +0000" stop="20260817084000 +0000" channel="RBKTV.ru@SD"><title lang="ru">День. Главные темы</title></programme>
+<programme start="20260817084000 +0000" stop="20260817090000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
+<programme start="20260817090000 +0000" stop="20260817092000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260817092000 +0000" stop="20260817093000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Рынки. Сейчас</title></programme>
+<programme start="20260817093000 +0000" stop="20260817100000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Инсайт</title><image>https://tv.mail.ru/tvpic/3/30/0319774.jpg</image></programme>
+<programme start="20260817100000 +0000" stop="20260817102000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260817102000 +0000" stop="20260817104000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Частная собственность</title><image>https://tv.mail.ru/tvpic/1/68/0859213.jpg</image></programme>
+<programme start="20260817104000 +0000" stop="20260817110000 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Спорт</title></programme>
+<programme start="20260817110000 +0000" stop="20260817111000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260817111000 +0000" stop="20260817120000 +0000" channel="RBKTV.ru@SD"><title lang="ru">День. Главные темы</title></programme>
+<programme start="20260817120000 +0000" stop="20260817121000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260817121000 +0000" stop="20260817124000 +0000" channel="RBKTV.ru@SD"><title lang="ru">День. Главные темы</title></programme>
+<programme start="20260817124000 +0000" stop="20260817130000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Инсайт</title><image>https://tv.mail.ru/tvpic/3/30/0319774.jpg</image></programme>
+<programme start="20260817130000 +0000" stop="20260817131000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260817131000 +0000" stop="20260817132000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Рынки. Сейчас</title></programme>
+<programme start="20260817132000 +0000" stop="20260817140000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Облигации. Главное</title></programme>
+<programme start="20260817140000 +0000" stop="20260817141000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260817141000 +0000" stop="20260817150000 +0000" channel="RBKTV.ru@SD"><title lang="ru">День. Главные темы</title></programme>
+<programme start="20260817150000 +0000" stop="20260817151000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260817151000 +0000" stop="20260817152000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Рынки. Сейчас</title></programme>
+<programme start="20260817152000 +0000" stop="20260817160000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260817160000 +0000" stop="20260817180000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
+<programme start="20260817180000 +0000" stop="20260817180500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260817180500 +0000" stop="20260817190000 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Рынки (Итоги)</title></programme>
+<programme start="20260817190000 +0000" stop="20260817191000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260817191000 +0000" stop="20260817191500 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Спорт</title></programme>
+<programme start="20260817191500 +0000" stop="20260817193500 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Рынки (Разбор)</title></programme>
+<programme start="20260817193500 +0000" stop="20260817194000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260817194000 +0000" stop="20260817201000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Облигации. Главное</title></programme>
+<programme start="20260817201000 +0000" stop="20260817202000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Инсайт</title><image>https://tv.mail.ru/tvpic/3/30/0319774.jpg</image></programme>
+<programme start="20260817202000 +0000" stop="20260817202500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260817202500 +0000" stop="20260817212000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
+<programme start="20260817212000 +0000" stop="20260817212500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260817212500 +0000" stop="20260817222500 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
+<programme start="20260817222500 +0000" stop="20260817223000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260817223000 +0000" stop="20260817225500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Облигации. Главное</title></programme>
+<programme start="20260817225500 +0000" stop="20260817230000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260817230000 +0000" stop="20260817235500 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
+<programme start="20260817235500 +0000" stop="20260818000000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260818000000 +0000" stop="20260818010000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
+<programme start="20260818010000 +0000" stop="20260818010500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260818010500 +0000" stop="20260818015500 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
+<programme start="20260818015500 +0000" stop="20260818020000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260818020000 +0000" stop="20260818020500 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
+<programme start="20260818020500 +0000" stop="20260818030000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
+<programme start="20260818030000 +0000" stop="20260818030500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260818030500 +0000" stop="20260818040000 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Рынки (Итоги)</title></programme>
+<programme start="20260818040000 +0000" stop="20260818051000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260818051000 +0000" stop="20260818052000 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Спорт</title></programme>
+<programme start="20260818052000 +0000" stop="20260818053000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260818053000 +0000" stop="20260818055000 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Рынки (Утро)</title></programme>
+<programme start="20260818055000 +0000" stop="20260818060000 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Спорт</title></programme>
+<programme start="20260818060000 +0000" stop="20260818061500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260818061500 +0000" stop="20260818064000 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Спорт</title></programme>
+<programme start="20260818070000 +0000" stop="20260818071000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260818071000 +0000" stop="20260818080000 +0000" channel="RBKTV.ru@SD"><title lang="ru">День. Главные темы</title></programme>
+<programme start="20260818080000 +0000" stop="20260818081000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260818081000 +0000" stop="20260818090000 +0000" channel="RBKTV.ru@SD"><title lang="ru">День. Главные темы</title></programme>
+<programme start="20260818090000 +0000" stop="20260818091500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260818091500 +0000" stop="20260818092500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Рынки. Сейчас</title></programme>
+<programme start="20260818092500 +0000" stop="20260818100000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Частная собственность</title><image>https://tv.mail.ru/tvpic/1/68/0859213.jpg</image></programme>
+<programme start="20260818100000 +0000" stop="20260818102000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260818102000 +0000" stop="20260818103500 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Рынки (Разбор)</title></programme>
+<programme start="20260818103500 +0000" stop="20260818110000 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Спорт</title></programme>
+<programme start="20260818110000 +0000" stop="20260818111000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260818111000 +0000" stop="20260818120000 +0000" channel="RBKTV.ru@SD"><title lang="ru">День. Главные темы</title></programme>
+<programme start="20260818120000 +0000" stop="20260818121000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260818121000 +0000" stop="20260818130000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Таманцев. Итоги</title></programme>
+<programme start="20260818130000 +0000" stop="20260818131000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260818131000 +0000" stop="20260818132000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Рынки. Сейчас</title></programme>
+<programme start="20260818132000 +0000" stop="20260818140000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Инсайт</title><image>https://tv.mail.ru/tvpic/3/30/0319774.jpg</image></programme>
+<programme start="20260818140000 +0000" stop="20260818141000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260818141000 +0000" stop="20260818150000 +0000" channel="RBKTV.ru@SD"><title lang="ru">День. Главные темы</title></programme>
+<programme start="20260818150000 +0000" stop="20260818151000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260818151000 +0000" stop="20260818152000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Рынки. Сейчас</title></programme>
+<programme start="20260818152000 +0000" stop="20260818160000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260818160000 +0000" stop="20260818180000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
+<programme start="20260818180000 +0000" stop="20260818180500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260818180500 +0000" stop="20260818190000 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Рынки (Итоги)</title></programme>
+<programme start="20260818190000 +0000" stop="20260818191000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260818191000 +0000" stop="20260818193500 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Спорт</title></programme>
+<programme start="20260818193500 +0000" stop="20260818194000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260818194000 +0000" stop="20260818203000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Таманцев. Итоги</title></programme>
+<programme start="20260818203000 +0000" stop="20260818203500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260818203500 +0000" stop="20260818213500 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
+<programme start="20260818213500 +0000" stop="20260818214000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260818214000 +0000" stop="20260818223500 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
+<programme start="20260818223500 +0000" stop="20260818224000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260818224000 +0000" stop="20260818230000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Инсайт</title><image>https://tv.mail.ru/tvpic/3/30/0319774.jpg</image></programme>
+<programme start="20260818230000 +0000" stop="20260818230500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260818230500 +0000" stop="20260819000000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
+<programme start="20260819000000 +0000" stop="20260819000500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260819000500 +0000" stop="20260819010000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
+<programme start="20260819010000 +0000" stop="20260819010500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260819010500 +0000" stop="20260819020000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
+<programme start="20260819020000 +0000" stop="20260819020500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260819020500 +0000" stop="20260819030000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
+<programme start="20260819030000 +0000" stop="20260819030500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260819030500 +0000" stop="20260819035000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Таманцев. Итоги</title></programme>
+<programme start="20260819035000 +0000" stop="20260819040000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
+<programme start="20260819040000 +0000" stop="20260819051000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260819051000 +0000" stop="20260819052000 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Спорт</title></programme>
+<programme start="20260819052000 +0000" stop="20260819053000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260819053000 +0000" stop="20260819055000 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Рынки (Утро)</title></programme>
+<programme start="20260819055000 +0000" stop="20260819060000 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Спорт</title></programme>
+<programme start="20260819060000 +0000" stop="20260819061500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260819061500 +0000" stop="20260819064000 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Спорт</title></programme>
+<programme start="20260819064000 +0000" stop="20260819070000 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Рынки (Утро)</title></programme>
+<programme start="20260819070000 +0000" stop="20260819071000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260819071000 +0000" stop="20260819080000 +0000" channel="RBKTV.ru@SD"><title lang="ru">День. Главные темы</title></programme>
+<programme start="20260819080000 +0000" stop="20260819081000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260819081000 +0000" stop="20260819090000 +0000" channel="RBKTV.ru@SD"><title lang="ru">День. Главные темы</title></programme>
+<programme start="20260819090000 +0000" stop="20260819091500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260819091500 +0000" stop="20260819092500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Рынки. Сейчас</title></programme>
+<programme start="20260819092500 +0000" stop="20260819094000 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Рынки (Разбор)</title></programme>
+<programme start="20260819094000 +0000" stop="20260819100000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Суть дела</title></programme>
+<programme start="20260819100000 +0000" stop="20260819102000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260819102000 +0000" stop="20260819104500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Облигации. Главное</title></programme>
+<programme start="20260819104500 +0000" stop="20260819110000 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Спорт</title></programme>
+<programme start="20260819110000 +0000" stop="20260819111000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260819111000 +0000" stop="20260819120000 +0000" channel="RBKTV.ru@SD"><title lang="ru">День. Главные темы</title></programme>
+<programme start="20260819120000 +0000" stop="20260819121000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260819121000 +0000" stop="20260819130000 +0000" channel="RBKTV.ru@SD"><title lang="ru">День. Главные темы</title></programme>
+<programme start="20260819130000 +0000" stop="20260819131000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260819131000 +0000" stop="20260819132000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Рынки. Сейчас</title></programme>
+<programme start="20260819132000 +0000" stop="20260819140000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Частная собственность</title><image>https://tv.mail.ru/tvpic/1/68/0859213.jpg</image></programme>
+<programme start="20260819140000 +0000" stop="20260819141000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260819141000 +0000" stop="20260819150000 +0000" channel="RBKTV.ru@SD"><title lang="ru">День. Главные темы</title></programme>
+<programme start="20260819150000 +0000" stop="20260819151000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260819151000 +0000" stop="20260819152000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Рынки. Сейчас</title></programme>
+<programme start="20260819152000 +0000" stop="20260819160000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260819160000 +0000" stop="20260819180000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
+<programme start="20260819180000 +0000" stop="20260819180500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260819180500 +0000" stop="20260819190000 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Рынки (Итоги)</title></programme>
+<programme start="20260819190000 +0000" stop="20260819191000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260819191000 +0000" stop="20260819193500 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Спорт</title></programme>
+<programme start="20260819193500 +0000" stop="20260819194000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260819194000 +0000" stop="20260819201000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Частная собственность</title><image>https://tv.mail.ru/tvpic/1/68/0859213.jpg</image></programme>
+<programme start="20260819201000 +0000" stop="20260819203500 +0000" channel="RBKTV.ru@SD"><title lang="ru">РБК. Рынки (Разбор)</title></programme>
+<programme start="20260819203500 +0000" stop="20260819204000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260819204000 +0000" stop="20260819213000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
+<programme start="20260819213000 +0000" stop="20260819213500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260819213500 +0000" stop="20260819223000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
+<programme start="20260819223000 +0000" stop="20260819223500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260819223500 +0000" stop="20260819230000 +0000" channel="RBKTV.ru@SD"><title lang="ru">Частная собственность</title><image>https://tv.mail.ru/tvpic/1/68/0859213.jpg</image></programme>
+<programme start="20260819230000 +0000" stop="20260819230500 +0000" channel="RBKTV.ru@SD"><title lang="ru">Главные новости</title></programme>
+<programme start="20260819230500 +0000" stop="20260820000000 +0000" channel="RBKTV.ru@SD"><title lang="ru">ЧЭЗ</title></programme>
 <programme start="20260816230000 +0000" stop="20260817020000 +0000" channel="Russia1.ru@HD"><title lang="ru">Карусель</title><image>https://tv.mail.ru/tvpic/1/98/4414665.jpg</image></programme>
-<programme start="20260816000000 +0000" stop="20260816033000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Окончание эфира</title><image>https://tv.mail.ru/tvpic/2/22/359712.jpg</image></programme>
-<programme start="20260816033000 +0000" stop="20260816040500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Я хочу добра. Микаэл Таривердиев</title><image>https://tv.mail.ru/tvpic/3/63/5588500.jpg</image></programme>
-<programme start="20260816040500 +0000" stop="20260816054500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Волшебник Изумрудного города</title><image>https://tv.mail.ru/tvpic/2/29/9155928.jpg</image></programme>
-<programme start="20260816054500 +0000" stop="20260816065500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Ливень</title><image>https://tv.mail.ru/tvpic/1/00/6134545.jpg</image></programme>
-<programme start="20260816065500 +0000" stop="20260816072000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Классная тема! (История + математика. Вторая мировая за кадром)</title><image>https://tv.mail.ru/tvpic/1/24/3384688.jpg</image></programme>
-<programme start="20260816072000 +0000" stop="20260816080500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Простая история Нонны Мордюковой</title><image>https://tv.mail.ru/tvpic/6/21/230445.jpg</image></programme>
-<programme start="20260816080500 +0000" stop="20260816093500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Простая история</title><image>https://tv.mail.ru/tvpic/4/21/093.jpg</image></programme>
-<programme start="20260816093500 +0000" stop="20260816100500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Исторические курорты России (Пятигорск)</title><image>https://tv.mail.ru/tvpic/2/03/0234065.jpg</image></programme>
-<programme start="20260816100500 +0000" stop="20260816110000 +0000" channel="RussiaK.ru@HD"><title lang="ru">О! Поймал! Атом солнца! Олег Табаков!</title><image>https://tv.mail.ru/tvpic/3/95/4377471.jpg</image></programme>
-<programme start="20260816110000 +0000" stop="20260816132000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Сердце не камень</title><image>https://tv.mail.ru/tvpic/1/97/9977964.jpg</image></programme>
-<programme start="20260816132000 +0000" stop="20260816140000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Сказки про Билибина</title><image>https://tv.mail.ru/tvpic/2/17/257140.jpg</image></programme>
-<programme start="20260816140000 +0000" stop="20260816163000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Дорога на Ялту 2023</title><image>https://tv.mail.ru/tvpic/5/43/424302.jpg</image></programme>
-<programme start="20260816163000 +0000" stop="20260816164500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Новости культуры</title><image>https://tv.mail.ru/tvpic/2/00/3978068.jpg</image></programme>
-<programme start="20260816164500 +0000" stop="20260816181500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Подранки</title><image>https://tv.mail.ru/tvpic/1/55/8416484.jpg</image></programme>
-<programme start="20260816181500 +0000" stop="20260816190500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Все проходит...</title><image>https://tv.mail.ru/tvpic/3/59/7064817.jpg</image></programme>
-<programme start="20260816190500 +0000" stop="20260816202000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Русские сказки в опере</title><image>https://tv.mail.ru/tvpic/2/29/7232005.jpg</image></programme>
-<programme start="20260816202000 +0000" stop="20260816215000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Сын</title><image>https://tv.mail.ru/tvpic/4/15/4405507.jpg</image></programme>
-<programme start="20260816215000 +0000" stop="20260816223000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Страна птиц (Неясыть-птица)</title><image>https://tv.mail.ru/tvpic/3/54/6741220.jpg</image></programme>
-<programme start="20260816223000 +0000" stop="20260816231500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Искатели (По следам секретной экспедиции Меншикова)</title><image>https://tv.mail.ru/tvpic/6/08/106375.jpg</image></programme>
-<programme start="20260816231500 +0000" stop="20260816233730 +0000" channel="RussiaK.ru@HD"><title lang="ru">Фильм, фильм, фильм</title><image>https://tv.mail.ru/tvpic/6/03/455778.jpg</image></programme>
-<programme start="20260816233730 +0000" stop="20260817000000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Шут Балакирев</title><image>https://tv.mail.ru/tvpic/4/62/000228.jpg</image></programme>
-<programme start="20260815234500 +0000" stop="20260816003000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Актерские драмы (Папа может)</title><image>https://tv.mail.ru/tvpic/3/85/0243533.jpg</image></programme>
-<programme start="20260816003000 +0000" stop="20260816011500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Актерские драмы (Судьба-блондинка)</title><image>https://tv.mail.ru/tvpic/3/85/0243533.jpg</image></programme>
-<programme start="20260816011500 +0000" stop="20260816020000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Актерские драмы (Заклятые друзья)</title><image>https://tv.mail.ru/tvpic/3/85/0243533.jpg</image></programme>
-<programme start="20260816020000 +0000" stop="20260816024500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Назад в СССР (В здоровом теле - здоровых дух)</title><image>https://tv.mail.ru/tvpic/1/00/8136210.jpg</image></programme>
-<programme start="20260816024500 +0000" stop="20260816032000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Мой герой (Андрей Соколов)</title><image>https://tv.mail.ru/tvpic/3/94/100837.jpg</image></programme>
-<programme start="20260816032000 +0000" stop="20260816041000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Детдомовка (1-я серия)</title><image>https://tv.mail.ru/tvpic/3/92/178704.jpg</image></programme>
-<programme start="20260816041000 +0000" stop="20260816050500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Детдомовка (2-я серия)</title><image>https://tv.mail.ru/tvpic/3/92/178704.jpg</image></programme>
-<programme start="20260816050500 +0000" stop="20260816055500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Детдомовка (3-я серия)</title><image>https://tv.mail.ru/tvpic/3/92/178704.jpg</image></programme>
-<programme start="20260816055500 +0000" stop="20260816065500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Детдомовка (4-я серия)</title><image>https://tv.mail.ru/tvpic/3/92/178704.jpg</image></programme>
-<programme start="20260816065500 +0000" stop="20260816083000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Колье Шарлотты (1-я серия)</title><image>https://tv.mail.ru/tvpic/2/04/7971924.jpg</image></programme>
-<programme start="20260816083000 +0000" stop="20260816085000 +0000" channel="TVCentr.ru@SD"><title lang="ru">События</title><image>https://tv.mail.ru/tvpic/9/08/779837.jpg</image></programme>
-<programme start="20260816085000 +0000" stop="20260816101000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Колье Шарлотты (2-я серия)</title><image>https://tv.mail.ru/tvpic/2/04/7971924.jpg</image></programme>
-<programme start="20260816101000 +0000" stop="20260816113000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Колье Шарлотты (3-я серия)</title><image>https://tv.mail.ru/tvpic/2/04/7971924.jpg</image></programme>
-<programme start="20260816113000 +0000" stop="20260816114500 +0000" channel="TVCentr.ru@SD"><title lang="ru">События</title><image>https://tv.mail.ru/tvpic/9/08/779837.jpg</image></programme>
-<programme start="20260816114500 +0000" stop="20260816123500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Дорогие товарищи (Циркач)</title><image>https://tv.mail.ru/tvpic/2/74/7481201.jpg</image></programme>
-<programme start="20260816123500 +0000" stop="20260816132500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Охота на маньяка (Дело безумного шамана)</title><image>https://tv.mail.ru/tvpic/2/27/9065056.jpg</image></programme>
-<programme start="20260816132500 +0000" stop="20260816141500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Настоящий детектив (Состав преступления)</title><image>https://tv.mail.ru/tvpic/2/49/1322983.jpg</image></programme>
-<programme start="20260816141500 +0000" stop="20260816152000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Любовь во всем виновата (1-я серия)</title><image>https://tv.mail.ru/tvpic/4/76/404015.jpg</image></programme>
-<programme start="20260816152000 +0000" stop="20260816162000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Любовь во всем виновата (2-я серия)</title><image>https://tv.mail.ru/tvpic/4/76/404015.jpg</image></programme>
-<programme start="20260816162000 +0000" stop="20260816172500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Любовь во всем виновата (3-я серия)</title><image>https://tv.mail.ru/tvpic/4/76/404015.jpg</image></programme>
-<programme start="20260816172500 +0000" stop="20260816183000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Любовь во всем виновата (4-я серия)</title><image>https://tv.mail.ru/tvpic/4/76/404015.jpg</image></programme>
-<programme start="20260816183000 +0000" stop="20260816192000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Танго для одной (1-я серия)</title><image>https://tv.mail.ru/tvpic/1/25/6684980.jpg</image></programme>
-<programme start="20260816192000 +0000" stop="20260816201000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Танго для одной (2-я серия)</title><image>https://tv.mail.ru/tvpic/1/25/6684980.jpg</image></programme>
-<programme start="20260816201000 +0000" stop="20260816210500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Танго для одной (3-я серия)</title><image>https://tv.mail.ru/tvpic/1/25/6684980.jpg</image></programme>
-<programme start="20260816210500 +0000" stop="20260816212000 +0000" channel="TVCentr.ru@SD"><title lang="ru">События</title><image>https://tv.mail.ru/tvpic/9/08/779837.jpg</image></programme>
-<programme start="20260816212000 +0000" stop="20260816221000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Танго для одной (4-я серия)</title><image>https://tv.mail.ru/tvpic/1/25/6684980.jpg</image></programme>
-<programme start="20260816221000 +0000" stop="20260816222000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Петровка, 38 (Специальный субботний выпуск)</title><image>https://tv.mail.ru/tvpic/1/13/809693.jpg</image></programme>
-<programme start="20260816222000 +0000" stop="20260816230000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Последний ход королевы (1-я серия)</title><image>https://tv.mail.ru/tvpic/1/02/2033925.jpg</image></programme>
-<programme start="20260816230000 +0000" stop="20260816234000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Последний ход королевы (2-я серия)</title><image>https://tv.mail.ru/tvpic/1/02/2033925.jpg</image></programme>
+<programme start="20260817020000 +0000" stop="20260817060000 +0000" channel="Russia1.ru@HD"><title lang="ru">Утро России</title><image>https://tv.mail.ru/tvpic/4/07/7955852.jpg</image></programme>
+<programme start="20260817060000 +0000" stop="20260817063000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести</title><image>https://tv.mail.ru/tvpic/3/46/1077673.jpg</image></programme>
+<programme start="20260817063000 +0000" stop="20260817065500 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести. Местное время</title><image>https://tv.mail.ru/tvpic/2/22/2992602.jpg</image></programme>
+<programme start="20260817065500 +0000" stop="20260817080000 +0000" channel="Russia1.ru@HD"><title lang="ru">О самом главном</title><image>https://tv.mail.ru/tvpic/2/70/2569997.jpg</image></programme>
+<programme start="20260817080000 +0000" stop="20260817083000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести</title><image>https://tv.mail.ru/tvpic/3/46/1077673.jpg</image></programme>
+<programme start="20260817083000 +0000" stop="20260817090000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести. Местное время</title><image>https://tv.mail.ru/tvpic/2/22/2992602.jpg</image></programme>
+<programme start="20260817090000 +0000" stop="20260817110000 +0000" channel="Russia1.ru@HD"><title lang="ru">60 минут</title><image>https://tv.mail.ru/tvpic/3/79/4256199.jpg</image></programme>
+<programme start="20260817110000 +0000" stop="20260817113000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести</title><image>https://tv.mail.ru/tvpic/3/46/1077673.jpg</image></programme>
+<programme start="20260817113000 +0000" stop="20260817133000 +0000" channel="Russia1.ru@HD"><title lang="ru">Тайны следствия</title><image>https://tv.mail.ru/tvpic/1/29/6544072.jpg</image></programme>
+<programme start="20260817133000 +0000" stop="20260817140000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести</title><image>https://tv.mail.ru/tvpic/3/46/1077673.jpg</image></programme>
+<programme start="20260817140000 +0000" stop="20260817150000 +0000" channel="Russia1.ru@HD"><title lang="ru">Малахов</title><image>https://tv.mail.ru/tvpic/1/88/489942.jpg</image></programme>
+<programme start="20260817150000 +0000" stop="20260817170000 +0000" channel="Russia1.ru@HD"><title lang="ru">60 минут</title><image>https://tv.mail.ru/tvpic/3/79/4256199.jpg</image></programme>
+<programme start="20260817170000 +0000" stop="20260817181000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести в 20:00</title><image>https://tv.mail.ru/tvpic/9/59/500050.jpg</image></programme>
+<programme start="20260817181000 +0000" stop="20260817183000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести. Местное время</title><image>https://tv.mail.ru/tvpic/2/22/2992602.jpg</image></programme>
+<programme start="20260817183000 +0000" stop="20260817203500 +0000" channel="Russia1.ru@HD"><title lang="ru">Овчарка</title><image>https://tv.mail.ru/tvpic/3/35/6156926.jpg</image></programme>
+<programme start="20260817203500 +0000" stop="20260817224500 +0000" channel="Russia1.ru@HD"><title lang="ru">Анна Медиум</title><image>https://tv.mail.ru/tvpic/2/83/657139.jpg</image></programme>
+<programme start="20260817224500 +0000" stop="20260818003500 +0000" channel="Russia1.ru@HD"><title lang="ru">Черная кровь</title><image>https://tv.mail.ru/tvpic/6/61/347232.jpg</image></programme>
+<programme start="20260818003500 +0000" stop="20260818020000 +0000" channel="Russia1.ru@HD"><title lang="ru">Малахов</title><image>https://tv.mail.ru/tvpic/1/88/489942.jpg</image></programme>
+<programme start="20260818020000 +0000" stop="20260818060000 +0000" channel="Russia1.ru@HD"><title lang="ru">Утро России</title><image>https://tv.mail.ru/tvpic/4/07/7955852.jpg</image></programme>
+<programme start="20260818060000 +0000" stop="20260818063000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести</title><image>https://tv.mail.ru/tvpic/3/46/1077673.jpg</image></programme>
+<programme start="20260818063000 +0000" stop="20260818065500 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести. Местное время</title><image>https://tv.mail.ru/tvpic/2/22/2992602.jpg</image></programme>
+<programme start="20260818065500 +0000" stop="20260818080000 +0000" channel="Russia1.ru@HD"><title lang="ru">О самом главном</title><image>https://tv.mail.ru/tvpic/2/70/2569997.jpg</image></programme>
+<programme start="20260818080000 +0000" stop="20260818083000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести</title><image>https://tv.mail.ru/tvpic/3/46/1077673.jpg</image></programme>
+<programme start="20260818083000 +0000" stop="20260818090000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести. Местное время</title><image>https://tv.mail.ru/tvpic/2/22/2992602.jpg</image></programme>
+<programme start="20260818090000 +0000" stop="20260818110000 +0000" channel="Russia1.ru@HD"><title lang="ru">60 минут</title><image>https://tv.mail.ru/tvpic/3/79/4256199.jpg</image></programme>
+<programme start="20260818110000 +0000" stop="20260818113000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести</title><image>https://tv.mail.ru/tvpic/3/46/1077673.jpg</image></programme>
+<programme start="20260818113000 +0000" stop="20260818133000 +0000" channel="Russia1.ru@HD"><title lang="ru">Тайны следствия</title><image>https://tv.mail.ru/tvpic/1/29/6544072.jpg</image></programme>
+<programme start="20260818133000 +0000" stop="20260818140000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести</title><image>https://tv.mail.ru/tvpic/3/46/1077673.jpg</image></programme>
+<programme start="20260818140000 +0000" stop="20260818150000 +0000" channel="Russia1.ru@HD"><title lang="ru">Малахов</title><image>https://tv.mail.ru/tvpic/1/88/489942.jpg</image></programme>
+<programme start="20260818150000 +0000" stop="20260818170000 +0000" channel="Russia1.ru@HD"><title lang="ru">60 минут</title><image>https://tv.mail.ru/tvpic/3/79/4256199.jpg</image></programme>
+<programme start="20260818170000 +0000" stop="20260818181000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести в 20:00</title><image>https://tv.mail.ru/tvpic/9/59/500050.jpg</image></programme>
+<programme start="20260818181000 +0000" stop="20260818183000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести. Местное время</title><image>https://tv.mail.ru/tvpic/2/22/2992602.jpg</image></programme>
+<programme start="20260818183000 +0000" stop="20260818203500 +0000" channel="Russia1.ru@HD"><title lang="ru">Овчарка</title><image>https://tv.mail.ru/tvpic/3/35/6156926.jpg</image></programme>
+<programme start="20260818203500 +0000" stop="20260818224500 +0000" channel="Russia1.ru@HD"><title lang="ru">Анна Медиум</title><image>https://tv.mail.ru/tvpic/2/83/657139.jpg</image></programme>
+<programme start="20260818224500 +0000" stop="20260819003500 +0000" channel="Russia1.ru@HD"><title lang="ru">Черная кровь</title><image>https://tv.mail.ru/tvpic/6/61/347232.jpg</image></programme>
+<programme start="20260819003500 +0000" stop="20260819020000 +0000" channel="Russia1.ru@HD"><title lang="ru">Малахов</title><image>https://tv.mail.ru/tvpic/1/88/489942.jpg</image></programme>
+<programme start="20260819020000 +0000" stop="20260819060000 +0000" channel="Russia1.ru@HD"><title lang="ru">Утро России</title><image>https://tv.mail.ru/tvpic/4/07/7955852.jpg</image></programme>
+<programme start="20260819060000 +0000" stop="20260819063000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести</title><image>https://tv.mail.ru/tvpic/3/46/1077673.jpg</image></programme>
+<programme start="20260819063000 +0000" stop="20260819065500 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести. Местное время</title><image>https://tv.mail.ru/tvpic/2/22/2992602.jpg</image></programme>
+<programme start="20260819065500 +0000" stop="20260819080000 +0000" channel="Russia1.ru@HD"><title lang="ru">О самом главном</title><image>https://tv.mail.ru/tvpic/2/70/2569997.jpg</image></programme>
+<programme start="20260819080000 +0000" stop="20260819083000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести</title><image>https://tv.mail.ru/tvpic/3/46/1077673.jpg</image></programme>
+<programme start="20260819083000 +0000" stop="20260819090000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести. Местное время</title><image>https://tv.mail.ru/tvpic/2/22/2992602.jpg</image></programme>
+<programme start="20260819090000 +0000" stop="20260819110000 +0000" channel="Russia1.ru@HD"><title lang="ru">60 минут</title><image>https://tv.mail.ru/tvpic/3/79/4256199.jpg</image></programme>
+<programme start="20260819110000 +0000" stop="20260819113000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести</title><image>https://tv.mail.ru/tvpic/3/46/1077673.jpg</image></programme>
+<programme start="20260819113000 +0000" stop="20260819133000 +0000" channel="Russia1.ru@HD"><title lang="ru">Тайны следствия</title><image>https://tv.mail.ru/tvpic/1/29/6544072.jpg</image></programme>
+<programme start="20260819133000 +0000" stop="20260819140000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести</title><image>https://tv.mail.ru/tvpic/3/46/1077673.jpg</image></programme>
+<programme start="20260819140000 +0000" stop="20260819150000 +0000" channel="Russia1.ru@HD"><title lang="ru">Малахов</title><image>https://tv.mail.ru/tvpic/1/88/489942.jpg</image></programme>
+<programme start="20260819150000 +0000" stop="20260819170000 +0000" channel="Russia1.ru@HD"><title lang="ru">60 минут</title><image>https://tv.mail.ru/tvpic/3/79/4256199.jpg</image></programme>
+<programme start="20260819170000 +0000" stop="20260819181000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести в 20:00</title><image>https://tv.mail.ru/tvpic/9/59/500050.jpg</image></programme>
+<programme start="20260819181000 +0000" stop="20260819183000 +0000" channel="Russia1.ru@HD"><title lang="ru">Вести. Местное время</title><image>https://tv.mail.ru/tvpic/2/22/2992602.jpg</image></programme>
+<programme start="20260819183000 +0000" stop="20260819203500 +0000" channel="Russia1.ru@HD"><title lang="ru">Овчарка</title><image>https://tv.mail.ru/tvpic/3/35/6156926.jpg</image></programme>
+<programme start="20260819203500 +0000" stop="20260819224500 +0000" channel="Russia1.ru@HD"><title lang="ru">Анна Медиум</title><image>https://tv.mail.ru/tvpic/2/83/657139.jpg</image></programme>
+<programme start="20260819224500 +0000" stop="20260820003500 +0000" channel="Russia1.ru@HD"><title lang="ru">Черная кровь</title><image>https://tv.mail.ru/tvpic/6/61/347232.jpg</image></programme>
+<programme start="20260817000000 +0000" stop="20260817033000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Окончание эфира</title><image>https://tv.mail.ru/tvpic/2/22/359712.jpg</image></programme>
+<programme start="20260817033000 +0000" stop="20260817040000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Пешком... (Киржач храмовый)</title><image>https://tv.mail.ru/tvpic/2/92/2011284.jpg</image></programme>
+<programme start="20260817040000 +0000" stop="20260817045500 +0000" channel="RussiaK.ru@HD"><title lang="ru">О! Поймал! Атом солнца! Олег Табаков!</title><image>https://tv.mail.ru/tvpic/3/95/4377471.jpg</image></programme>
+<programme start="20260817045500 +0000" stop="20260817062000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Студент</title><image>https://tv.mail.ru/tvpic/1/43/0895722.jpg</image></programme>
+<programme start="20260817062000 +0000" stop="20260817070000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Диалоги о животных (Казанский зооботсад)</title><image>https://tv.mail.ru/tvpic/2/98/7094035.jpg</image></programme>
+<programme start="20260817070000 +0000" stop="20260817071500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Новости культуры</title><image>https://tv.mail.ru/tvpic/2/00/3978068.jpg</image></programme>
+<programme start="20260817071500 +0000" stop="20260817075500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Неизвестные маршруты России (Сахалинская область. Из Южно- Сахалинска к мысу Жонкиер)</title><image>https://tv.mail.ru/tvpic/3/39/506022.jpg</image></programme>
+<programme start="20260817075500 +0000" stop="20260817090000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Цирк приехал (1-я серия)</title><image>https://tv.mail.ru/tvpic/3/03/0352498.jpg</image></programme>
+<programme start="20260817090000 +0000" stop="20260817093000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Ирина Бугримова. Царица над царями</title><image>https://tv.mail.ru/tvpic/2/45/2159748.jpg</image></programme>
+<programme start="20260817093000 +0000" stop="20260817094500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Новости культуры</title><image>https://tv.mail.ru/tvpic/2/00/3978068.jpg</image></programme>
+<programme start="20260817094500 +0000" stop="20260817102000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Михаил Булгаков. Черный снег</title><image>https://tv.mail.ru/tvpic/4/06/4899464.jpg</image></programme>
+<programme start="20260817102000 +0000" stop="20260817110000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Предки наших предков (История тюрков. Великий Тюркский каганат)</title><image>https://tv.mail.ru/tvpic/4/24/567404.jpg</image></programme>
+<programme start="20260817110000 +0000" stop="20260817114000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Острова (85 лет со дня рождения Николая Губенко)</title><image>https://tv.mail.ru/tvpic/2/72/5532285.jpg</image></programme>
+<programme start="20260817114000 +0000" stop="20260817131500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Подранки</title><image>https://tv.mail.ru/tvpic/1/55/8416484.jpg</image></programme>
+<programme start="20260817131500 +0000" stop="20260817140000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Галерея</title><image>https://tv.mail.ru/tvpic/2/04/0966911.jpg</image></programme>
+<programme start="20260817140000 +0000" stop="20260817141500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Новости культуры</title><image>https://tv.mail.ru/tvpic/2/00/3978068.jpg</image></programme>
+<programme start="20260817141500 +0000" stop="20260817145000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Бриллианты в пыли времен. Тимур Зульфикаров. Река воспоминаний (Об Анне Ахматовой)</title></programme>
+<programme start="20260817145000 +0000" stop="20260817152000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Энциклопедия загадок (Круги фей, или Дыхание дракона)</title><image>https://tv.mail.ru/tvpic/1/44/1085995.jpg</image></programme>
+<programme start="20260817152000 +0000" stop="20260817163000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Святой Паисий. Из Фарасы на небеса (5-я серия)</title><image>https://tv.mail.ru/tvpic/1/62/1681019.jpg</image></programme>
+<programme start="20260817163000 +0000" stop="20260817164500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Новости культуры</title><image>https://tv.mail.ru/tvpic/2/00/3978068.jpg</image></programme>
+<programme start="20260817164500 +0000" stop="20260817171500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Монолог в 4 частях (Николай Губенко: Часть 1-я)</title><image>https://tv.mail.ru/tvpic/2/12/2145844.jpg</image></programme>
+<programme start="20260817171500 +0000" stop="20260817173000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Спокойной ночи, малыши!</title><image>https://tv.mail.ru/tvpic/2/29/8919471.jpg</image></programme>
+<programme start="20260817173000 +0000" stop="20260817190000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Следствие ведут ЗнаТоКи. Дело 20 (1-я серия)</title><image>https://tv.mail.ru/tvpic/3/59/1883871.jpg</image></programme>
+<programme start="20260817190000 +0000" stop="20260817220000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Воскресение</title><image>https://tv.mail.ru/tvpic/1/58/0730473.jpg</image></programme>
+<programme start="20260817220000 +0000" stop="20260817224500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Галерея</title><image>https://tv.mail.ru/tvpic/2/04/0966911.jpg</image></programme>
+<programme start="20260817224500 +0000" stop="20260818000000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Телетеатр. Классика (Александр Прошкин на ТВ)</title><image>https://tv.mail.ru/tvpic/1/02/4270156.jpg</image></programme>
+<programme start="20260818000000 +0000" stop="20260818033000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Окончание эфира</title><image>https://tv.mail.ru/tvpic/2/22/359712.jpg</image></programme>
+<programme start="20260818033000 +0000" stop="20260818040500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Пешком... (Кинешма волжская)</title><image>https://tv.mail.ru/tvpic/2/92/2011284.jpg</image></programme>
+<programme start="20260818040500 +0000" stop="20260818043500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Легенды мирового кино (Александра Хохлова)</title><image>https://tv.mail.ru/tvpic/2/49/1203829.jpg</image></programme>
+<programme start="20260818043500 +0000" stop="20260818050500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Энциклопедия загадок (Круги фей, или Дыхание дракона)</title><image>https://tv.mail.ru/tvpic/1/44/1085995.jpg</image></programme>
+<programme start="20260818050500 +0000" stop="20260818062000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Святой Паисий. Из Фарасы на небеса (5-я серия)</title><image>https://tv.mail.ru/tvpic/1/62/1681019.jpg</image></programme>
+<programme start="20260818062000 +0000" stop="20260818070000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Диалоги о животных (Казанский зооботсад)</title><image>https://tv.mail.ru/tvpic/2/98/7094035.jpg</image></programme>
+<programme start="20260818070000 +0000" stop="20260818071500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Новости культуры</title><image>https://tv.mail.ru/tvpic/2/00/3978068.jpg</image></programme>
+<programme start="20260818071500 +0000" stop="20260818075500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Неизвестные маршруты России (Ульяновская область. Из Ульяновска в Смородино)</title><image>https://tv.mail.ru/tvpic/3/39/506022.jpg</image></programme>
+<programme start="20260818075500 +0000" stop="20260818091000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Цирк приехал (2-я серия)</title><image>https://tv.mail.ru/tvpic/3/03/0352498.jpg</image></programme>
+<programme start="20260818091000 +0000" stop="20260818093000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Забытое ремесло</title><image>https://tv.mail.ru/tvpic/3/70/2446377.jpg</image></programme>
+<programme start="20260818093000 +0000" stop="20260818094500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Новости культуры</title><image>https://tv.mail.ru/tvpic/2/00/3978068.jpg</image></programme>
+<programme start="20260818094500 +0000" stop="20260818101500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Михаил Булгаков. Черный снег</title><image>https://tv.mail.ru/tvpic/4/06/4899464.jpg</image></programme>
+<programme start="20260818101500 +0000" stop="20260818115000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Следствие ведут ЗнаТоКи. Дело 20 (1-я серия)</title><image>https://tv.mail.ru/tvpic/3/59/1883871.jpg</image></programme>
+<programme start="20260818115000 +0000" stop="20260818124500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Телетеатр. Классика (Леонид Пчелкин на ТВ)</title><image>https://tv.mail.ru/tvpic/1/02/4270156.jpg</image></programme>
+<programme start="20260818124500 +0000" stop="20260818131500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Приют путешественника (1-я серия)</title><image>https://tv.mail.ru/tvpic/1/80/248105.jpg</image></programme>
+<programme start="20260818131500 +0000" stop="20260818140000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Галерея</title><image>https://tv.mail.ru/tvpic/2/04/0966911.jpg</image></programme>
+<programme start="20260818140000 +0000" stop="20260818141500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Новости культуры</title><image>https://tv.mail.ru/tvpic/2/00/3978068.jpg</image></programme>
+<programme start="20260818141500 +0000" stop="20260818145000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Бриллианты в пыли времен. Тимур Зульфикаров. Река воспоминаний (О Борисе Пастернаке)</title></programme>
+<programme start="20260818145000 +0000" stop="20260818152000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Энциклопедия загадок (Русский Стоунхендж. Загадки карельских сейдов)</title><image>https://tv.mail.ru/tvpic/1/44/1085995.jpg</image></programme>
+<programme start="20260818152000 +0000" stop="20260818163000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Святой Паисий. Из Фарасы на небеса (6-я серия)</title><image>https://tv.mail.ru/tvpic/1/62/1681019.jpg</image></programme>
+<programme start="20260818163000 +0000" stop="20260818164500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Новости культуры</title><image>https://tv.mail.ru/tvpic/2/00/3978068.jpg</image></programme>
+<programme start="20260818164500 +0000" stop="20260818171500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Монолог в 4 частях (Николай Губенко: Часть 2-я)</title><image>https://tv.mail.ru/tvpic/2/12/2145844.jpg</image></programme>
+<programme start="20260818171500 +0000" stop="20260818173000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Спокойной ночи, малыши!</title><image>https://tv.mail.ru/tvpic/2/29/8919471.jpg</image></programme>
+<programme start="20260818173000 +0000" stop="20260818190000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Следствие ведут ЗнаТоКи. Дело 20 (2-я серия)</title><image>https://tv.mail.ru/tvpic/3/59/1883871.jpg</image></programme>
+<programme start="20260818190000 +0000" stop="20260818210500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Дж. Верди. &amp;#34;Травиата&amp;#34;</title></programme>
+<programme start="20260818210500 +0000" stop="20260818220000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Легендарные замки (Нойшванштайн)</title><image>https://tv.mail.ru/tvpic/1/75/0439753.jpg</image></programme>
+<programme start="20260818220000 +0000" stop="20260818224500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Галерея</title><image>https://tv.mail.ru/tvpic/2/04/0966911.jpg</image></programme>
+<programme start="20260818224500 +0000" stop="20260819000000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Телетеатр. Классика (Леонид Пчелкин на ТВ)</title><image>https://tv.mail.ru/tvpic/1/02/4270156.jpg</image></programme>
+<programme start="20260819000000 +0000" stop="20260819033000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Окончание эфира</title><image>https://tv.mail.ru/tvpic/2/22/359712.jpg</image></programme>
+<programme start="20260819033000 +0000" stop="20260819040500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Лето Господне (Преображение)</title><image>https://tv.mail.ru/tvpic/2/63/497298.jpg</image></programme>
+<programme start="20260819040500 +0000" stop="20260819043500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Легенды мирового кино (Марина Ладынина)</title><image>https://tv.mail.ru/tvpic/2/49/1203829.jpg</image></programme>
+<programme start="20260819043500 +0000" stop="20260819050500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Энциклопедия загадок (Русский Стоунхендж. Загадки карельских сейдов)</title><image>https://tv.mail.ru/tvpic/1/44/1085995.jpg</image></programme>
+<programme start="20260819050500 +0000" stop="20260819061500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Святой Паисий. Из Фарасы на небеса (6-я серия)</title><image>https://tv.mail.ru/tvpic/1/62/1681019.jpg</image></programme>
+<programme start="20260819061500 +0000" stop="20260819070000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Диалоги о животных (Казанский зооботсад)</title><image>https://tv.mail.ru/tvpic/2/98/7094035.jpg</image></programme>
+<programme start="20260819070000 +0000" stop="20260819071500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Новости культуры</title><image>https://tv.mail.ru/tvpic/2/00/3978068.jpg</image></programme>
+<programme start="20260819071500 +0000" stop="20260819075500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Неизвестные маршруты России (Ханты-Мансийский автономный округ - Югра. Из Когалыма к оленям)</title><image>https://tv.mail.ru/tvpic/3/39/506022.jpg</image></programme>
+<programme start="20260819075500 +0000" stop="20260819090000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Цирк приехал (3-я серия)</title><image>https://tv.mail.ru/tvpic/3/03/0352498.jpg</image></programme>
+<programme start="20260819090000 +0000" stop="20260819093000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Львиная доля. Вальтер Запашный</title><image>https://tv.mail.ru/tvpic/3/80/8943400.jpg</image></programme>
+<programme start="20260819093000 +0000" stop="20260819094500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Новости культуры</title><image>https://tv.mail.ru/tvpic/2/00/3978068.jpg</image></programme>
+<programme start="20260819094500 +0000" stop="20260819101500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Михаил Булгаков. Черный снег</title><image>https://tv.mail.ru/tvpic/4/06/4899464.jpg</image></programme>
+<programme start="20260819101500 +0000" stop="20260819114500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Следствие ведут ЗнаТоКи. Дело 20 (2-я серия)</title><image>https://tv.mail.ru/tvpic/3/59/1883871.jpg</image></programme>
+<programme start="20260819114500 +0000" stop="20260819124500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Телетеатр. Классика (Анатолий Эфрос на ТВ)</title><image>https://tv.mail.ru/tvpic/1/02/4270156.jpg</image></programme>
+<programme start="20260819124500 +0000" stop="20260819131500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Приют путешественника (2-я серия)</title><image>https://tv.mail.ru/tvpic/1/80/248105.jpg</image></programme>
+<programme start="20260819131500 +0000" stop="20260819140000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Галерея</title><image>https://tv.mail.ru/tvpic/2/04/0966911.jpg</image></programme>
+<programme start="20260819140000 +0000" stop="20260819141500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Новости культуры</title><image>https://tv.mail.ru/tvpic/2/00/3978068.jpg</image></programme>
+<programme start="20260819141500 +0000" stop="20260819143500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Бриллианты в пыли времен. Тимур Зульфикаров. Река воспоминаний (О кино)</title></programme>
+<programme start="20260819143500 +0000" stop="20260819145000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Забытое ремесло (Жокей)</title><image>https://tv.mail.ru/tvpic/3/70/2446377.jpg</image></programme>
+<programme start="20260819145000 +0000" stop="20260819152000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Энциклопедия загадок (Самолетики инков и другие летающие артефакты)</title><image>https://tv.mail.ru/tvpic/1/44/1085995.jpg</image></programme>
+<programme start="20260819152000 +0000" stop="20260819163000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Святой Паисий. Из Фарасы на небеса (7-я серия)</title><image>https://tv.mail.ru/tvpic/1/62/1681019.jpg</image></programme>
+<programme start="20260819163000 +0000" stop="20260819164500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Новости культуры</title><image>https://tv.mail.ru/tvpic/2/00/3978068.jpg</image></programme>
+<programme start="20260819164500 +0000" stop="20260819171500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Монолог в 4 частях (Николай Губенко: Часть 3-я)</title><image>https://tv.mail.ru/tvpic/2/12/2145844.jpg</image></programme>
+<programme start="20260819171500 +0000" stop="20260819173000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Спокойной ночи, малыши!</title><image>https://tv.mail.ru/tvpic/2/29/8919471.jpg</image></programme>
+<programme start="20260819173000 +0000" stop="20260819190000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Следствие ведут ЗнаТоКи. Дело 18 (1-я серия)</title><image>https://tv.mail.ru/tvpic/2/74/1521205.jpg</image></programme>
+<programme start="20260819190000 +0000" stop="20260819200000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Реверс</title><image>https://tv.mail.ru/tvpic/4/01/3508756.jpg</image></programme>
+<programme start="20260819200000 +0000" stop="20260819205000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Давид Смелянский. Авантюрист поневоле</title><image>https://tv.mail.ru/tvpic/9/84/122182.jpg</image></programme>
+<programme start="20260819205000 +0000" stop="20260819214500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Легендарные замки (Верхний Кенигсбург)</title><image>https://tv.mail.ru/tvpic/1/75/0439753.jpg</image></programme>
+<programme start="20260819214500 +0000" stop="20260819222500 +0000" channel="RussiaK.ru@HD"><title lang="ru">Галерея</title><image>https://tv.mail.ru/tvpic/2/04/0966911.jpg</image></programme>
+<programme start="20260819222500 +0000" stop="20260819233000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Телетеатр. Классика (Анатолий Эфрос на ТВ)</title><image>https://tv.mail.ru/tvpic/1/02/4270156.jpg</image></programme>
+<programme start="20260819233000 +0000" stop="20260820000000 +0000" channel="RussiaK.ru@HD"><title lang="ru">Роман в камне. Архитектурные шедевры мира (Пермь. Особняк Турчевича)</title><image>https://tv.mail.ru/tvpic/2/44/5038784.jpg</image></programme>
 <programme start="20260816234000 +0000" stop="20260817002000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Последний ход королевы (3-я серия)</title><image>https://tv.mail.ru/tvpic/1/02/2033925.jpg</image></programme>
-<programme start="20260815233807 +0000" stop="20260816001730 +0000" channel="Zvezda.ru@HD"><title lang="ru">СОБР (12-я серия)</title><image>https://tv.mail.ru/tvpic/4/12/2688296.jpg</image></programme>
-<programme start="20260816001730 +0000" stop="20260816005652 +0000" channel="Zvezda.ru@HD"><title lang="ru">СОБР (13-я серия)</title><image>https://tv.mail.ru/tvpic/4/12/2688296.jpg</image></programme>
-<programme start="20260816005652 +0000" stop="20260816013615 +0000" channel="Zvezda.ru@HD"><title lang="ru">СОБР (14-я серия)</title><image>https://tv.mail.ru/tvpic/4/12/2688296.jpg</image></programme>
-<programme start="20260816013615 +0000" stop="20260816021537 +0000" channel="Zvezda.ru@HD"><title lang="ru">СОБР (15-я серия)</title><image>https://tv.mail.ru/tvpic/4/12/2688296.jpg</image></programme>
-<programme start="20260816021537 +0000" stop="20260816025500 +0000" channel="Zvezda.ru@HD"><title lang="ru">СОБР (16-я серия)</title><image>https://tv.mail.ru/tvpic/4/12/2688296.jpg</image></programme>
-<programme start="20260816025500 +0000" stop="20260816060000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Приключения Шерлока Холмса и доктора Ватсона. Смертельная схватка</title><image>https://tv.mail.ru/tvpic/2/88/5805778.jpg</image></programme>
-<programme start="20260816060000 +0000" stop="20260816062500 +0000" channel="Zvezda.ru@HD"><title lang="ru">&amp;#34;Новости недели&amp;#34; с Юрием Подкопаевым</title><image>https://tv.mail.ru/tvpic/1/83/1450111.jpg</image></programme>
-<programme start="20260816062500 +0000" stop="20260816065500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Служу России</title><image>https://tv.mail.ru/tvpic/3/74/798799.jpg</image></programme>
-<programme start="20260816065500 +0000" stop="20260816074000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Военная приемка</title><image>https://tv.mail.ru/tvpic/2/95/9056155.jpg</image></programme>
-<programme start="20260816074000 +0000" stop="20260816083000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Легенды армии с Александром Маршалом (Антон Кузнецов)</title><image>https://tv.mail.ru/tvpic/3/55/8074789.jpg</image></programme>
-<programme start="20260816083000 +0000" stop="20260816092000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Войнa миpов (Катуков против Гудериана)</title><image>https://tv.mail.ru/tvpic/1/11/5524650.jpg</image></programme>
-<programme start="20260816092000 +0000" stop="20260816102500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Код доступа (Ядерный ящик Пандоры: почему одним можно, а другим нельзя?)</title><image>https://tv.mail.ru/tvpic/6/59/114484.jpg</image></programme>
-<programme start="20260816102500 +0000" stop="20260816113345 +0000" channel="Zvezda.ru@HD"><title lang="ru">Благословите женщину (1-я серия)</title><image>https://tv.mail.ru/tvpic/3/24/2443710.jpg</image></programme>
-<programme start="20260816113345 +0000" stop="20260816124230 +0000" channel="Zvezda.ru@HD"><title lang="ru">Благословите женщину (2-я серия)</title><image>https://tv.mail.ru/tvpic/3/24/2443710.jpg</image></programme>
-<programme start="20260816124230 +0000" stop="20260816135115 +0000" channel="Zvezda.ru@HD"><title lang="ru">Благословите женщину (3-я серия)</title><image>https://tv.mail.ru/tvpic/3/24/2443710.jpg</image></programme>
-<programme start="20260816135115 +0000" stop="20260816150000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Благословите женщину (4-я серия)</title><image>https://tv.mail.ru/tvpic/3/24/2443710.jpg</image></programme>
-<programme start="20260816150000 +0000" stop="20260816164000 +0000" channel="Zvezda.ru@HD"><title lang="ru">&amp;#34;Главное&amp;#34; с Ольгой Беловой</title><image>https://tv.mail.ru/tvpic/6/46/658727.jpg</image></programme>
-<programme start="20260816164000 +0000" stop="20260816200500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Легенды советского сыска</title><image>https://tv.mail.ru/tvpic/1/18/0125756.jpg</image></programme>
-<programme start="20260816200500 +0000" stop="20260816221000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Ва-банк</title><image>https://tv.mail.ru/tvpic/3/95/1724692.jpg</image></programme>
-<programme start="20260816221000 +0000" stop="20260816233500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Ва-банк 2</title><image>https://tv.mail.ru/tvpic/1/27/4259441.jpg</image></programme>
+<programme start="20260817002000 +0000" stop="20260817012500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Последний ход королевы (4-я серия)</title><image>https://tv.mail.ru/tvpic/1/02/2033925.jpg</image></programme>
+<programme start="20260817012500 +0000" stop="20260817021000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Иван Бортник. Я не Промокашка!</title><image>https://tv.mail.ru/tvpic/3/28/8701277.jpg</image></programme>
+<programme start="20260817021000 +0000" stop="20260817030000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Александр Лазарев и Светлана Немоляева. Испытание верностью</title><image>https://tv.mail.ru/tvpic/5/23/209258.jpg</image></programme>
+<programme start="20260817030000 +0000" stop="20260817050500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Настроение</title><image>https://tv.mail.ru/tvpic/2/83/4920176.jpg</image></programme>
+<programme start="20260817050500 +0000" stop="20260817053500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Смех, дрожь и видео</title><image>https://tv.mail.ru/tvpic/9/04/206574.jpg</image></programme>
+<programme start="20260817053500 +0000" stop="20260817063500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Сельский детектив. Яблоня раздора (1-я серия)</title><image>https://tv.mail.ru/tvpic/3/02/6068541.jpg</image></programme>
+<programme start="20260817063500 +0000" stop="20260817074000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Сельский детектив. Яблоня раздора (2-я серия)</title><image>https://tv.mail.ru/tvpic/3/02/6068541.jpg</image></programme>
+<programme start="20260817074000 +0000" stop="20260817083000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Олег Табаков. У меня все получилось...</title><image>https://tv.mail.ru/tvpic/1/04/578556.jpg</image></programme>
+<programme start="20260817083000 +0000" stop="20260817085000 +0000" channel="TVCentr.ru@SD"><title lang="ru">События</title><image>https://tv.mail.ru/tvpic/9/08/779837.jpg</image></programme>
+<programme start="20260817085000 +0000" stop="20260817095000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Я иду тебя искать 7 (Притворство: Часть 1-я)</title><image>https://tv.mail.ru/tvpic/2/72/9414210.jpg</image></programme>
+<programme start="20260817095000 +0000" stop="20260817104500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Я иду тебя искать 7 (Притворство: Часть 2-я)</title><image>https://tv.mail.ru/tvpic/2/72/9414210.jpg</image></programme>
+<programme start="20260817104500 +0000" stop="20260817113000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Мой герой (Георгий Дронов)</title><image>https://tv.mail.ru/tvpic/3/94/100837.jpg</image></programme>
+<programme start="20260817113000 +0000" stop="20260817115000 +0000" channel="TVCentr.ru@SD"><title lang="ru">События</title><image>https://tv.mail.ru/tvpic/9/08/779837.jpg</image></programme>
+<programme start="20260817115000 +0000" stop="20260817120500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Город новостей</title><image>https://tv.mail.ru/tvpic/4/19/2789050.jpg</image></programme>
+<programme start="20260817120500 +0000" stop="20260817130000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Чистосердечное призвание (1-я серия)</title><image>https://tv.mail.ru/tvpic/3/08/0413647.jpg</image></programme>
+<programme start="20260817130000 +0000" stop="20260817135500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Чистосердечное призвание (2-я серия)</title><image>https://tv.mail.ru/tvpic/3/08/0413647.jpg</image></programme>
+<programme start="20260817135500 +0000" stop="20260817145000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Александра Яковлева. Ураган несчастий</title><image>https://tv.mail.ru/tvpic/9/51/827586.jpg</image></programme>
+<programme start="20260817145000 +0000" stop="20260817151000 +0000" channel="TVCentr.ru@SD"><title lang="ru">События</title><image>https://tv.mail.ru/tvpic/9/08/779837.jpg</image></programme>
+<programme start="20260817151000 +0000" stop="20260817160500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Приют счастья (1-я серия)</title><image>https://tv.mail.ru/tvpic/1/35/3341321.jpg</image></programme>
+<programme start="20260817160500 +0000" stop="20260817170000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Приют счастья (2-я серия)</title><image>https://tv.mail.ru/tvpic/1/35/3341321.jpg</image></programme>
+<programme start="20260817170000 +0000" stop="20260817175500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Приют счастья (3-я серия)</title><image>https://tv.mail.ru/tvpic/1/35/3341321.jpg</image></programme>
+<programme start="20260817175500 +0000" stop="20260817190000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Приют счастья (4-я серия)</title><image>https://tv.mail.ru/tvpic/1/35/3341321.jpg</image></programme>
+<programme start="20260817190000 +0000" stop="20260817193500 +0000" channel="TVCentr.ru@SD"><title lang="ru">События</title><image>https://tv.mail.ru/tvpic/9/08/779837.jpg</image></programme>
+<programme start="20260817193500 +0000" stop="20260817200500 +0000" channel="TVCentr.ru@SD"><title lang="ru">10 самых (Некрасивые, но любимые)</title><image>https://tv.mail.ru/tvpic/2/51/0724130.jpg</image></programme>
+<programme start="20260817200500 +0000" stop="20260817210000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Знак качества (Средства для похудения)</title><image>https://tv.mail.ru/tvpic/4/91/754861.jpg</image></programme>
+<programme start="20260817210000 +0000" stop="20260817213000 +0000" channel="TVCentr.ru@SD"><title lang="ru">События. 25-й час</title><image>https://tv.mail.ru/tvpic/4/07/1943883.jpg</image></programme>
+<programme start="20260817213000 +0000" stop="20260817214500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Петровка, 38</title><image>https://tv.mail.ru/tvpic/1/13/809693.jpg</image></programme>
+<programme start="20260817214500 +0000" stop="20260817223000 +0000" channel="TVCentr.ru@SD"><title lang="ru">СМЕРШ (Румынский гамбит)</title><image>https://tv.mail.ru/tvpic/1/65/2079907.jpg</image></programme>
+<programme start="20260817223000 +0000" stop="20260817231500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Война за совместно нажитое</title><image>https://tv.mail.ru/tvpic/1/58/834407.jpg</image></programme>
+<programme start="20260817231500 +0000" stop="20260818000000 +0000" channel="TVCentr.ru@SD"><title lang="ru">90-е (Двое на миллион)</title><image>https://tv.mail.ru/tvpic/3/98/583173.jpg</image></programme>
+<programme start="20260818000000 +0000" stop="20260818005000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Я иду тебя искать 7 (Притворство: Часть 1-я)</title><image>https://tv.mail.ru/tvpic/2/72/9414210.jpg</image></programme>
+<programme start="20260818005000 +0000" stop="20260818014000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Я иду тебя искать 7 (Притворство: Часть 2-я)</title><image>https://tv.mail.ru/tvpic/2/72/9414210.jpg</image></programme>
+<programme start="20260818014000 +0000" stop="20260818022500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Олег Табаков. У меня все получилось...</title><image>https://tv.mail.ru/tvpic/1/04/578556.jpg</image></programme>
+<programme start="20260818022500 +0000" stop="20260818030000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Мой герой (Георгий Дронов)</title><image>https://tv.mail.ru/tvpic/3/94/100837.jpg</image></programme>
+<programme start="20260818030000 +0000" stop="20260818051000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Настроение</title><image>https://tv.mail.ru/tvpic/2/83/4920176.jpg</image></programme>
+<programme start="20260818051000 +0000" stop="20260818054000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Доктор И... (Всемирный день здоровья!)</title><image>https://tv.mail.ru/tvpic/3/83/8726793.jpg</image></programme>
+<programme start="20260818054000 +0000" stop="20260818063500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Сельский детектив. Месть Чернобога (1-я серия)</title><image>https://tv.mail.ru/tvpic/3/20/0964526.jpg</image></programme>
+<programme start="20260818063500 +0000" stop="20260818073500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Сельский детектив. Месть Чернобога (2-я серия)</title><image>https://tv.mail.ru/tvpic/3/20/0964526.jpg</image></programme>
+<programme start="20260818073500 +0000" stop="20260818083000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Галина Польских. Я нашла своего мужчину</title><image>https://tv.mail.ru/tvpic/1/81/0105237.jpg</image></programme>
+<programme start="20260818083000 +0000" stop="20260818085000 +0000" channel="TVCentr.ru@SD"><title lang="ru">События</title><image>https://tv.mail.ru/tvpic/9/08/779837.jpg</image></programme>
+<programme start="20260818085000 +0000" stop="20260818095000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Я иду тебя искать 7 (Воздух: Часть 1-я)</title><image>https://tv.mail.ru/tvpic/2/72/9414210.jpg</image></programme>
+<programme start="20260818095000 +0000" stop="20260818104500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Я иду тебя искать 7 (Воздух: Часть 2-я)</title><image>https://tv.mail.ru/tvpic/2/72/9414210.jpg</image></programme>
+<programme start="20260818104500 +0000" stop="20260818113000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Мой герой (Любовь Толкалина)</title><image>https://tv.mail.ru/tvpic/3/94/100837.jpg</image></programme>
+<programme start="20260818113000 +0000" stop="20260818115000 +0000" channel="TVCentr.ru@SD"><title lang="ru">События</title><image>https://tv.mail.ru/tvpic/9/08/779837.jpg</image></programme>
+<programme start="20260818115000 +0000" stop="20260818120500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Город новостей</title><image>https://tv.mail.ru/tvpic/4/19/2789050.jpg</image></programme>
+<programme start="20260818120500 +0000" stop="20260818130000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Чистосердечное призвание (3-я серия)</title><image>https://tv.mail.ru/tvpic/3/08/0413647.jpg</image></programme>
+<programme start="20260818130000 +0000" stop="20260818140000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Чистосердечное призвание (4-я серия)</title><image>https://tv.mail.ru/tvpic/3/08/0413647.jpg</image></programme>
+<programme start="20260818140000 +0000" stop="20260818145000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Как стать старухой в 50</title><image>https://tv.mail.ru/tvpic/2/21/5370298.jpg</image></programme>
+<programme start="20260818145000 +0000" stop="20260818151000 +0000" channel="TVCentr.ru@SD"><title lang="ru">События</title><image>https://tv.mail.ru/tvpic/9/08/779837.jpg</image></programme>
+<programme start="20260818151000 +0000" stop="20260818160000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Приют счастья (1-я серия)</title><image>https://tv.mail.ru/tvpic/1/35/3341321.jpg</image></programme>
+<programme start="20260818160000 +0000" stop="20260818170000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Приют счастья (2-я серия)</title><image>https://tv.mail.ru/tvpic/1/35/3341321.jpg</image></programme>
+<programme start="20260818170000 +0000" stop="20260818175500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Приют счастья (3-я серия)</title><image>https://tv.mail.ru/tvpic/1/35/3341321.jpg</image></programme>
+<programme start="20260818175500 +0000" stop="20260818190000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Приют счастья (4-я серия)</title><image>https://tv.mail.ru/tvpic/1/35/3341321.jpg</image></programme>
+<programme start="20260818190000 +0000" stop="20260818193500 +0000" channel="TVCentr.ru@SD"><title lang="ru">События</title><image>https://tv.mail.ru/tvpic/9/08/779837.jpg</image></programme>
+<programme start="20260818193500 +0000" stop="20260818200500 +0000" channel="TVCentr.ru@SD"><title lang="ru">10 самых (Работа с &amp;#34;бывшим&amp;#34;)</title><image>https://tv.mail.ru/tvpic/2/51/0724130.jpg</image></programme>
+<programme start="20260818200500 +0000" stop="20260818210000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Укрощение невестки</title><image>https://tv.mail.ru/tvpic/3/35/0784087.jpg</image></programme>
+<programme start="20260818210000 +0000" stop="20260818213000 +0000" channel="TVCentr.ru@SD"><title lang="ru">События. 25-й час</title><image>https://tv.mail.ru/tvpic/4/07/1943883.jpg</image></programme>
+<programme start="20260818213000 +0000" stop="20260818214500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Петровка, 38</title><image>https://tv.mail.ru/tvpic/1/13/809693.jpg</image></programme>
+<programme start="20260818214500 +0000" stop="20260818223000 +0000" channel="TVCentr.ru@SD"><title lang="ru">90-е (Братва, не стреляйте друг в друга)</title><image>https://tv.mail.ru/tvpic/3/98/583173.jpg</image></programme>
+<programme start="20260818223000 +0000" stop="20260818231500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Хроники московского быта (Придется жениться!)</title><image>https://tv.mail.ru/tvpic/6/43/724437.jpg</image></programme>
+<programme start="20260818231500 +0000" stop="20260819000000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Русские тайны (Новые пророки)</title><image>https://tv.mail.ru/tvpic/2/90/1422172.jpg</image></programme>
+<programme start="20260819000000 +0000" stop="20260819005000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Я иду тебя искать 7 (Воздух: Часть 1-я)</title><image>https://tv.mail.ru/tvpic/2/72/9414210.jpg</image></programme>
+<programme start="20260819005000 +0000" stop="20260819014000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Я иду тебя искать 7 (Воздух: Часть 2-я)</title><image>https://tv.mail.ru/tvpic/2/72/9414210.jpg</image></programme>
+<programme start="20260819014000 +0000" stop="20260819022500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Галина Польских. Я нашла своего мужчину</title><image>https://tv.mail.ru/tvpic/1/81/0105237.jpg</image></programme>
+<programme start="20260819022500 +0000" stop="20260819030000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Мой герой (Любовь Толкалина)</title><image>https://tv.mail.ru/tvpic/3/94/100837.jpg</image></programme>
+<programme start="20260819030000 +0000" stop="20260819051000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Настроение</title><image>https://tv.mail.ru/tvpic/2/83/4920176.jpg</image></programme>
+<programme start="20260819051000 +0000" stop="20260819054000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Доктор И... (14 факторов развития деменции)</title><image>https://tv.mail.ru/tvpic/3/83/8726793.jpg</image></programme>
+<programme start="20260819054000 +0000" stop="20260819064000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Сельский детектив. Иголка в стоге сена (1-я серия)</title><image>https://tv.mail.ru/tvpic/4/89/605123.jpg</image></programme>
+<programme start="20260819064000 +0000" stop="20260819073500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Сельский детектив. Иголка в стоге сена (2-я серия)</title><image>https://tv.mail.ru/tvpic/4/89/605123.jpg</image></programme>
+<programme start="20260819073500 +0000" stop="20260819083000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Владимир Конкин. Искушение славой</title><image>https://tv.mail.ru/tvpic/1/31/3576460.jpg</image></programme>
+<programme start="20260819083000 +0000" stop="20260819085000 +0000" channel="TVCentr.ru@SD"><title lang="ru">События</title><image>https://tv.mail.ru/tvpic/9/08/779837.jpg</image></programme>
+<programme start="20260819085000 +0000" stop="20260819094500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Я иду тебя искать. Ателье. Долго и счастливо (Ателье: Часть 1-я)</title><image>https://tv.mail.ru/tvpic/6/28/076493.jpg</image></programme>
+<programme start="20260819094500 +0000" stop="20260819104500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Я иду тебя искать. Ателье. Долго и счастливо (Ателье: Часть 2-я)</title><image>https://tv.mail.ru/tvpic/6/28/076493.jpg</image></programme>
+<programme start="20260819104500 +0000" stop="20260819113000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Мой герой (Владимир Конкин)</title><image>https://tv.mail.ru/tvpic/3/94/100837.jpg</image></programme>
+<programme start="20260819113000 +0000" stop="20260819115000 +0000" channel="TVCentr.ru@SD"><title lang="ru">События</title><image>https://tv.mail.ru/tvpic/9/08/779837.jpg</image></programme>
+<programme start="20260819115000 +0000" stop="20260819120500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Город новостей</title><image>https://tv.mail.ru/tvpic/4/19/2789050.jpg</image></programme>
+<programme start="20260819120500 +0000" stop="20260819130000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Чистосердечное призвание-2 (1-я серия)</title><image>https://tv.mail.ru/tvpic/1/81/156101.jpg</image></programme>
+<programme start="20260819130000 +0000" stop="20260819140000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Чистосердечное призвание-2 (2-я серия)</title><image>https://tv.mail.ru/tvpic/1/81/156101.jpg</image></programme>
+<programme start="20260819140000 +0000" stop="20260819145000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Матлюба Алимова. Чужая среди своих</title><image>https://tv.mail.ru/tvpic/9/38/29554.jpg</image></programme>
+<programme start="20260819145000 +0000" stop="20260819151000 +0000" channel="TVCentr.ru@SD"><title lang="ru">События</title><image>https://tv.mail.ru/tvpic/9/08/779837.jpg</image></programme>
+<programme start="20260819151000 +0000" stop="20260819160000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Приют счастья (1-я серия)</title><image>https://tv.mail.ru/tvpic/1/35/3341321.jpg</image></programme>
+<programme start="20260819160000 +0000" stop="20260819170000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Приют счастья (2-я серия)</title><image>https://tv.mail.ru/tvpic/1/35/3341321.jpg</image></programme>
+<programme start="20260819170000 +0000" stop="20260819175500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Приют счастья (3-я серия)</title><image>https://tv.mail.ru/tvpic/1/35/3341321.jpg</image></programme>
+<programme start="20260819175500 +0000" stop="20260819190000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Приют счастья (4-я серия)</title><image>https://tv.mail.ru/tvpic/1/35/3341321.jpg</image></programme>
+<programme start="20260819190000 +0000" stop="20260819193500 +0000" channel="TVCentr.ru@SD"><title lang="ru">События</title><image>https://tv.mail.ru/tvpic/9/08/779837.jpg</image></programme>
+<programme start="20260819193500 +0000" stop="20260819200500 +0000" channel="TVCentr.ru@SD"><title lang="ru">10 самых (Копии зарубежных звезд)</title><image>https://tv.mail.ru/tvpic/2/51/0724130.jpg</image></programme>
+<programme start="20260819200500 +0000" stop="20260819210000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Прощание (Евгений Меньшов)</title><image>https://tv.mail.ru/tvpic/1/82/5719883.jpg</image></programme>
+<programme start="20260819210000 +0000" stop="20260819213000 +0000" channel="TVCentr.ru@SD"><title lang="ru">События. 25-й час</title><image>https://tv.mail.ru/tvpic/4/07/1943883.jpg</image></programme>
+<programme start="20260819213000 +0000" stop="20260819214500 +0000" channel="TVCentr.ru@SD"><title lang="ru">Петровка, 38</title><image>https://tv.mail.ru/tvpic/1/13/809693.jpg</image></programme>
+<programme start="20260819214500 +0000" stop="20260819223000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Настоящий детектив (Состав преступления)</title><image>https://tv.mail.ru/tvpic/2/49/1322983.jpg</image></programme>
+<programme start="20260819223000 +0000" stop="20260819231500 +0000" channel="TVCentr.ru@SD"><title lang="ru">СС. Безумие &amp;#34;Черного ордена&amp;#34;</title><image>https://tv.mail.ru/tvpic/3/78/0170926.jpg</image></programme>
+<programme start="20260819231500 +0000" stop="20260820000000 +0000" channel="TVCentr.ru@SD"><title lang="ru">Знак качества (Рыбные консервы)</title><image>https://tv.mail.ru/tvpic/4/91/754861.jpg</image></programme>
 <programme start="20260816233500 +0000" stop="20260817010000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Отрыв</title><image>https://tv.mail.ru/tvpic/2/06/0315807.jpg</image></programme>
+<programme start="20260817010000 +0000" stop="20260817030000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Последний побег</title><image>https://tv.mail.ru/tvpic/3/80/5190187.jpg</image></programme>
+<programme start="20260817030000 +0000" stop="20260817032000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Москва - фронту</title><image>https://tv.mail.ru/tvpic/2/74/9768135.jpg</image></programme>
+<programme start="20260817032000 +0000" stop="20260817060000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Особо важное задание</title><image>https://tv.mail.ru/tvpic/2/76/6578167.jpg</image></programme>
+<programme start="20260817060000 +0000" stop="20260817061500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Новости дня</title><image>https://tv.mail.ru/tvpic/2/57/6534291.jpg</image></programme>
+<programme start="20260817061500 +0000" stop="20260817070000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Особо важное задание</title><image>https://tv.mail.ru/tvpic/2/76/6578167.jpg</image></programme>
+<programme start="20260817070000 +0000" stop="20260817085500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Двойной обгон</title><image>https://tv.mail.ru/tvpic/3/32/1900134.jpg</image></programme>
+<programme start="20260817085500 +0000" stop="20260817100000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Высота 89</title><image>https://tv.mail.ru/tvpic/2/47/5296027.jpg</image></programme>
+<programme start="20260817100000 +0000" stop="20260817102500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Новости дня</title><image>https://tv.mail.ru/tvpic/2/57/6534291.jpg</image></programme>
+<programme start="20260817102500 +0000" stop="20260817115000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Высота 89</title><image>https://tv.mail.ru/tvpic/2/47/5296027.jpg</image></programme>
+<programme start="20260817115000 +0000" stop="20260817115230 +0000" channel="Zvezda.ru@HD"><title lang="ru">Бухта пропавших дайверов (1-я серия)</title><image>https://tv.mail.ru/tvpic/2/32/1365402.jpg</image></programme>
+<programme start="20260817115230 +0000" stop="20260817115500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Бухта пропавших дайверов (2-я серия)</title><image>https://tv.mail.ru/tvpic/2/32/1365402.jpg</image></programme>
+<programme start="20260817115500 +0000" stop="20260817115730 +0000" channel="Zvezda.ru@HD"><title lang="ru">Бухта пропавших дайверов (3-я серия)</title><image>https://tv.mail.ru/tvpic/2/32/1365402.jpg</image></programme>
+<programme start="20260817115730 +0000" stop="20260817120000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Бухта пропавших дайверов (4-я серия)</title><image>https://tv.mail.ru/tvpic/2/32/1365402.jpg</image></programme>
+<programme start="20260817120000 +0000" stop="20260817120500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Военные новости</title><image>https://tv.mail.ru/tvpic/4/73/951858.jpg</image></programme>
+<programme start="20260817120500 +0000" stop="20260817123345 +0000" channel="Zvezda.ru@HD"><title lang="ru">Бухта пропавших дайверов (1-я серия)</title><image>https://tv.mail.ru/tvpic/2/32/1365402.jpg</image></programme>
+<programme start="20260817123345 +0000" stop="20260817131230 +0000" channel="Zvezda.ru@HD"><title lang="ru">Бухта пропавших дайверов (2-я серия)</title><image>https://tv.mail.ru/tvpic/2/32/1365402.jpg</image></programme>
+<programme start="20260817131230 +0000" stop="20260817133115 +0000" channel="Zvezda.ru@HD"><title lang="ru">Бухта пропавших дайверов (3-я серия)</title><image>https://tv.mail.ru/tvpic/2/32/1365402.jpg</image></programme>
+<programme start="20260817133115 +0000" stop="20260817140000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Бухта пропавших дайверов (4-я серия)</title><image>https://tv.mail.ru/tvpic/2/32/1365402.jpg</image></programme>
+<programme start="20260817140000 +0000" stop="20260817141500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Новости дня</title><image>https://tv.mail.ru/tvpic/2/57/6534291.jpg</image></programme>
+<programme start="20260817141500 +0000" stop="20260817144115 +0000" channel="Zvezda.ru@HD"><title lang="ru">Бухта пропавших дайверов (1-я серия)</title><image>https://tv.mail.ru/tvpic/2/32/1365402.jpg</image></programme>
+<programme start="20260817144115 +0000" stop="20260817150730 +0000" channel="Zvezda.ru@HD"><title lang="ru">Бухта пропавших дайверов (2-я серия)</title><image>https://tv.mail.ru/tvpic/2/32/1365402.jpg</image></programme>
+<programme start="20260817150730 +0000" stop="20260817153345 +0000" channel="Zvezda.ru@HD"><title lang="ru">Бухта пропавших дайверов (3-я серия)</title><image>https://tv.mail.ru/tvpic/2/32/1365402.jpg</image></programme>
+<programme start="20260817153345 +0000" stop="20260817160000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Бухта пропавших дайверов (4-я серия)</title><image>https://tv.mail.ru/tvpic/2/32/1365402.jpg</image></programme>
+<programme start="20260817160000 +0000" stop="20260817164000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Новости дня</title><image>https://tv.mail.ru/tvpic/2/57/6534291.jpg</image></programme>
+<programme start="20260817164000 +0000" stop="20260817190500 +0000" channel="Zvezda.ru@HD"><title lang="ru">&amp;#34;Скрытые угрозы&amp;#34; с Николаем Чиндяйкиным</title><image>https://tv.mail.ru/tvpic/4/20/1673802.jpg</image></programme>
+<programme start="20260817190500 +0000" stop="20260817210500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Военно-полевой роман</title><image>https://tv.mail.ru/tvpic/3/37/9232505.jpg</image></programme>
+<programme start="20260817210500 +0000" stop="20260817233000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Особо важное задание</title><image>https://tv.mail.ru/tvpic/2/76/6578167.jpg</image></programme>
+<programme start="20260817233000 +0000" stop="20260818005500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Свинарка и пастух</title><image>https://tv.mail.ru/tvpic/1/92/5634319.jpg</image></programme>
+<programme start="20260818005500 +0000" stop="20260818022500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Подвиг разведчика</title><image>https://tv.mail.ru/tvpic/2/15/4418822.jpg</image></programme>
+<programme start="20260818022500 +0000" stop="20260818025000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Перелом. Хроника Победы</title><image>https://tv.mail.ru/tvpic/7/49/795085.jpg</image></programme>
+<programme start="20260818025000 +0000" stop="20260818042000 +0000" channel="Zvezda.ru@HD"><title lang="ru">В квадрате 45</title><image>https://tv.mail.ru/tvpic/7/37/238213.jpg</image></programme>
+<programme start="20260818042000 +0000" stop="20260818060000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Двойной обгон</title><image>https://tv.mail.ru/tvpic/3/32/1900134.jpg</image></programme>
+<programme start="20260818060000 +0000" stop="20260818061500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Новости дня</title><image>https://tv.mail.ru/tvpic/2/57/6534291.jpg</image></programme>
+<programme start="20260818061500 +0000" stop="20260818064500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Двойной обгон</title><image>https://tv.mail.ru/tvpic/3/32/1900134.jpg</image></programme>
+<programme start="20260818064500 +0000" stop="20260818073345 +0000" channel="Zvezda.ru@HD"><title lang="ru">Бухта пропавших дайверов (1-я серия)</title><image>https://tv.mail.ru/tvpic/2/32/1365402.jpg</image></programme>
+<programme start="20260818073345 +0000" stop="20260818082230 +0000" channel="Zvezda.ru@HD"><title lang="ru">Бухта пропавших дайверов (2-я серия)</title><image>https://tv.mail.ru/tvpic/2/32/1365402.jpg</image></programme>
+<programme start="20260818082230 +0000" stop="20260818091115 +0000" channel="Zvezda.ru@HD"><title lang="ru">Бухта пропавших дайверов (3-я серия)</title><image>https://tv.mail.ru/tvpic/2/32/1365402.jpg</image></programme>
+<programme start="20260818091115 +0000" stop="20260818100000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Бухта пропавших дайверов (4-я серия)</title><image>https://tv.mail.ru/tvpic/2/32/1365402.jpg</image></programme>
+<programme start="20260818100000 +0000" stop="20260818102500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Новости дня</title><image>https://tv.mail.ru/tvpic/2/57/6534291.jpg</image></programme>
+<programme start="20260818102500 +0000" stop="20260818103230 +0000" channel="Zvezda.ru@HD"><title lang="ru">Бухта пропавших дайверов (1-я серия)</title><image>https://tv.mail.ru/tvpic/2/32/1365402.jpg</image></programme>
+<programme start="20260818103230 +0000" stop="20260818104000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Бухта пропавших дайверов (2-я серия)</title><image>https://tv.mail.ru/tvpic/2/32/1365402.jpg</image></programme>
+<programme start="20260818104000 +0000" stop="20260818104730 +0000" channel="Zvezda.ru@HD"><title lang="ru">Бухта пропавших дайверов (3-я серия)</title><image>https://tv.mail.ru/tvpic/2/32/1365402.jpg</image></programme>
+<programme start="20260818104730 +0000" stop="20260818110000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Бухта пропавших дайверов (4-я серия)</title><image>https://tv.mail.ru/tvpic/2/32/1365402.jpg</image></programme>
+<programme start="20260818110000 +0000" stop="20260818111115 +0000" channel="Zvezda.ru@HD"><title lang="ru">Благословите женщину (1-я серия)</title><image>https://tv.mail.ru/tvpic/3/24/2443710.jpg</image></programme>
+<programme start="20260818111115 +0000" stop="20260818112730 +0000" channel="Zvezda.ru@HD"><title lang="ru">Благословите женщину (2-я серия)</title><image>https://tv.mail.ru/tvpic/3/24/2443710.jpg</image></programme>
+<programme start="20260818112730 +0000" stop="20260818114345 +0000" channel="Zvezda.ru@HD"><title lang="ru">Благословите женщину (3-я серия)</title><image>https://tv.mail.ru/tvpic/3/24/2443710.jpg</image></programme>
+<programme start="20260818114345 +0000" stop="20260818120000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Благословите женщину (4-я серия)</title><image>https://tv.mail.ru/tvpic/3/24/2443710.jpg</image></programme>
+<programme start="20260818120000 +0000" stop="20260818120500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Военные новости</title><image>https://tv.mail.ru/tvpic/4/73/951858.jpg</image></programme>
+<programme start="20260818120500 +0000" stop="20260818123345 +0000" channel="Zvezda.ru@HD"><title lang="ru">Благословите женщину (1-я серия)</title><image>https://tv.mail.ru/tvpic/3/24/2443710.jpg</image></programme>
+<programme start="20260818123345 +0000" stop="20260818130230 +0000" channel="Zvezda.ru@HD"><title lang="ru">Благословите женщину (2-я серия)</title><image>https://tv.mail.ru/tvpic/3/24/2443710.jpg</image></programme>
+<programme start="20260818130230 +0000" stop="20260818133115 +0000" channel="Zvezda.ru@HD"><title lang="ru">Благословите женщину (3-я серия)</title><image>https://tv.mail.ru/tvpic/3/24/2443710.jpg</image></programme>
+<programme start="20260818133115 +0000" stop="20260818140000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Благословите женщину (4-я серия)</title><image>https://tv.mail.ru/tvpic/3/24/2443710.jpg</image></programme>
+<programme start="20260818140000 +0000" stop="20260818141500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Новости дня</title><image>https://tv.mail.ru/tvpic/2/57/6534291.jpg</image></programme>
+<programme start="20260818141500 +0000" stop="20260818144115 +0000" channel="Zvezda.ru@HD"><title lang="ru">Благословите женщину (1-я серия)</title><image>https://tv.mail.ru/tvpic/3/24/2443710.jpg</image></programme>
+<programme start="20260818144115 +0000" stop="20260818150730 +0000" channel="Zvezda.ru@HD"><title lang="ru">Благословите женщину (2-я серия)</title><image>https://tv.mail.ru/tvpic/3/24/2443710.jpg</image></programme>
+<programme start="20260818150730 +0000" stop="20260818153345 +0000" channel="Zvezda.ru@HD"><title lang="ru">Благословите женщину (3-я серия)</title><image>https://tv.mail.ru/tvpic/3/24/2443710.jpg</image></programme>
+<programme start="20260818153345 +0000" stop="20260818160000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Благословите женщину (4-я серия)</title><image>https://tv.mail.ru/tvpic/3/24/2443710.jpg</image></programme>
+<programme start="20260818160000 +0000" stop="20260818164000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Новости дня</title><image>https://tv.mail.ru/tvpic/2/57/6534291.jpg</image></programme>
+<programme start="20260818164000 +0000" stop="20260818190500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Улика из прошлого</title><image>https://tv.mail.ru/tvpic/1/48/2691985.jpg</image></programme>
+<programme start="20260818190500 +0000" stop="20260818212500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Живи и помни</title><image>https://tv.mail.ru/tvpic/3/93/9604195.jpg</image></programme>
+<programme start="20260818212500 +0000" stop="20260818230000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Дeла сердeчные</title><image>https://tv.mail.ru/tvpic/4/05/0893210.jpg</image></programme>
+<programme start="20260818230000 +0000" stop="20260819002500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Девушка с характером</title><image>https://tv.mail.ru/tvpic/2/14/7104416.jpg</image></programme>
+<programme start="20260819002500 +0000" stop="20260819012500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Опасные тропы</title><image>https://tv.mail.ru/tvpic/9/65/216903.jpg</image></programme>
+<programme start="20260819012500 +0000" stop="20260819025500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Преступления в сети: МВД против кибермошенников</title><image>https://tv.mail.ru/tvpic/2/14/394148.jpg</image></programme>
+<programme start="20260819025500 +0000" stop="20260819042000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Герой 115</title><image>https://tv.mail.ru/tvpic/3/85/8565032.jpg</image></programme>
+<programme start="20260819042000 +0000" stop="20260819060000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Военно-полевой роман</title><image>https://tv.mail.ru/tvpic/3/37/9232505.jpg</image></programme>
+<programme start="20260819060000 +0000" stop="20260819061500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Новости дня</title><image>https://tv.mail.ru/tvpic/2/57/6534291.jpg</image></programme>
+<programme start="20260819061500 +0000" stop="20260819065500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Военно-полевой роман</title><image>https://tv.mail.ru/tvpic/3/37/9232505.jpg</image></programme>
+<programme start="20260819065500 +0000" stop="20260819074115 +0000" channel="Zvezda.ru@HD"><title lang="ru">СОБР (1-я серия)</title><image>https://tv.mail.ru/tvpic/4/12/2688296.jpg</image></programme>
+<programme start="20260819074115 +0000" stop="20260819082730 +0000" channel="Zvezda.ru@HD"><title lang="ru">СОБР (2-я серия)</title><image>https://tv.mail.ru/tvpic/4/12/2688296.jpg</image></programme>
+<programme start="20260819082730 +0000" stop="20260819091345 +0000" channel="Zvezda.ru@HD"><title lang="ru">СОБР (3-я серия)</title><image>https://tv.mail.ru/tvpic/4/12/2688296.jpg</image></programme>
+<programme start="20260819091345 +0000" stop="20260819100000 +0000" channel="Zvezda.ru@HD"><title lang="ru">СОБР (4-я серия)</title><image>https://tv.mail.ru/tvpic/4/12/2688296.jpg</image></programme>
+<programme start="20260819100000 +0000" stop="20260819102500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Новости дня</title><image>https://tv.mail.ru/tvpic/2/57/6534291.jpg</image></programme>
+<programme start="20260819102500 +0000" stop="20260819104000 +0000" channel="Zvezda.ru@HD"><title lang="ru">СОБР (1-я серия)</title><image>https://tv.mail.ru/tvpic/4/12/2688296.jpg</image></programme>
+<programme start="20260819104000 +0000" stop="20260819105500 +0000" channel="Zvezda.ru@HD"><title lang="ru">СОБР (2-я серия)</title><image>https://tv.mail.ru/tvpic/4/12/2688296.jpg</image></programme>
+<programme start="20260819105500 +0000" stop="20260819111000 +0000" channel="Zvezda.ru@HD"><title lang="ru">СОБР (3-я серия)</title><image>https://tv.mail.ru/tvpic/4/12/2688296.jpg</image></programme>
+<programme start="20260819111000 +0000" stop="20260819112500 +0000" channel="Zvezda.ru@HD"><title lang="ru">СОБР (4-я серия)</title><image>https://tv.mail.ru/tvpic/4/12/2688296.jpg</image></programme>
+<programme start="20260819112500 +0000" stop="20260819113345 +0000" channel="Zvezda.ru@HD"><title lang="ru">СОБР (5-я серия)</title><image>https://tv.mail.ru/tvpic/4/12/2688296.jpg</image></programme>
+<programme start="20260819113345 +0000" stop="20260819114230 +0000" channel="Zvezda.ru@HD"><title lang="ru">СОБР (6-я серия)</title><image>https://tv.mail.ru/tvpic/4/12/2688296.jpg</image></programme>
+<programme start="20260819114230 +0000" stop="20260819115115 +0000" channel="Zvezda.ru@HD"><title lang="ru">СОБР (7-я серия)</title><image>https://tv.mail.ru/tvpic/4/12/2688296.jpg</image></programme>
+<programme start="20260819115115 +0000" stop="20260819120000 +0000" channel="Zvezda.ru@HD"><title lang="ru">СОБР (8-я серия)</title><image>https://tv.mail.ru/tvpic/4/12/2688296.jpg</image></programme>
+<programme start="20260819120000 +0000" stop="20260819120500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Военные новости</title><image>https://tv.mail.ru/tvpic/4/73/951858.jpg</image></programme>
+<programme start="20260819120500 +0000" stop="20260819123345 +0000" channel="Zvezda.ru@HD"><title lang="ru">СОБР (5-я серия)</title><image>https://tv.mail.ru/tvpic/4/12/2688296.jpg</image></programme>
+<programme start="20260819123345 +0000" stop="20260819130230 +0000" channel="Zvezda.ru@HD"><title lang="ru">СОБР (6-я серия)</title><image>https://tv.mail.ru/tvpic/4/12/2688296.jpg</image></programme>
+<programme start="20260819130230 +0000" stop="20260819133115 +0000" channel="Zvezda.ru@HD"><title lang="ru">СОБР (7-я серия)</title><image>https://tv.mail.ru/tvpic/4/12/2688296.jpg</image></programme>
+<programme start="20260819133115 +0000" stop="20260819140000 +0000" channel="Zvezda.ru@HD"><title lang="ru">СОБР (8-я серия)</title><image>https://tv.mail.ru/tvpic/4/12/2688296.jpg</image></programme>
+<programme start="20260819140000 +0000" stop="20260819141500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Новости дня</title><image>https://tv.mail.ru/tvpic/2/57/6534291.jpg</image></programme>
+<programme start="20260819141500 +0000" stop="20260819144115 +0000" channel="Zvezda.ru@HD"><title lang="ru">СОБР (5-я серия)</title><image>https://tv.mail.ru/tvpic/4/12/2688296.jpg</image></programme>
+<programme start="20260819144115 +0000" stop="20260819150730 +0000" channel="Zvezda.ru@HD"><title lang="ru">СОБР (6-я серия)</title><image>https://tv.mail.ru/tvpic/4/12/2688296.jpg</image></programme>
+<programme start="20260819150730 +0000" stop="20260819153345 +0000" channel="Zvezda.ru@HD"><title lang="ru">СОБР (7-я серия)</title><image>https://tv.mail.ru/tvpic/4/12/2688296.jpg</image></programme>
+<programme start="20260819153345 +0000" stop="20260819160000 +0000" channel="Zvezda.ru@HD"><title lang="ru">СОБР (8-я серия)</title><image>https://tv.mail.ru/tvpic/4/12/2688296.jpg</image></programme>
+<programme start="20260819160000 +0000" stop="20260819164000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Новости дня</title><image>https://tv.mail.ru/tvpic/2/57/6534291.jpg</image></programme>
+<programme start="20260819164000 +0000" stop="20260819190500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Секретные материалы</title><image>https://tv.mail.ru/tvpic/4/00/8941916.jpg</image></programme>
+<programme start="20260819190500 +0000" stop="20260819210500 +0000" channel="Zvezda.ru@HD"><title lang="ru">Сумка инкассатора</title><image>https://tv.mail.ru/tvpic/3/58/1467540.jpg</image></programme>
+<programme start="20260819210500 +0000" stop="20260819223000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Каждый десятый</title><image>https://tv.mail.ru/tvpic/1/94/4370172.jpg</image></programme>
+<programme start="20260819223000 +0000" stop="20260820000000 +0000" channel="Zvezda.ru@HD"><title lang="ru">Мы с вами где-то встречались</title><image>https://tv.mail.ru/tvpic/6/95/247454.jpg</image></programme>
 </tv>
