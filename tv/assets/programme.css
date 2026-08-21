@@ -253,6 +253,15 @@ h2 {
     page-break-after: always;
   }
 
+  .week-day:has(> .empty) {
+    display: none;
+  }
+
+  .week-day:has(> .empty) + .week-day {
+    break-before: auto;
+    page-break-before: auto;
+  }
+
   .week-day:last-child {
     break-after: auto;
     page-break-after: auto;
