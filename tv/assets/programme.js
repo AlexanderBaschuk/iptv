@@ -141,12 +141,10 @@ function getSelectedDate() {
 function renderDay(date, channels, programmes) {
   const previousDate = addDays(date, -1);
   const nextDate = addDays(date, 1);
-  const isToday = toIsoDate(date) === toIsoDate(new Date());
-  const now = new Date();
 
   document.title = `Телепрограмма - ${formatFullDate(date)}`;
   titleElement.textContent = `Телепрограмма - ${formatFullDate(date)}`;
-  metaElement.textContent = `Время показано в часовом поясе браузера: ${getTimeZoneName()}`;
+  metaElement.textContent = "";
   previousLink.href = `?date=${toIsoDate(previousDate)}`;
   nextLink.href = `?date=${toIsoDate(nextDate)}`;
   todayLink.href = `${rootPath}week/?date=${toIsoDate(date)}`;
@@ -158,10 +156,16 @@ function renderDay(date, channels, programmes) {
 
   for (const channel of channels) {
     const items = programmesForRange(programmes, channel.id, date, addDays(date, 1));
-    wrapper.append(renderChannel(channel, items, isToday ? now : null));
+    if (items.length > 0) {
+      wrapper.append(renderChannel(channel, items));
+    }
   }
 
-  contentElement.append(wrapper);
+  if (wrapper.children.length === 0) {
+    contentElement.append(renderMessage("Нет программы", "empty"));
+  } else {
+    contentElement.append(wrapper);
+  }
 }
 
 function renderWeek(date, channels, programmes) {
@@ -170,7 +174,7 @@ function renderWeek(date, channels, programmes) {
 
   document.title = `Телепрограмма - ${formatDateRange(monday, sunday)}`;
   titleElement.textContent = `Телепрограмма - ${formatDateRange(monday, sunday)}`;
-  metaElement.textContent = `Время показано в часовом поясе браузера: ${getTimeZoneName()}`;
+  metaElement.textContent = "";
   previousLink.href = `?date=${toIsoDate(addDays(monday, -7))}`;
   nextLink.href = `?date=${toIsoDate(addDays(monday, 7))}`;
   todayLink.href = `${rootPath}day/?date=${toIsoDate(new Date())}`;
@@ -192,10 +196,16 @@ function renderWeek(date, channels, programmes) {
 
     for (const channel of channels) {
       const items = programmesForRange(programmes, channel.id, day, addDays(day, 1));
-      wrapper.append(renderChannel(channel, items, null));
+      if (items.length > 0) {
+        wrapper.append(renderChannel(channel, items));
+      }
     }
 
-    section.append(wrapper);
+    if (wrapper.children.length === 0) {
+      section.append(renderMessage("Нет программы", "empty"));
+    } else {
+      section.append(wrapper);
+    }
     contentElement.append(section);
   }
 }
@@ -218,7 +228,7 @@ function programmesForRange(programmes, channelId, start, end) {
   });
 }
 
-function renderChannel(channel, items, now) {
+function renderChannel(channel, items) {
   const section = document.createElement("section");
   section.className = "channel";
 
@@ -239,24 +249,12 @@ function renderChannel(channel, items, now) {
   heading.append(name);
   section.append(heading);
 
-  if (items.length === 0) {
-    section.append(renderMessage("Нет данных программы.", "empty"));
-    return section;
-  }
-
   const list = document.createElement("ul");
   list.className = "programme-list";
 
   for (const item of items) {
     const row = document.createElement("li");
     row.className = "programme-item";
-
-    if (now && item.stop <= now) {
-      row.classList.add("is-past");
-    }
-    if (now && item.start <= now && item.stop > now) {
-      row.classList.add("is-current");
-    }
 
     const time = document.createElement("span");
     time.className = "programme-time";
@@ -354,8 +352,4 @@ function monthName(date) {
   return new Intl.DateTimeFormat(LOCALE, {
     month: "long",
   }).format(date);
-}
-
-function getTimeZoneName() {
-  return Intl.DateTimeFormat().resolvedOptions().timeZone || "локальное время";
 }

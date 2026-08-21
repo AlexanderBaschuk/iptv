@@ -165,18 +165,6 @@ h2 {
   overflow-wrap: anywhere;
 }
 
-.programme-item.is-past {
-  opacity: 0.48;
-}
-
-.programme-item.is-current {
-  padding: 4px 6px;
-  margin: -4px -6px;
-  border-radius: 6px;
-  background: #e8f1fb;
-  font-weight: 650;
-}
-
 .empty,
 .error {
   padding: 18px;
@@ -271,12 +259,4 @@ h2 {
     page-break-inside: avoid;
   }
 
-  .programme-item.is-past,
-  .programme-item.is-current {
-    padding: 0;
-    margin: 0;
-    background: transparent;
-    opacity: 1;
-    font-weight: inherit;
-  }
 }
