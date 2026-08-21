@@ -235,7 +235,7 @@ h2 {
     text-align: left;
   }
 
-  body[data-mode="week"] h1 {
+  body[data-mode="week"] .topbar {
     display: none;
   }
 
