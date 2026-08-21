@@ -19,12 +19,12 @@ main().catch((error) => {
 });
 
 async function main() {
-  const [configuredChannelIds, playlistText] = await Promise.all([
-    fetchText(`${rootPath}channels.txt`).then(parseChannelIds),
+  const [configuredChannels, playlistText] = await Promise.all([
+    fetchText(`${rootPath}../epg.channels.xml`).then(parseConfiguredChannels),
     fetchText(`${rootPath}../alla.m3u`),
   ]);
   const playlist = parsePlaylist(playlistText);
-  const channels = selectChannels(playlist.channels, configuredChannelIds);
+  const channels = selectChannels(playlist.channels, configuredChannels);
   const epgText = await fetchText(resolveEpgUrl(playlist.epgUrl));
   const xml = new DOMParser().parseFromString(epgText, "application/xml");
   const programmes = readProgrammes(xml, new Set(channels.map((channel) => channel.id)));
@@ -45,11 +45,14 @@ async function fetchText(url) {
   return response.text();
 }
 
-function parseChannelIds(text) {
-  return text
-    .split(/\r?\n/)
-    .map((line) => line.trim())
-    .filter((line) => line && !line.startsWith("#"));
+function parseConfiguredChannels(text) {
+  const xml = new DOMParser().parseFromString(text, "application/xml");
+  return Array.from(xml.querySelectorAll("channel"))
+    .map((node) => ({
+      id: node.getAttribute("xmltv_id"),
+      name: node.textContent.trim(),
+    }))
+    .filter((channel) => channel.id);
 }
 
 function parsePlaylist(text) {
@@ -86,9 +89,21 @@ function readAttribute(text, name) {
   return match ? match[1] : "";
 }
 
-function selectChannels(playlistChannels, configuredChannelIds) {
+function selectChannels(playlistChannels, configuredChannels) {
   const playlistById = new Map(playlistChannels.map((channel) => [channel.id, channel]));
-  return configuredChannelIds.map((id) => playlistById.get(id)).filter(Boolean);
+  return configuredChannels
+    .map((configuredChannel) => {
+      const playlistChannel = playlistById.get(configuredChannel.id);
+      if (!playlistChannel) {
+        return null;
+      }
+
+      return {
+        ...playlistChannel,
+        name: configuredChannel.name || playlistChannel.name,
+      };
+    })
+    .filter(Boolean);
 }
 
 function resolveEpgUrl(url) {

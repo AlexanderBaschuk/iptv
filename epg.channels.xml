@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-  <channel site="tv.mail.ru" site_id="1693" lang="ru" xmltv_id="ChannelOne.ru@HD">Первый канал HD</channel>
-  <channel site="tv.mail.ru" site_id="1666" lang="ru" xmltv_id="Russia1.ru@HD">Россия 1 HD</channel>
+  <channel site="tv.mail.ru" site_id="1693" lang="ru" xmltv_id="ChannelOne.ru@HD">Первый канал</channel>
+  <channel site="tv.mail.ru" site_id="1666" lang="ru" xmltv_id="Russia1.ru@HD">Россия 1</channel>
   <channel site="tv.mail.ru" site_id="948" lang="ru" xmltv_id="TVCentr.ru@SD">ТВ Центр</channel>
-  <channel site="tv.mail.ru" site_id="2622" lang="ru" xmltv_id="NTV.ru@HD">НТВ HD</channel>
+  <channel site="tv.mail.ru" site_id="2622" lang="ru" xmltv_id="NTV.ru@HD">НТВ</channel>
   <channel site="tv.mail.ru" site_id="1169" lang="ru" xmltv_id="RussiaK.ru@HD">Культура</channel>
   <channel site="tv.mail.ru" site_id="1671" lang="ru" xmltv_id="Friday.ru@SD">Пятница!</channel>
   <channel site="tv.mail.ru" site_id="986" lang="ru" xmltv_id="Zvezda.ru@HD">Звезда</channel>
