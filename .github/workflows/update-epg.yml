@@ -41,9 +41,14 @@ jobs:
         working-directory: .epg-source
         run: npm run channels:validate -- ../epg.channels.xml
 
+      - name: Calculate EPG period
+        run: |
+          weekday=$(date -u +%u)
+          echo "EPG_DAYS=$((15 - weekday))" >> "$GITHUB_ENV"
+
       - name: Generate XMLTV
         working-directory: .epg-source
-        run: npm run grab -- --channels=../epg.channels.xml --output=../epg.xml --days=3 --maxConnections=1
+        run: npm run grab -- --channels=../epg.channels.xml --output=../epg.xml --days="$EPG_DAYS" --maxConnections=1
 
       - name: Validate generated XMLTV
         run: |
