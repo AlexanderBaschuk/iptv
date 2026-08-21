@@ -176,7 +176,8 @@ function renderDay(date, channels, programmes) {
   wrapper.className = "channels";
 
   for (const channel of channels) {
-    const items = programmesForRange(programmes, channel.id, date, addDays(date, 1));
+    const range = getVisibleProgrammeRange(date);
+    const items = programmesForRange(programmes, channel.id, range.start, range.end);
     if (items.length > 0) {
       wrapper.append(renderChannel(channel, items));
     }
@@ -216,7 +217,8 @@ function renderWeek(date, channels, programmes) {
     wrapper.className = "channels";
 
     for (const channel of channels) {
-      const items = programmesForRange(programmes, channel.id, day, addDays(day, 1));
+      const range = getVisibleProgrammeRange(day);
+      const items = programmesForRange(programmes, channel.id, range.start, range.end);
       if (items.length > 0) {
         wrapper.append(renderChannel(channel, items));
       }
@@ -247,6 +249,14 @@ function programmesForRange(programmes, channelId, start, end) {
   return programmes.filter((programme) => {
     return programme.channelId === channelId && programme.start < end && programme.stop > start;
   });
+}
+
+function getVisibleProgrammeRange(date) {
+  const start = new Date(date.getFullYear(), date.getMonth(), date.getDate(), 8);
+  return {
+    start,
+    end: addDays(startOfLocalDay(date), 1),
+  };
 }
 
 function renderChannel(channel, items) {
