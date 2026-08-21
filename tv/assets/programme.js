@@ -194,7 +194,7 @@ function renderWeek(date, channels, programmes) {
   const sunday = addDays(monday, 6);
 
   document.title = `Телепрограмма - ${formatDateRange(monday, sunday)}`;
-  titleElement.textContent = `Телепрограмма - ${formatDateRange(monday, sunday)}`;
+  titleElement.textContent = `${formatDateRange(monday, sunday)}`;
   metaElement.textContent = "";
   previousLink.href = `?date=${toIsoDate(addDays(monday, -7))}`;
   nextLink.href = `?date=${toIsoDate(addDays(monday, 7))}`;
