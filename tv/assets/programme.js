@@ -143,7 +143,7 @@ function renderDay(date, channels, programmes) {
   const nextDate = addDays(date, 1);
 
   document.title = `Телепрограмма - ${formatFullDate(date)}`;
-  titleElement.textContent = `Телепрограмма - ${formatFullDate(date)}`;
+  titleElement.textContent = `${formatFullDate(date)}`;
   metaElement.textContent = "";
   previousLink.href = `?date=${toIsoDate(previousDate)}`;
   nextLink.href = `?date=${toIsoDate(nextDate)}`;
