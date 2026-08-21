@@ -216,7 +216,7 @@ h2 {
 
   .page {
     width: auto;
-    padding: 4mm;
+    padding: 8mm 4mm 4mm;
   }
 
   .nav-button,
@@ -233,6 +233,10 @@ h2 {
     margin-bottom: 3.8mm;
     font-size: 11pt;
     text-align: left;
+  }
+
+  body[data-mode="week"] h1 {
+    display: none;
   }
 
   h2 {
