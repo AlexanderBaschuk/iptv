@@ -201,7 +201,7 @@ h2 {
 @media print {
   @page {
     size: A4 portrait;
-    margin: 7mm;
+    margin: 10mm;
   }
 
   :root,
@@ -230,21 +230,21 @@ h2 {
   }
 
   h1 {
-    margin-bottom: 5mm;
-    font-size: 15pt;
+    margin-bottom: 3.3mm;
+    font-size: 10pt;
     text-align: left;
   }
 
   h2 {
-    margin: 0 0 2mm;
-    font-size: 10pt;
+    margin: 0 0 1.3mm;
+    font-size: 6.7pt;
   }
 
   .channels,
   .week-day .channels {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
-    gap: 3mm;
+    gap: 2mm;
   }
 
   .week-day {
@@ -259,8 +259,8 @@ h2 {
   }
 
   .week-day > h2 {
-    margin-bottom: 4mm;
-    font-size: 15pt;
+    margin-bottom: 2.7mm;
+    font-size: 10pt;
     text-align: left;
   }
 
@@ -276,10 +276,10 @@ h2 {
   }
 
   .channel-title {
-    padding-top: 1.5mm;
-    margin-bottom: 1.5mm;
-    font-size: 8.5pt;
-    line-height: 1.12;
+    padding-top: 1mm;
+    margin-bottom: 1mm;
+    font-size: 5.7pt;
+    line-height: 1.08;
   }
 
   .channel-logo {
@@ -291,11 +291,11 @@ h2 {
   }
 
   .programme-item {
-    grid-template-columns: 8mm minmax(0, 1fr);
-    gap: 1.5mm;
-    margin-bottom: 0.65mm;
-    font-size: 6.4pt;
-    line-height: 1.08;
+    grid-template-columns: 5.3mm minmax(0, 1fr);
+    gap: 1mm;
+    margin-bottom: 0.43mm;
+    font-size: 4.3pt;
+    line-height: 1.05;
     break-inside: avoid;
     page-break-inside: avoid;
   }
