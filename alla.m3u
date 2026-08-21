@@ -3,7 +3,7 @@
 #EXTINF:-1 tvg-id="ChannelOne.ru@HD" tvg-logo="logos/ChannelOne.png" group-title="ТВ",Первый
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 
-#EXTINF:-1 tvg-id="Russia1.ru@HD" tvg-logo="logos/Russia1.png" group-title="ТВ",Россия-1
+#EXTINF:-1 tvg-id="Russia1.ru@HD" tvg-logo="logos/Russia1.png" group-title="ТВ",Россия
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
 
 #EXTINF:-1 tvg-id="TVCentr.ru@SD" tvg-logo="logos/TVCentr.png" group-title="ТВ",ТВ Центр

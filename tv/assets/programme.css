@@ -216,7 +216,11 @@ h2 {
 
   .page {
     width: auto;
-    padding: 8mm 4mm 4mm;
+    padding: 5mm 4mm 4mm;
+  }
+
+  body[data-mode="week"] .page {
+    padding-top: 0;
   }
 
   .nav-button,
@@ -253,6 +257,7 @@ h2 {
 
   .week-day {
     margin: 0;
+    padding-top: 5mm;
     break-after: page;
     page-break-after: always;
   }
