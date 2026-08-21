@@ -48,11 +48,13 @@ button {
   border-radius: 8px;
   background: #fff;
   color: #202124;
+  line-height: 1;
   text-decoration: none;
 }
 
 .nav-button,
-.print-button {
+.print-button,
+.text-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -100,8 +102,8 @@ h2 {
 
 .channels {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
 }
 
 .week-day {
@@ -110,11 +112,11 @@ h2 {
 }
 
 .week-day .channels {
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .channel {
-  padding: 16px;
+  padding: 12px;
   border: 1px solid #ddd7cb;
   border-radius: 8px;
   background: #fffdfa;
@@ -126,7 +128,7 @@ h2 {
   align-items: center;
   gap: 10px;
   margin: 0 0 10px;
-  font-size: 19px;
+  font-size: 17px;
   line-height: 1.2;
   letter-spacing: 0;
 }
@@ -148,10 +150,10 @@ h2 {
 
 .programme-item {
   display: grid;
-  grid-template-columns: 48px minmax(0, 1fr);
-  gap: 10px;
+  grid-template-columns: 42px minmax(0, 1fr);
+  gap: 8px;
   align-items: baseline;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.32;
   break-inside: avoid;
 }
@@ -173,6 +175,13 @@ h2 {
   background: #fffdfa;
 }
 
+@media (max-width: 960px) {
+  .channels,
+  .week-day .channels {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 @media (max-width: 680px) {
   .topbar {
     align-items: stretch;
@@ -181,6 +190,11 @@ h2 {
 
   .actions {
     justify-content: center;
+  }
+
+  .channels,
+  .week-day .channels {
+    grid-template-columns: 1fr;
   }
 }
 
