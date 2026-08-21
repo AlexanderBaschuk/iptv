@@ -216,7 +216,7 @@ h2 {
 
   .page {
     width: auto;
-    padding: 0;
+    padding: 4mm;
   }
 
   .nav-button,
@@ -230,14 +230,14 @@ h2 {
   }
 
   h1 {
-    margin-bottom: 3.3mm;
-    font-size: 10pt;
+    margin-bottom: 3.8mm;
+    font-size: 11pt;
     text-align: left;
   }
 
   h2 {
-    margin: 0 0 1.3mm;
-    font-size: 6.7pt;
+    margin: 0 0 1.5mm;
+    font-size: 7.4pt;
   }
 
   .channels,
@@ -259,8 +259,8 @@ h2 {
   }
 
   .week-day > h2 {
-    margin-bottom: 2.7mm;
-    font-size: 10pt;
+    margin-bottom: 3mm;
+    font-size: 11pt;
     text-align: left;
   }
 
@@ -277,9 +277,9 @@ h2 {
 
   .channel-title {
     padding-top: 1mm;
-    margin-bottom: 1mm;
-    font-size: 5.7pt;
-    line-height: 1.08;
+    margin-bottom: 1.1mm;
+    font-size: 6.3pt;
+    line-height: 1.1;
   }
 
   .channel-logo {
@@ -291,11 +291,11 @@ h2 {
   }
 
   .programme-item {
-    grid-template-columns: 5.3mm minmax(0, 1fr);
+    grid-template-columns: 5.8mm minmax(0, 1fr);
     gap: 1mm;
-    margin-bottom: 0.43mm;
-    font-size: 4.3pt;
-    line-height: 1.05;
+    margin-bottom: 0.5mm;
+    font-size: 4.8pt;
+    line-height: 1.07;
     break-inside: avoid;
     page-break-inside: avoid;
   }
