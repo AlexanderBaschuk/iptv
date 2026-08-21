@@ -324,18 +324,17 @@ function formatTime(date) {
 }
 
 function formatFullDate(date) {
-  return new Intl.DateTimeFormat(LOCALE, {
+  return capitalizeFirstLetter(new Intl.DateTimeFormat(LOCALE, {
     weekday: "long",
     day: "numeric",
     month: "long",
-    year: "numeric",
-  }).format(date);
+  }).format(date));
 }
 
 function formatDateRange(start, end) {
   const sameMonth = start.getMonth() === end.getMonth() && start.getFullYear() === end.getFullYear();
   if (sameMonth) {
-    return `${start.getDate()}-${end.getDate()} ${monthName(end)} ${end.getFullYear()}`;
+    return `${start.getDate()}-${formatShortDate(end)}`;
   }
   return `${formatShortDate(start)} - ${formatShortDate(end)}`;
 }
@@ -344,12 +343,9 @@ function formatShortDate(date) {
   return new Intl.DateTimeFormat(LOCALE, {
     day: "numeric",
     month: "long",
-    year: "numeric",
   }).format(date);
 }
 
-function monthName(date) {
-  return new Intl.DateTimeFormat(LOCALE, {
-    month: "long",
-  }).format(date);
+function capitalizeFirstLetter(value) {
+  return value.charAt(0).toUpperCase() + value.slice(1);
 }
