@@ -12,13 +12,13 @@ https://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="NTV.ru@HD" tvg-logo="logos/NTV.png" group-title="ТВ",НТВ
 https://cdn.ntv.ru/ntv0/playlist.m3u8
 
-#EXTINF:-1 tvg-id="RussiaK.ru@HD" tvg-logo="logos/RussiaK.png" group-title="ТВ",Россия-K
+#EXTINF:-1 tvg-id="RussiaK.ru@HD" tvg-logo="logos/RussiaK.png" group-title="ТВ",Культура
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/kultura-hd/index.m3u8
 
-#EXTINF:-1 tvg-id="Smotrim100Klassika.ru@SD" tvg-logo="logos/Smotrim100Klassika.png" group-title="ТВ",Смотрим - Классика
+#EXTINF:-1 tvg-id="Smotrim100Klassika.ru@SD" tvg-logo="logos/Smotrim100Klassika.png" group-title="ТВ",Классика
 https://stream.smotrim.ru/hls/fasttv03/playlist_3.m3u8
 
-#EXTINF:-1 tvg-id="Smotrim100Detskoe.ru@SD" tvg-logo="logos/Smotrim100Detskoe.png" group-title="ТВ",Смотрим - Детское
+#EXTINF:-1 tvg-id="Smotrim100Detskoe.ru@SD" tvg-logo="logos/Smotrim100Detskoe.png" group-title="ТВ",Детское
 https://stream.smotrim.ru/hls/fasttv05/playlist_3.m3u8
 
 #EXTINF:-1 tvg-id="Friday.ru@SD" tvg-logo="logos/Friday.png" group-title="ТВ",Пятница!

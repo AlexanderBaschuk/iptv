@@ -1,0 +1,282 @@
+:root {
+  color-scheme: light;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #f6f4ef;
+  color: #202124;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a,
+button {
+  font: inherit;
+}
+
+.page {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 32px 0 48px;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.date-nav {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr) 44px;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.nav-button,
+.print-button,
+.text-link {
+  min-height: 40px;
+  border: 1px solid #c9c4b8;
+  border-radius: 8px;
+  background: #fff;
+  color: #202124;
+  text-decoration: none;
+}
+
+.nav-button,
+.print-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-button {
+  width: 44px;
+  font-size: 24px;
+}
+
+.print-button,
+.text-link {
+  padding: 0 14px;
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(26px, 5vw, 40px);
+  line-height: 1.12;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+h2 {
+  margin: 34px 0 16px;
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  break-after: avoid;
+}
+
+.meta {
+  margin: -12px 0 24px;
+  color: #5f6368;
+  font-size: 15px;
+}
+
+.channels {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 16px;
+}
+
+.week-day {
+  margin-bottom: 28px;
+  break-inside: avoid-page;
+}
+
+.week-day .channels {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.channel {
+  padding: 16px;
+  border: 1px solid #ddd7cb;
+  border-radius: 8px;
+  background: #fffdfa;
+  break-inside: avoid-page;
+}
+
+.channel-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 10px;
+  font-size: 19px;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.channel-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
+.programme-list {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.programme-item {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr);
+  gap: 10px;
+  align-items: baseline;
+  font-size: 15px;
+  line-height: 1.32;
+  break-inside: avoid;
+}
+
+.programme-time {
+  color: #5f6368;
+  font-variant-numeric: tabular-nums;
+}
+
+.programme-title {
+  overflow-wrap: anywhere;
+}
+
+.programme-item.is-past {
+  opacity: 0.48;
+}
+
+.programme-item.is-current {
+  padding: 4px 6px;
+  margin: -4px -6px;
+  border-radius: 6px;
+  background: #e8f1fb;
+  font-weight: 650;
+}
+
+.empty,
+.error {
+  padding: 18px;
+  border: 1px solid #ddd7cb;
+  border-radius: 8px;
+  background: #fffdfa;
+}
+
+@media (max-width: 680px) {
+  .topbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .actions {
+    justify-content: center;
+  }
+}
+
+@media print {
+  @page {
+    margin: 10mm;
+  }
+
+  :root,
+  body,
+  .page,
+  .channel,
+  .empty,
+  .error {
+    background: #fff;
+    color: #000;
+  }
+
+  .page {
+    width: auto;
+    padding: 0;
+  }
+
+  .nav-button,
+  .actions,
+  .meta {
+    display: none;
+  }
+
+  .date-nav {
+    display: block;
+  }
+
+  h1 {
+    margin-bottom: 12px;
+    font-size: 22pt;
+    text-align: left;
+  }
+
+  h2 {
+    margin: 16px 0 8px;
+    font-size: 15pt;
+  }
+
+  .channels,
+  .week-day .channels {
+    display: block;
+  }
+
+  .channel {
+    padding: 0;
+    margin-bottom: 10px;
+    border: 0;
+    break-inside: avoid-page;
+  }
+
+  .channel-title {
+    margin-bottom: 5px;
+    font-size: 12pt;
+  }
+
+  .channel-logo {
+    display: none;
+  }
+
+  .programme-list {
+    gap: 2px;
+  }
+
+  .programme-item {
+    grid-template-columns: 39px minmax(0, 1fr);
+    gap: 6px;
+    font-size: 9.5pt;
+    line-height: 1.18;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .programme-item.is-past,
+  .programme-item.is-current {
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    opacity: 1;
+    font-weight: inherit;
+  }
+}

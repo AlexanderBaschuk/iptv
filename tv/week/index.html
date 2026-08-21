@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Телепрограмма на неделю</title>
+    <link rel="stylesheet" href="../assets/programme.css">
+  </head>
+  <body data-mode="week" data-root-path="../">
+    <main class="page">
+      <header class="topbar">
+        <nav class="date-nav" aria-label="Навигация по неделям">
+          <a class="nav-button" id="previous-link" href="#" aria-label="Предыдущая неделя">&larr;</a>
+          <h1 id="page-title">Телепрограмма</h1>
+          <a class="nav-button" id="next-link" href="#" aria-label="Следующая неделя">&rarr;</a>
+        </nav>
+        <div class="actions">
+          <a class="text-link" id="today-link" href="../day/">Сегодня</a>
+          <button class="print-button" id="print-button" type="button">Распечатать</button>
+        </div>
+      </header>
+      <p class="meta" id="page-meta"></p>
+      <div id="programme">
+        <p class="empty">Загрузка программы...</p>
+      </div>
+    </main>
+    <script src="../assets/programme.js"></script>
+  </body>
+</html>

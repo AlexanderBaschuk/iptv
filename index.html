@@ -38,6 +38,12 @@
         line-height: 1.55;
       }
 
+      .links {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+
       a {
         display: inline-flex;
         align-items: center;
@@ -74,12 +80,16 @@
   <body>
     <main>
       <h1>IPTV playlist</h1>
-      <p>Личный M3U-плейлист для Smart TV. Добавьте ссылку ниже в IPTV-приложение на телевизоре.</p>
-      <a href="./playlist.m3u">Открыть playlist.m3u</a>
+      <p>Личный M3U-плейлист для Smart TV.</p>
+      <div class="links">
+        <a href="./alla.m3u">alla.m3u</a>
+        <a href="./tv/day/">Программа на день</a>
+        <a href="./tv/week/">Программа на неделю</a>
+      </div>
       <code id="playlist-url"></code>
     </main>
     <script>
-      const playlistUrl = new URL("playlist.m3u", window.location.href);
+      const playlistUrl = new URL("alla.m3u", window.location.href);
       document.getElementById("playlist-url").textContent = playlistUrl.href;
     </script>
   </body>
