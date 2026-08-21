@@ -200,7 +200,8 @@ h2 {
 
 @media print {
   @page {
-    margin: 10mm;
+    size: A4 portrait;
+    margin: 7mm;
   }
 
   :root,
@@ -229,31 +230,56 @@ h2 {
   }
 
   h1 {
-    margin-bottom: 12px;
-    font-size: 22pt;
+    margin-bottom: 5mm;
+    font-size: 15pt;
     text-align: left;
   }
 
   h2 {
-    margin: 16px 0 8px;
-    font-size: 15pt;
+    margin: 0 0 2mm;
+    font-size: 10pt;
   }
 
   .channels,
   .week-day .channels {
-    display: block;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 3mm;
+  }
+
+  .week-day {
+    margin: 0;
+    break-after: page;
+    page-break-after: always;
+  }
+
+  .week-day:last-child {
+    break-after: auto;
+    page-break-after: auto;
+  }
+
+  .week-day > h2 {
+    margin-bottom: 4mm;
+    font-size: 15pt;
+    text-align: left;
   }
 
   .channel {
+    min-width: 0;
     padding: 0;
-    margin-bottom: 10px;
+    margin: 0;
     border: 0;
-    break-inside: avoid-page;
+    border-top: 0.2mm solid #000;
+    border-radius: 0;
+    break-inside: auto;
+    page-break-inside: auto;
   }
 
   .channel-title {
-    margin-bottom: 5px;
-    font-size: 12pt;
+    padding-top: 1.5mm;
+    margin-bottom: 1.5mm;
+    font-size: 8.5pt;
+    line-height: 1.12;
   }
 
   .channel-logo {
@@ -261,16 +287,21 @@ h2 {
   }
 
   .programme-list {
-    gap: 2px;
+    display: block;
   }
 
   .programme-item {
-    grid-template-columns: 39px minmax(0, 1fr);
-    gap: 6px;
-    font-size: 9.5pt;
-    line-height: 1.18;
+    grid-template-columns: 8mm minmax(0, 1fr);
+    gap: 1.5mm;
+    margin-bottom: 0.65mm;
+    font-size: 6.4pt;
+    line-height: 1.08;
     break-inside: avoid;
     page-break-inside: avoid;
+  }
+
+  .programme-time {
+    color: #000;
   }
 
 }
