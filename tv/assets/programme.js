@@ -19,12 +19,13 @@ main().catch((error) => {
 });
 
 async function main() {
-  const [configuredChannels, playlistText] = await Promise.all([
+  const [selectedChannelIds, configuredChannels, playlistText] = await Promise.all([
+    fetchText(`${rootPath}../tv/channels.txt`).then(parseSelectedChannelIds),
     fetchText(`${rootPath}../epg.channels.xml`).then(parseConfiguredChannels),
     fetchText(`${rootPath}../alla.m3u`),
   ]);
   const playlist = parsePlaylist(playlistText);
-  const channels = selectChannels(playlist.channels, configuredChannels);
+  const channels = selectChannels(selectedChannelIds, playlist.channels, configuredChannels);
   const epgText = await fetchText(resolveEpgUrl(playlist.epgUrl));
   const xml = new DOMParser().parseFromString(epgText, "application/xml");
   const programmes = readProgrammes(xml, new Set(channels.map((channel) => channel.id)));
@@ -43,6 +44,22 @@ async function fetchText(url) {
     throw new Error(`HTTP ${response.status}: ${url}`);
   }
   return response.text();
+}
+
+function parseSelectedChannelIds(text) {
+  const seen = new Set();
+  return text
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter((line) => line && !line.startsWith("#"))
+    .filter((id) => {
+      if (seen.has(id)) {
+        return false;
+      }
+
+      seen.add(id);
+      return true;
+    });
 }
 
 function parseConfiguredChannels(text) {
@@ -89,18 +106,22 @@ function readAttribute(text, name) {
   return match ? match[1] : "";
 }
 
-function selectChannels(playlistChannels, configuredChannels) {
+function selectChannels(selectedChannelIds, playlistChannels, configuredChannels) {
   const playlistById = new Map(playlistChannels.map((channel) => [channel.id, channel]));
-  return configuredChannels
-    .map((configuredChannel) => {
-      const playlistChannel = playlistById.get(configuredChannel.id);
-      if (!playlistChannel) {
+  const configuredById = new Map(configuredChannels.map((channel) => [channel.id, channel]));
+  return selectedChannelIds
+    .map((channelId) => {
+      const playlistChannel = playlistById.get(channelId);
+      const configuredChannel = configuredById.get(channelId);
+
+      if (!playlistChannel && !configuredChannel) {
         return null;
       }
 
       return {
+        id: channelId,
         ...playlistChannel,
-        name: configuredChannel.name || playlistChannel.name,
+        name: configuredChannel?.name || playlistChannel?.name || channelId,
       };
     })
     .filter(Boolean);
