@@ -117,6 +117,19 @@ function resolveEpgUrl(url) {
   return resolved.href;
 }
 
+function resolvePlaylistUrl(url) {
+  if (!url) {
+    return "";
+  }
+
+  const resolved = new URL(url, new URL(`${rootPath}../`, window.location.href));
+  if (resolved.origin === window.location.origin) {
+    return resolved.href;
+  }
+
+  return url;
+}
+
 function getSelectedDate() {
   const value = new URLSearchParams(window.location.search).get("date");
   if (/^\d{4}-\d{2}-\d{2}$/.test(value || "")) {
@@ -215,7 +228,7 @@ function renderChannel(channel, items, now) {
   if (channel.logo) {
     const logo = document.createElement("img");
     logo.className = "channel-logo";
-    logo.src = channel.logo;
+    logo.src = resolvePlaylistUrl(channel.logo);
     logo.alt = "";
     logo.loading = "lazy";
     heading.append(logo);
