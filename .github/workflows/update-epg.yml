@@ -44,7 +44,8 @@ jobs:
       - name: Calculate EPG period
         run: |
           weekday=$(date -u +%u)
-          echo "EPG_DAYS=$((15 - weekday))" >> "$GITHUB_ENV"
+          echo "EPG_DAYS=3" >> "$GITHUB_ENV"
+        # echo "EPG_DAYS=$((15 - weekday))" >> "$GITHUB_ENV"
 
       - name: Generate XMLTV
         working-directory: .epg-source
