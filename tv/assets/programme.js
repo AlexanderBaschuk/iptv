@@ -7,6 +7,7 @@ const PRINT_PAGE_HEADING_FONT_SIZE = 14;
 const PRINT_SECTION_HEADING_FONT_SIZE = 13;
 const PRINT_CHANNEL_HEADING_FONT_SIZE = 12;
 const PRINT_PROGRAMME_FONT_SIZE = 6;
+const PRINT_TIME_COLUMN_WIDTH = 5.8;
 
 const pageMode = document.body.dataset.mode;
 const rootPath = document.body.dataset.rootPath;
@@ -68,6 +69,7 @@ function applyPrintScale(scale) {
   document.documentElement.style.setProperty("--print-section-heading-font-size", `${PRINT_SECTION_HEADING_FONT_SIZE * scale}pt`);
   document.documentElement.style.setProperty("--print-channel-heading-font-size", `${PRINT_CHANNEL_HEADING_FONT_SIZE * scale}pt`);
   document.documentElement.style.setProperty("--print-programme-font-size", `${PRINT_PROGRAMME_FONT_SIZE * scale}pt`);
+  document.documentElement.style.setProperty("--print-time-column-width", `${PRINT_TIME_COLUMN_WIDTH * scale}mm`);
   printScaleValue.textContent = scale.toFixed(1);
   decreasePrintScaleButton.disabled = scale <= PRINT_SCALE_MIN;
   increasePrintScaleButton.disabled = scale >= PRINT_SCALE_MAX;

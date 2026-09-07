@@ -7,6 +7,7 @@
   --print-section-heading-font-size: 13pt;
   --print-channel-heading-font-size: 12pt;
   --print-programme-font-size: 6pt;
+  --print-time-column-width: 5.8mm;
 }
 
 * {
@@ -332,7 +333,7 @@ h2 {
   }
 
   .programme-item {
-    grid-template-columns: 5.8mm minmax(0, 1fr);
+    grid-template-columns: var(--print-time-column-width) minmax(0, 1fr);
     gap: 1mm;
     margin-bottom: 0.5mm;
     font-size: var(--print-programme-font-size);
