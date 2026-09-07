@@ -1,4 +1,12 @@
 const LOCALE = "ru-RU";
+const PRINT_SCALE_STORAGE_KEY = "tv-print-scale";
+const PRINT_SCALE_MIN = 0.7;
+const PRINT_SCALE_MAX = 1.5;
+const PRINT_SCALE_STEP = 0.1;
+const PRINT_PAGE_HEADING_FONT_SIZE = 14;
+const PRINT_SECTION_HEADING_FONT_SIZE = 13;
+const PRINT_CHANNEL_HEADING_FONT_SIZE = 12;
+const PRINT_PROGRAMME_FONT_SIZE = 6;
 
 const pageMode = document.body.dataset.mode;
 const rootPath = document.body.dataset.rootPath;
@@ -9,14 +17,61 @@ const previousLink = document.getElementById("previous-link");
 const nextLink = document.getElementById("next-link");
 const todayLink = document.getElementById("today-link");
 const printButton = document.getElementById("print-button");
+const decreasePrintScaleButton = document.getElementById("decrease-print-scale");
+const resetPrintScaleButton = document.getElementById("reset-print-scale");
+const increasePrintScaleButton = document.getElementById("increase-print-scale");
+const printScaleValue = document.getElementById("print-scale-value");
 
 printButton.addEventListener("click", () => window.print());
+setupPrintScaleControls();
 
 main().catch((error) => {
   contentElement.innerHTML = "";
   contentElement.append(renderMessage("Не удалось загрузить телепрограмму.", "error"));
   console.error(error);
 });
+
+function setupPrintScaleControls() {
+  let scale = readPrintScale();
+
+  applyPrintScale(scale);
+  decreasePrintScaleButton.addEventListener("click", () => {
+    scale = updatePrintScale(scale - PRINT_SCALE_STEP);
+  });
+  resetPrintScaleButton.addEventListener("click", () => {
+    scale = updatePrintScale(1);
+  });
+  increasePrintScaleButton.addEventListener("click", () => {
+    scale = updatePrintScale(scale + PRINT_SCALE_STEP);
+  });
+}
+
+function updatePrintScale(value) {
+  const scale = clampPrintScale(value);
+  localStorage.setItem(PRINT_SCALE_STORAGE_KEY, scale.toFixed(1));
+  applyPrintScale(scale);
+  return scale;
+}
+
+function readPrintScale() {
+  const value = Number(localStorage.getItem(PRINT_SCALE_STORAGE_KEY));
+  return Number.isFinite(value) ? clampPrintScale(value) : 1;
+}
+
+function clampPrintScale(value) {
+  const rounded = Math.round(value * 10) / 10;
+  return Math.min(PRINT_SCALE_MAX, Math.max(PRINT_SCALE_MIN, rounded));
+}
+
+function applyPrintScale(scale) {
+  document.documentElement.style.setProperty("--print-page-heading-font-size", `${PRINT_PAGE_HEADING_FONT_SIZE * scale}pt`);
+  document.documentElement.style.setProperty("--print-section-heading-font-size", `${PRINT_SECTION_HEADING_FONT_SIZE * scale}pt`);
+  document.documentElement.style.setProperty("--print-channel-heading-font-size", `${PRINT_CHANNEL_HEADING_FONT_SIZE * scale}pt`);
+  document.documentElement.style.setProperty("--print-programme-font-size", `${PRINT_PROGRAMME_FONT_SIZE * scale}pt`);
+  printScaleValue.textContent = scale.toFixed(1);
+  decreasePrintScaleButton.disabled = scale <= PRINT_SCALE_MIN;
+  increasePrintScaleButton.disabled = scale >= PRINT_SCALE_MAX;
+}
 
 async function main() {
   const [selectedChannelIds, configuredChannels, playlistText] = await Promise.all([

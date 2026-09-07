@@ -3,6 +3,10 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   background: #f6f4ef;
   color: #202124;
+  --print-page-heading-font-size: 14pt;
+  --print-section-heading-font-size: 13pt;
+  --print-channel-heading-font-size: 12pt;
+  --print-programme-font-size: 6pt;
 }
 
 * {
@@ -41,6 +45,7 @@ button {
 }
 
 .nav-button,
+.scale-button,
 .print-button,
 .text-link {
   min-height: 40px;
@@ -53,6 +58,7 @@ button {
 }
 
 .nav-button,
+.scale-button,
 .print-button,
 .text-link {
   display: inline-flex;
@@ -63,6 +69,11 @@ button {
 .nav-button {
   width: 44px;
   font-size: 24px;
+}
+
+.scale-button {
+  width: 40px;
+  cursor: pointer;
 }
 
 .print-button,
@@ -76,6 +87,18 @@ button {
   align-items: center;
   gap: 8px;
   flex-wrap: wrap;
+}
+
+.print-scale {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.scale-value {
+  min-width: 3ch;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
 }
 
 h1 {
@@ -235,7 +258,7 @@ h2 {
 
   h1 {
     margin-bottom: 3.8mm;
-    font-size: 11pt;
+    font-size: var(--print-page-heading-font-size);
     text-align: left;
   }
 
@@ -245,7 +268,7 @@ h2 {
 
   h2 {
     margin: 0 0 1.5mm;
-    font-size: 7.4pt;
+    font-size: var(--print-section-heading-font-size);
   }
 
   .channels,
@@ -278,7 +301,7 @@ h2 {
 
   .week-day > h2 {
     margin-bottom: 3mm;
-    font-size: 11pt;
+    font-size: var(--print-section-heading-font-size);
     text-align: left;
   }
 
@@ -296,7 +319,7 @@ h2 {
   .channel-title {
     padding-top: 1mm;
     margin-bottom: 1.1mm;
-    font-size: 6.3pt;
+    font-size: var(--print-channel-heading-font-size);
     line-height: 1.1;
   }
 
@@ -312,7 +335,7 @@ h2 {
     grid-template-columns: 5.8mm minmax(0, 1fr);
     gap: 1mm;
     margin-bottom: 0.5mm;
-    font-size: 4.8pt;
+    font-size: var(--print-programme-font-size);
     line-height: 1.07;
     break-inside: avoid;
     page-break-inside: avoid;
