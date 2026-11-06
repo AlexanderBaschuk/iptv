@@ -20,36 +20,8 @@ jobs:
       - name: Checkout playlist repository
         uses: actions/checkout@v4
 
-      - name: Checkout iptv-org/epg
-        uses: actions/checkout@v4
-        with:
-          repository: iptv-org/epg
-          path: .epg-source
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "22"
-          cache: npm
-          cache-dependency-path: .epg-source/package-lock.json
-
-      - name: Install iptv-org/epg dependencies
-        working-directory: .epg-source
-        run: npm ci
-
-      - name: Validate channel configuration
-        working-directory: .epg-source
-        run: npm run channels:validate -- ../epg.channels.xml
-
-      - name: Calculate EPG period
-        run: |
-          weekday=$(date -u +%u)
-          echo "EPG_DAYS=3" >> "$GITHUB_ENV"
-        # echo "EPG_DAYS=$((15 - weekday))" >> "$GITHUB_ENV"
-
-      - name: Generate XMLTV
-        working-directory: .epg-source
-        run: npm run grab -- --channels=../epg.channels.xml --output=../epg.xml --days="$EPG_DAYS" --maxConnections=1
+      - name: Download and filter XMLTV
+        run: python3 scripts/update_epg.py
 
       - name: Validate generated XMLTV
         run: |
